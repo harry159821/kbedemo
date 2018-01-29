@@ -1,0 +1,17 @@
+<root>
+	<Properties>
+		<character>
+            <Type> AVATAR_INFO </Type>
+            <Flags> BASE </Flags>
+            <Persistent> true </Persistent>
+        </character>
+	</Properties>
+
+<ClientMethods>     
+	</ClientMethods>
+	<BaseMethods>     
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+
+</root>

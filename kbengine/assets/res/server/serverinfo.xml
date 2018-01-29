@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<server>
+	<serverid>1</serverid>
+	<name>1服</name>
+</server>
+<server>
+	<serverid>2</serverid>
+	<name>2服</name>
+</server>
+<server>
+	<serverid>3</serverid>
+	<name>3服</name>
+</server>
+</root>
+
+
+
