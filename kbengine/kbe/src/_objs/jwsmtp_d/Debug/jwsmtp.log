@@ -1,0 +1,34 @@
+﻿  base64.cpp
+  compat.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(95): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(130): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+jwsmtp\jwsmtp\compat.cpp(29): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+jwsmtp\jwsmtp\compat.cpp(45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+jwsmtp\jwsmtp\compat.cpp(54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  mailer.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(95): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(130): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+jwsmtp\jwsmtp\mailer.cpp(360): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+jwsmtp\jwsmtp\mailer.cpp(634): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(645): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(655): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(996): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(1006): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(1016): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+jwsmtp\jwsmtp\mailer.cpp(945): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2196): note: 参见“gethostbyaddr”的声明
+jwsmtp\jwsmtp\mailer.cpp(947): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+jwsmtp\jwsmtp\mailer.cpp(957): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2196): note: 参见“gethostbyaddr”的声明
+jwsmtp\jwsmtp\mailer.cpp(960): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+jwsmtp\jwsmtp\mailer.cpp(1100): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+  正在生成代码...
+  jwsmtp.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\..\..\..\libs\jwsmtp_d.lib

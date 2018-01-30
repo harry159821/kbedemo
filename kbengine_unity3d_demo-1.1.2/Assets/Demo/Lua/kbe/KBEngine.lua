@@ -33,7 +33,7 @@ KBEngineLua.MAILBOX_TYPE_BASE = 1;
 KBEngineLua.KBE_FLT_MAX	= 3.402823466e+38;
 
 ------debug级别
-Dbg.debugLevel = DEBUGLEVEL.DEBUG;
+Const.OPEN_LOG = true;
 
 ----- player的相关信息
 -- 当前玩家的实体id与实体类别

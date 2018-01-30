@@ -1,0 +1,22 @@
+﻿  client_interface.cpp
+  clientapp.cpp
+clientapp.cpp(102): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+clientapp.cpp(336): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+clientapp.cpp(611): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+clientapp.cpp(632): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+clientapp.cpp(774): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+clientapp.cpp(801): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+clientapp.cpp(824): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+clientapp.cpp(865): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+clientapp.cpp(889): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  clientobjectbase.cpp
+  config.cpp
+  entity.cpp
+entity.cpp(45): warning C4244: “参数”: 从“KBEngine::intptr”转换到“int”，可能丢失数据
+  entity_aspect.cpp
+  event.cpp
+  moveto_point_handler.cpp
+  profile.cpp
+  script_callbacks.cpp
+  正在生成代码...
+  client_lib.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\client_lib\../../libs\client_lib_d.lib

@@ -9,12 +9,11 @@ public class UIManager_WindowInfoWrap
 		L.BeginClass(typeof(UIManager.WindowInfo), typeof(System.Object));
 		L.RegFunction("New", _CreateUIManager_WindowInfo);
 		L.RegFunction("__tostring", ToLua.op_ToString);
-		L.RegVar("compname", get_compname, set_compname);
 		L.RegVar("depth", get_depth, set_depth);
 		L.RegVar("showtype", get_showtype, set_showtype);
-		L.RegVar("pak", get_pak, set_pak);
-		L.RegVar("lua_name", get_lua_name, set_lua_name);
 		L.RegVar("table", get_table, set_table);
+		L.RegVar("win", get_win, set_win);
+		L.RegVar("pak_id", get_pak_id, set_pak_id);
 		L.EndClass();
 	}
 
@@ -39,25 +38,6 @@ public class UIManager_WindowInfoWrap
 		catch (Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_compname(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			string ret = obj.compname;
-			LuaDLL.lua_pushstring(L, ret);
-			return 1;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index compname on a nil value");
 		}
 	}
 
@@ -100,44 +80,6 @@ public class UIManager_WindowInfoWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_pak(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			FairyGUI.UIPackage ret = obj.pak;
-			ToLua.PushObject(L, ret);
-			return 1;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index pak on a nil value");
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_lua_name(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			string ret = obj.lua_name;
-			LuaDLL.lua_pushstring(L, ret);
-			return 1;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index lua_name on a nil value");
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_table(IntPtr L)
 	{
 		object o = null;
@@ -157,7 +99,7 @@ public class UIManager_WindowInfoWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_compname(IntPtr L)
+	static int get_win(IntPtr L)
 	{
 		object o = null;
 
@@ -165,13 +107,32 @@ public class UIManager_WindowInfoWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			string arg0 = ToLua.CheckString(L, 2);
-			obj.compname = arg0;
-			return 0;
+			FairyGUI.LuaWindow ret = obj.win;
+			ToLua.PushObject(L, ret);
+			return 1;
 		}
 		catch(Exception e)
 		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index compname on a nil value");
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index win on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int get_pak_id(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
+			string ret = obj.pak_id;
+			LuaDLL.lua_pushstring(L, ret);
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index pak_id on a nil value");
 		}
 	}
 
@@ -214,44 +175,6 @@ public class UIManager_WindowInfoWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_pak(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			FairyGUI.UIPackage arg0 = (FairyGUI.UIPackage)ToLua.CheckObject<FairyGUI.UIPackage>(L, 2);
-			obj.pak = arg0;
-			return 0;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index pak on a nil value");
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_lua_name(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
-			string arg0 = ToLua.CheckString(L, 2);
-			obj.lua_name = arg0;
-			return 0;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index lua_name on a nil value");
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int set_table(IntPtr L)
 	{
 		object o = null;
@@ -267,6 +190,44 @@ public class UIManager_WindowInfoWrap
 		catch(Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e, o, "attempt to index table on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_win(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
+			FairyGUI.LuaWindow arg0 = (FairyGUI.LuaWindow)ToLua.CheckObject<FairyGUI.LuaWindow>(L, 2);
+			obj.win = arg0;
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index win on a nil value");
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int set_pak_id(IntPtr L)
+	{
+		object o = null;
+
+		try
+		{
+			o = ToLua.ToObject(L, 1);
+			UIManager.WindowInfo obj = (UIManager.WindowInfo)o;
+			string arg0 = ToLua.CheckString(L, 2);
+			obj.pak_id = arg0;
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e, o, "attempt to index pak_id on a nil value");
 		}
 	}
 }

@@ -9,8 +9,7 @@ using KBEngine;
 
 public class KBEMain : MonoBehaviour 
 {	
-	// 在unity3d界面中可见选项
-	public DEBUGLEVEL debugLevel = DEBUGLEVEL.DEBUG;
+	// 在unity3d界面中可见选项	
     static public bool isStartEngine = false;
 
 	void Awake() 
@@ -30,7 +29,7 @@ public class KBEMain : MonoBehaviour
 	//	Dbg.debugLevel = debugLevel;
 
         KBEngine.Event.registerIn("_closeNetwork", this, "_closeNetwork");
-
+        //在lua中执行初始化引擎
      //   KBELuaUtil.CallMethod("KBEngineLua", "InitEngine");
 	}
 
@@ -38,7 +37,6 @@ public class KBEMain : MonoBehaviour
     {
         networkInterface.close();
     }	
-
 	void OnDestroy()
 	{
         KBEngine.Event.deregisterIn(this);

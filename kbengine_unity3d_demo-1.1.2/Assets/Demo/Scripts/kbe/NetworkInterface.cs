@@ -26,8 +26,7 @@
 
 		protected Socket _socket = null;
 		PacketReceiver _packetReceiver = null;
-		PacketSender _packetSender = null;
-
+		PacketSender _packetSender = null;       
 		public class ConnectState
 		{
 			// for connect
@@ -47,7 +46,7 @@
 
 		~NetworkInterface()
 		{
-			Dbg.DEBUG_MSG("NetworkInterface::~NetworkInterface(), destructed!!!");
+            Util.Log("NetworkInterface::~NetworkInterface(), destructed!!!");
 			reset();
 		}
 
@@ -60,7 +59,7 @@
 		{
 			if(valid())
 			{
-				Dbg.DEBUG_MSG(string.Format("NetworkInterface::reset(), close socket from '{0}'", _socket.RemoteEndPoint.ToString()));
+                Util.Log(string.Format("NetworkInterface::reset(), close socket from '{0}'", _socket.RemoteEndPoint.ToString()));
          	   _socket.Close(0);
 			}
 			_socket = null;
@@ -98,16 +97,16 @@
 			bool success = (state.error == "" && valid());
 			if (success)
 			{
-				Dbg.DEBUG_MSG(string.Format("NetworkInterface::_onConnectionState(), connect to {0} is success!", state.socket.RemoteEndPoint.ToString()));
+                Util.Log(string.Format("NetworkInterface::_onConnectionState(), connect to {0} is success!", state.socket.RemoteEndPoint.ToString()));
 				_packetReceiver = new PacketReceiver(this);
 				_packetReceiver.startRecv();
 			}
 			else
 			{
-				Dbg.ERROR_MSG(string.Format("NetworkInterface::_onConnectionState(), connect is error! ip: {0}:{1}, err: {2}", state.connectIP, state.connectPort, state.error));
+                Util.LogError(string.Format("NetworkInterface::_onConnectionState(), connect is error! ip: {0}:{1}, err: {2}", state.connectIP, state.connectPort, state.error));
 			}
 
-            KBELuaUtil.CallMethod("Event", "Brocast", new object[] { "onConnectionState", success });
+                Util.Client.CallMethod("Event", "Brocast", new object[] { "onConnectionState", success });
 
 			if (state.connectCB != null)
 				state.connectCB(state.connectIP, state.connectPort, success, state.userData);
@@ -139,14 +138,14 @@
 		/// </summary>
 		private void _asyncConnect(ConnectState state)
 		{
-			Dbg.DEBUG_MSG(string.Format("NetWorkInterface::_asyncConnect(), will connect to '{0}:{1}' ...", state.connectIP, state.connectPort));
+            Util.Log(string.Format("NetWorkInterface::_asyncConnect(), will connect to '{0}:{1}' ...", state.connectIP, state.connectPort));
 			try
 			{
 				state.socket.Connect(state.connectIP, state.connectPort);
 			}
 			catch (Exception e)
 			{
-				Dbg.ERROR_MSG(string.Format("NetWorkInterface::_asyncConnect(), connect to '{0}:{1}' fault! error = '{2}'", state.connectIP, state.connectPort, e));
+                Util.LogError(string.Format("NetWorkInterface::_asyncConnect(), connect to '{0}:{1}' fault! error = '{2}'", state.connectIP, state.connectPort, e));
 				state.error = e.ToString();
 			}
 		}
@@ -160,7 +159,7 @@
 			AsyncResult result = (AsyncResult)ar;
 			AsyncConnectMethod caller = (AsyncConnectMethod)result.AsyncDelegate;
 
-			Dbg.DEBUG_MSG(string.Format("NetWorkInterface::_asyncConnectCB(), connect to '{0}:{1}' finish. error = '{2}'", state.connectIP, state.connectPort, state.error));
+            Util.Log(string.Format("NetWorkInterface::_asyncConnectCB(), connect to '{0}:{1}' finish. error = '{2}'", state.connectIP, state.connectPort, state.error));
 
 			// Call EndInvoke to retrieve the results.
 			caller.EndInvoke(ar);
@@ -200,7 +199,7 @@
 			state.socket = _socket;
 			state.networkInterface = this;
 
-			Dbg.DEBUG_MSG("connect to " + ip + ":" + port + " ...");
+            Util.Log("connect to " + ip + ":" + port + " ...");
 
 			// 先注册一个事件回调，该事件在当前线程触发
 			Event.registerIn("_onConnectionState", this, "_onConnectionState");

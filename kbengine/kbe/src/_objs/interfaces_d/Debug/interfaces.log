@@ -1,0 +1,16 @@
+﻿  applink.c
+..\..\..\lib\dependencies\openssl\include\openssl\applink.c(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+..\..\..\lib\dependencies\openssl\include\openssl\applink.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+  getbuildinfo.c
+  正在生成代码...
+  interfaces_tasks.cpp
+  interfaces.cpp
+  interfaces_interface.cpp
+  main.cpp
+  orders.cpp
+  profile.cpp
+  正在生成代码...
+    正在创建库 ../../../../bin/server/interfaces.lib 和对象 ../../../../bin/server/interfaces.exp
+  interfaces.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\tools\interfaces\../../../../bin/server/interfaces.exe

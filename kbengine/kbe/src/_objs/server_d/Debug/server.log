@@ -1,0 +1,89 @@
+﻿  common.cpp
+  component_active_report_handler.cpp
+  components.cpp
+components.cpp(762): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+components.cpp(789): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+components.cpp(798): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  entity_app.cpp
+  forward_messagebuffer.cpp
+  globaldata_client.cpp
+globaldata_client.cpp(141): warning C4267: “=”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+globaldata_client.cpp(147): warning C4267: “=”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+  globaldata_server.cpp
+globaldata_server.cpp(128): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+globaldata_server.cpp(134): warning C4267: “=”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+globaldata_server.cpp(195): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+globaldata_server.cpp(199): warning C4267: “=”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+  idallocate.cpp
+  machine_infos.cpp
+  pendingLoginmgr.cpp
+pendingLoginmgr.cpp(123): warning C4244: “参数”: 从“double”转换到“KBEngine::uint64”，可能丢失数据
+  python_app.cpp
+python_app.cpp(390): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+python_app.cpp(414): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+python_app.cpp(441): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+python_app.cpp(464): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+python_app.cpp(505): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+python_app.cpp(529): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  py_file_descriptor.cpp
+  script_timers.cpp
+  sendmail_threadtasks.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(95): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(130): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xutility(2430): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\xutility(2430): note: 参见“std::copy::_Unchecked_iterators::_Deprecate”的声明
+  d:\kbedemo\kbengine\kbe\src\lib\dependencies\jwsmtp\jwsmtp\jwsmtp\compat.h(119): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::copy<char*,char*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=char *,
+              _InIt=char *
+          ]
+  serverapp.cpp
+  serverconfig.cpp
+serverconfig.cpp(1489): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  shutdowner.cpp
+  signal_handler.cpp
+  telnet_handler.cpp
+telnet_handler.cpp(190): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+telnet_handler.cpp(356): warning C4267: “+=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+telnet_handler.cpp(359): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(365): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(374): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(399): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(408): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(411): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(421): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(423): warning C4267: “=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+telnet_handler.cpp(428): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(431): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(441): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(443): warning C4267: “=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+telnet_handler.cpp(448): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(471): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(481): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(482): warning C4267: “=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+telnet_handler.cpp(505): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(534): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+telnet_handler.cpp(552): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(566): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+telnet_handler.cpp(590): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(622): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(683): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(715): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(787): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(799): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(808): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(816): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(819): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(840): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+telnet_handler.cpp(894): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  telnet_server.cpp
+telnet_server.cpp(105): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+telnet_server.cpp(136): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+telnet_server.cpp(186): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+telnet_server.cpp(198): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  正在生成代码...
+  server.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\server\../../libs\server_d.lib

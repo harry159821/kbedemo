@@ -1,0 +1,17 @@
+﻿  common.cpp
+  db_exception.cpp
+  db_interface_redis.cpp
+db_interface_redis.cpp(474): warning C4267: “参数”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+db_interface_redis.cpp(478): warning C4267: “参数”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+  db_transaction.cpp
+  entity_table_redis.cpp
+  kbe_table_redis.cpp
+kbe_table_redis.cpp(55): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_redis.cpp(103): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_redis.cpp(291): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+kbe_table_redis.cpp(295): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_redis.cpp(732): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  redis_watcher.cpp
+  正在生成代码...
+common.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  db_redis.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\db_redis\../../libs\db_redis_d.lib

@@ -147,7 +147,7 @@
 			pair.method = obj.GetType().GetMethod(funcname);
 			if(pair.method == null)
 			{
-				Dbg.ERROR_MSG("Event::register: " + obj + "not found method[" + funcname + "]");
+                Util.LogError("Event::register: " + obj + "not found method[" + funcname + "]");
 				return false;
 			}
 			
@@ -273,9 +273,9 @@
 			if(!events.TryGetValue(eventname, out lst))
 			{
 				if(events == events_in)
-					Dbg.WARNING_MSG("Event::fireIn: event(" + eventname + ") not found!");
+                    Util.LogWarning("Event::fireIn: event(" + eventname + ") not found!");
 				else
-					Dbg.WARNING_MSG("Event::fireOut: event(" + eventname + ") not found!");
+                    Util.LogWarning("Event::fireOut: event(" + eventname + ") not found!");
 				
 				monitor_Exit(events);
 				return;
@@ -325,7 +325,7 @@
 				}
 	            catch (Exception e)
 	            {
-	            	Dbg.ERROR_MSG("Event::processOutEvents: event=" + eobj.info.funcname + "\n" + e.ToString());
+                    Util.LogError("Event::processOutEvents: event=" + eobj.info.funcname + "\n" + e.ToString());
 	            }
             
 				if(doingEvents_out.Count > 0)
@@ -366,7 +366,7 @@
 				}
 	            catch (Exception e)
 	            {
-	            	Dbg.ERROR_MSG("Event::processInEvents: event=" + eobj.info.funcname + "\n" + e.ToString());
+                    Util.LogError("Event::processInEvents: event=" + eobj.info.funcname + "\n" + e.ToString());
 	            }
 	            
 				if(doingEvents_in.Count > 0)

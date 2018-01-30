@@ -38,7 +38,7 @@
 
 		~PacketSender()
 		{
-			Dbg.DEBUG_MSG("PacketSender::~PacketSender(), destroyed!");
+            Util.Log("PacketSender::~PacketSender(), destroyed!");
 		}
 
 		void _init(NetworkInterface networkInterface)
@@ -86,7 +86,7 @@
 
 			if (dataLength > space)
 			{
-				Dbg.ERROR_MSG("PacketSender::send(): no space, Please adjust 'SEND_BUFFER_MAX'! data(" + dataLength 
+                Util.LogError("PacketSender::send(): no space, Please adjust 'SEND_BUFFER_MAX'! data(" + dataLength 
 					+ ") > space(" + space + "), wpos=" + _wpos + ", spos=" + t_spos);
 				
 				return false;
@@ -125,7 +125,7 @@
 		{
 			if (_networkInterface == null || !_networkInterface.valid())
 			{
-				Dbg.WARNING_MSG("PacketSender::_asyncSend(): network interface invalid!");
+				Util.LogWarning("PacketSender::_asyncSend(): network interface invalid!");
 				return;
 			}
 
@@ -148,7 +148,7 @@
 				}
 				catch (SocketException se)
 				{
-					Dbg.ERROR_MSG(string.Format("PacketSender::_asyncSend(): send data error, disconnect from '{0}'! error = '{1}'", socket.RemoteEndPoint, se));
+                    Util.LogError(string.Format("PacketSender::_asyncSend(): send data error, disconnect from '{0}'! error = '{1}'", socket.RemoteEndPoint, se));
 					Event.fireIn("_closeNetwork", new object[] { _networkInterface });
 					return;
 				}

@@ -1,0 +1,114 @@
+  INFO root [2018-01-30 14:43:44,507] - 
+  INFO root [2018-01-30 14:43:44,507] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:43:44,520] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:43:44,520] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:43:44,521] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:43:44,531] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64360 )
+  INFO root [2018-01-30 14:43:44,532] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64360, SOMAXCONN=5.
+  INFO root [2018-01-30 14:43:44,532] - server-configs:
+  INFO root [2018-01-30 14:43:44,532] - 	internalAddr : 192.168.1.5:64360
+  INFO root [2018-01-30 14:43:44,532] - 	componentID : 5000
+  INFO root [2018-01-30 14:43:44,633] - Components::findLogger: found logger, addr:192.168.1.5:64357
+  INFO root [2018-01-30 14:43:44,633] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:43:44,633] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-01-30 14:43:44,641] - ---- baseappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B52B61977A494A97AADAE2AA2ECC98E4. Config: Debug X64. Built: 12:01:03 Jan 30 2018. AppID: 5000. UID: 10103. PID: 19084 ----
+  INFO root [2018-01-30 14:43:44,643] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:43:44,646] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:43:44,647] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-01-30 14:43:45,210] - ---- baseappmgr is running ----
+ DEBUG root [2018-01-30 14:43:45,211] - Components::process(): Request for the process of identity...
+  WARN root [2018-01-30 14:43:51,292] - Forwarding logs to logger[192.168.1.5:64357/0/0/0]...
+  INFO root [2018-01-30 14:48:56,938] - 
+  INFO root [2018-01-30 14:48:56,939] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:48:56,940] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:48:56,940] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:48:56,941] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:48:56,947] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64434 )
+  INFO root [2018-01-30 14:48:56,948] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64434, SOMAXCONN=5.
+  INFO root [2018-01-30 14:48:56,948] - server-configs:
+  INFO root [2018-01-30 14:48:56,948] - 	internalAddr : 192.168.1.5:64434
+  INFO root [2018-01-30 14:48:56,948] - 	componentID : 5000
+  INFO root [2018-01-30 14:48:56,988] - Components::findLogger: found logger, addr:192.168.1.5:64431
+  INFO root [2018-01-30 14:48:56,988] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:48:56,988] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-01-30 14:48:56,997] - ---- baseappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B52B61977A494A97AADAE2AA2ECC98E4. Config: Debug X64. Built: 12:01:03 Jan 30 2018. AppID: 5000. UID: 10103. PID: 7860 ----
+  INFO root [2018-01-30 14:48:56,997] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:48:56,998] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:48:56,998] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-01-30 14:48:57,515] - ---- baseappmgr is running ----
+ DEBUG root [2018-01-30 14:48:57,515] - Components::process(): Request for the process of identity...
+  WARN root [2018-01-30 14:49:03,617] - Forwarding logs to logger[192.168.1.5:64431/0/0/0]...
+ ERROR root [2018-01-30 14:50:06,895] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-01-30 14:50:06,897] - The following logs sent to logger failed:
+  WARN root [2018-01-30 14:50:06,897] - ==> [2018-01-30 14:50:06 892] TCPPacketReceiver::processPendingEvents(192.168.1.5:64431): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-01-30 14:50:06,898] - ==> [2018-01-30 14:50:06 896] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-01-30 14:58:02,631] - 
+  INFO root [2018-01-30 14:58:02,631] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:58:02,632] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:58:02,632] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:58:02,632] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:58:02,634] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64516 )
+  INFO root [2018-01-30 14:58:02,634] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64516, SOMAXCONN=5.
+  INFO root [2018-01-30 14:58:02,634] - server-configs:
+  INFO root [2018-01-30 14:58:02,634] - 	internalAddr : 192.168.1.5:64516
+  INFO root [2018-01-30 14:58:02,634] - 	componentID : 5000
+  INFO root [2018-01-30 14:58:02,706] - Components::findLogger: found logger, addr:192.168.1.5:64513
+  INFO root [2018-01-30 14:58:02,706] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:58:02,706] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-01-30 14:58:02,717] - ---- baseappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B52B61977A494A97AADAE2AA2ECC98E4. Config: Debug X64. Built: 12:01:03 Jan 30 2018. AppID: 5000. UID: 10103. PID: 16540 ----
+  INFO root [2018-01-30 14:58:02,719] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:58:02,719] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:58:02,720] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-01-30 14:58:03,264] - ---- baseappmgr is running ----
+ DEBUG root [2018-01-30 14:58:03,264] - Components::process(): Request for the process of identity...
+  WARN root [2018-01-30 14:58:09,363] - Forwarding logs to logger[192.168.1.5:64513/0/0/0]...
+  INFO root [2018-01-30 15:02:00,948] - 
+  INFO root [2018-01-30 15:02:00,948] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 15:02:00,950] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 15:02:00,950] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 15:02:00,950] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 15:02:00,952] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64712 )
+  INFO root [2018-01-30 15:02:00,952] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64712, SOMAXCONN=5.
+  INFO root [2018-01-30 15:02:00,952] - server-configs:
+  INFO root [2018-01-30 15:02:00,952] - 	internalAddr : 192.168.1.5:64712
+  INFO root [2018-01-30 15:02:00,952] - 	componentID : 5000
+  INFO root [2018-01-30 15:02:00,957] - Components::findLogger: found logger, addr:192.168.1.5:64709
+  INFO root [2018-01-30 15:02:00,958] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:02:00,958] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-01-30 15:02:00,969] - ---- baseappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B52B61977A494A97AADAE2AA2ECC98E4. Config: Debug X64. Built: 12:01:03 Jan 30 2018. AppID: 5000. UID: 10103. PID: 5096 ----
+  INFO root [2018-01-30 15:02:00,970] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 15:02:00,970] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 15:02:00,970] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-01-30 15:02:01,534] - ---- baseappmgr is running ----
+ DEBUG root [2018-01-30 15:02:01,534] - Components::process(): Request for the process of identity...
+  WARN root [2018-01-30 15:02:07,633] - Forwarding logs to logger[192.168.1.5:64709/0/0/0]...
+  INFO root [2018-01-30 15:03:11,166] - 
+  INFO root [2018-01-30 15:03:11,205] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 15:03:11,206] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 15:03:11,206] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 15:03:11,206] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 15:03:11,214] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64727 )
+  INFO root [2018-01-30 15:03:11,216] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64727, SOMAXCONN=5.
+  INFO root [2018-01-30 15:03:11,216] - server-configs:
+  INFO root [2018-01-30 15:03:11,216] - 	internalAddr : 192.168.1.5:64727
+  INFO root [2018-01-30 15:03:11,216] - 	componentID : 5000
+  INFO root [2018-01-30 15:03:11,285] - Components::findLogger: found logger, addr:192.168.1.5:64723
+  INFO root [2018-01-30 15:03:11,285] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:03:11,285] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-01-30 15:03:11,291] - ---- baseappmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: B52B61977A494A97AADAE2AA2ECC98E4. Config: Debug X64. Built: 12:01:03 Jan 30 2018. AppID: 5000. UID: 10103. PID: 3968 ----
+  INFO root [2018-01-30 15:03:11,293] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 15:03:11,293] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 15:03:11,293] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2018-01-30 15:03:11,879] - ---- baseappmgr is running ----
+ DEBUG root [2018-01-30 15:03:11,880] - Components::process(): Request for the process of identity...
+  WARN root [2018-01-30 15:03:17,986] - Forwarding logs to logger[192.168.1.5:64723/0/0/0]...

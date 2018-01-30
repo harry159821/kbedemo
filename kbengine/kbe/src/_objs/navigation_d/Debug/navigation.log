@@ -1,0 +1,51 @@
+﻿  DetourAlloc.cpp
+  DetourCommon.cpp
+  DetourCrowd.cpp
+  DetourLocalBoundary.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  DetourObstacleAvoidance.cpp
+DetourObstacleAvoidance.cpp(334): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  DetourPathCorridor.cpp
+  DetourPathQueue.cpp
+  DetourProximityGrid.cpp
+  DetourTileCache.cpp
+  DetourTileCacheBuilder.cpp
+  navigation.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(123): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(132): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(141): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(156): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxObjectGroup.h(70): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolygon.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolyline.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  navigation_handle.cpp
+  navigation_mesh_handle.cpp
+navigation_mesh_handle.cpp(199): warning C4267: “-=”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  navigation_tile_handle.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(123): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(132): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(141): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(156): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxObjectGroup.h(70): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolygon.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolyline.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  Recast.cpp
+  RecastAlloc.cpp
+  正在生成代码...
+  正在编译...
+  RecastArea.cpp
+  RecastContour.cpp
+  RecastFilter.cpp
+  RecastLayers.cpp
+  RecastMesh.cpp
+  RecastMeshDetail.cpp
+  RecastRasterization.cpp
+  RecastRegion.cpp
+  正在生成代码...
+navigation_handle.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  navigation.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\navigation\../../libs\navigation_d.lib

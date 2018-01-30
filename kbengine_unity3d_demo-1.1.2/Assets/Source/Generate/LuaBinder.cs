@@ -15,6 +15,8 @@ public static class LuaBinder
 		KBEMainWrap.Register(L);
 		ResourcesManagerWrap.Register(L);
 		UIManagerWrap.Register(L);
+		ConstWrap.Register(L);
+		UtilWrap.Register(L);
 		L.BeginModule("DG");
 		L.BeginModule("Tweening");
 		DG_Tweening_DOTweenWrap.Register(L);
@@ -174,17 +176,12 @@ public static class LuaBinder
 		L.EndModule();
 		L.EndModule();
 		L.BeginModule("KBEngine");
-		KBEngine_DbgWrap.Register(L);
 		KBEngine_EventWrap.Register(L);
-		KBEngine_KBELuaUtilWrap.Register(L);
 		KBEngine_MemoryStreamWrap.Register(L);
 		KBEngine_NetworkInterfaceWrap.Register(L);
 		KBEngine_PacketReceiverWrap.Register(L);
 		KBEngine_PacketSenderWrap.Register(L);
 		KBEngine_ProfileWrap.Register(L);
-		L.BeginModule("KBELuaUtil");
-		L.RegFunction("CallLuaFunction", KBEngine_KBELuaUtil_CallLuaFunction);
-		L.EndModule();
 		L.BeginModule("NetworkInterface");
 		L.RegFunction("ConnectCallback", KBEngine_NetworkInterface_ConnectCallback);
 		L.EndModule();
@@ -203,6 +200,7 @@ public static class LuaBinder
 		L.RegFunction("Action_int", System_Action_int);
 		L.RegFunction("Comparison_int", System_Comparison_int);
 		L.RegFunction("Func_int_int", System_Func_int_int);
+		L.RegFunction("Action_UnityEngine_AsyncOperation", System_Action_UnityEngine_AsyncOperation);
 		L.EndModule();
 		L.EndModule();
 		L.BeginPreLoad();
@@ -1438,33 +1436,6 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int KBEngine_KBELuaUtil_CallLuaFunction(IntPtr L)
-	{
-		try
-		{
-			int count = LuaDLL.lua_gettop(L);
-			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
-
-			if (count == 1)
-			{
-				Delegate arg1 = DelegateTraits<KBEngine.KBELuaUtil.CallLuaFunction>.Create(func);
-				ToLua.Push(L, arg1);
-			}
-			else
-			{
-				LuaTable self = ToLua.CheckLuaTable(L, 2);
-				Delegate arg1 = DelegateTraits<KBEngine.KBELuaUtil.CallLuaFunction>.Create(func, self);
-				ToLua.Push(L, arg1);
-			}
-			return 1;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int KBEngine_NetworkInterface_ConnectCallback(IntPtr L)
 	{
 		try
@@ -1643,6 +1614,33 @@ public static class LuaBinder
 			{
 				LuaTable self = ToLua.CheckLuaTable(L, 2);
 				Delegate arg1 = DelegateTraits<System.Func<int,int>>.Create(func, self);
+				ToLua.Push(L, arg1);
+			}
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int System_Action_UnityEngine_AsyncOperation(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
+
+			if (count == 1)
+			{
+				Delegate arg1 = DelegateTraits<System.Action<UnityEngine.AsyncOperation>>.Create(func);
+				ToLua.Push(L, arg1);
+			}
+			else
+			{
+				LuaTable self = ToLua.CheckLuaTable(L, 2);
+				Delegate arg1 = DelegateTraits<System.Action<UnityEngine.AsyncOperation>>.Create(func, self);
 				ToLua.Push(L, arg1);
 			}
 			return 1;

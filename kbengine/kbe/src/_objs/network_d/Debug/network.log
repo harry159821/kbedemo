@@ -1,0 +1,123 @@
+﻿  address.cpp
+  bundle.cpp
+bundle.cpp(441): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(464): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(485): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(501): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(513): warning C4267: “-=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+bundle.cpp(519): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(529): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+bundle.cpp(535): warning C4267: “-=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+  bundle_broadcast.cpp
+bundle_broadcast.cpp(140): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+bundle_broadcast.cpp(157): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+bundle_broadcast.cpp(184): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  channel.cpp
+channel.cpp(214): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+channel.cpp(377): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+channel.cpp(525): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+channel.cpp(597): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  common.cpp
+  delayed_channels.cpp
+  encryption_filter.cpp
+encryption_filter.cpp(168): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+encryption_filter.cpp(200): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  endpoint.cpp
+endpoint.cpp(654): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+endpoint.cpp(661): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+endpoint.cpp(668): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  error_reporter.cpp
+  event_dispatcher.cpp
+D:\kbedemo\kbengine\kbe\src\lib\common/timer.h(133): warning C4267: “return”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  D:\kbedemo\kbengine\kbe\src\lib\common/timer.h(133): note: 编译 类 模板 成员函数 "KBEngine::uint32 KBEngine::TimersT<KBEngine::uint64>::size(void) const" 时
+  event_dispatcher.cpp(61): note: 参见对正在编译的函数 模板 实例化“KBEngine::uint32 KBEngine::TimersT<KBEngine::uint64>::size(void) const”的引用
+  event_dispatcher.cpp(45): note: 参见对正在编译的 类 模板 实例化 "KBEngine::TimersT<KBEngine::uint64>" 的引用
+  event_poller.cpp
+  fixed_messages.cpp
+  interface_defs.cpp
+  listener_receiver.cpp
+  network_stats.cpp
+  message_handler.cpp
+message_handler.cpp(281): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+message_handler.cpp(284): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+message_handler.cpp(317): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+message_handler.cpp(320): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+message_handler.cpp(332): warning C4267: “+=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+message_handler.cpp(338): warning C4267: “+=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+message_handler.cpp(346): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+message_handler.cpp(351): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+message_handler.cpp(363): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  network_interface.cpp
+network_interface.cpp(121): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+network_interface.cpp(127): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+network_interface.cpp(141): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+network_interface.cpp(161): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  packet_filter.cpp
+  packet_reader.cpp
+packet_reader.cpp(90): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(93): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(95): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(169): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(172): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(174): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(187): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(204): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(206): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(217): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(221): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(240): warning C4267: “=”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(244): warning C4267: “=”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(266): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+packet_reader.cpp(303): warning C4267: “-=”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(304): warning C4267: “+=”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+packet_reader.cpp(305): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  packet_receiver.cpp
+  正在生成代码...
+  正在编译...
+  packet_sender.cpp
+  poller_epoll.cpp
+  poller_select.cpp
+poller_select.cpp(53): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+poller_select.cpp(60): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+  tcp_packet.cpp
+  tcp_packet_receiver.cpp
+  tcp_packet_sender.cpp
+tcp_packet_sender.cpp(206): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  udp_packet.cpp
+udp_packet.cpp(101): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+udp_packet.cpp(104): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  udp_packet_receiver.cpp
+  websocket_packet_filter.cpp
+websocket_packet_filter.cpp(112): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+websocket_packet_filter.cpp(150): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_packet_filter.cpp(172): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_packet_filter.cpp(178): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_packet_filter.cpp(191): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_packet_filter.cpp(214): warning C4267: “-=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+websocket_packet_filter.cpp(284): warning C4267: “-=”: 从“size_t”转换到“KBEngine::int32”，可能丢失数据
+  websocket_packet_reader.cpp
+  websocket_protocol.cpp
+websocket_protocol.cpp(61): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(62): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(69): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(70): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(80): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(84): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(85): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(109): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(110): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(149): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(150): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(159): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(195): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(230): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(259): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(291): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(305): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+websocket_protocol.cpp(336): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+poller_epoll.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+interface_defs.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  network.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\network\../../libs\network_d.lib

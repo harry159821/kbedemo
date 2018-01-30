@@ -1,0 +1,22 @@
+﻿  applink.c
+..\..\lib\dependencies\openssl\include\openssl\applink.c(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+..\..\lib\dependencies\openssl\include\openssl\applink.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+  getbuildinfo.c
+  正在生成代码...
+  interfaces_handler.cpp
+interfaces_handler.cpp(466): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  buffered_dbtasks.cpp
+  dbmgr.cpp
+dbmgr.cpp(870): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  dbmgr_interface.cpp
+  dbtasks.cpp
+dbtasks.cpp(1377): warning C4267: “参数”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+  main.cpp
+  profile.cpp
+  sync_app_datas_handler.cpp
+  update_dblog_handler.cpp
+  正在生成代码...
+    正在创建库 ../../../bin/server/dbmgr.lib 和对象 ../../../bin/server/dbmgr.exp
+  dbmgr.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\dbmgr\../../../bin/server/dbmgr.exe

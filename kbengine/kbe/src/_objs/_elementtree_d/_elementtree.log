@@ -1,0 +1,15 @@
+﻿  _elementtree.c
+..\Modules\_elementtree.c(928): warning C4244: “函数”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(939): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(940): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(1501): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(1654): warning C4244: “-=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(1685): warning C4244: “函数”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(1727): warning C4244: “+=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Modules\_elementtree.c(3481): warning C4244: “函数”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  xmlparse.c
+..\Modules\expat\xmlparse.c(1844): warning C4244: “return”: 从“__int64”转换到“XML_Index”，可能丢失数据
+  xmlrole.c
+  xmltok.c
+  正在生成代码...
+  _elementtree.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\python\PCbuild\../../../libs\_elementtree_d.pyd

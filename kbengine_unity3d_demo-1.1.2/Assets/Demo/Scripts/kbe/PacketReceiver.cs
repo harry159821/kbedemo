@@ -34,11 +34,10 @@
 		public PacketReceiver(NetworkInterface networkInterface)
 		{
 			_init(networkInterface);
-		}
-
-		~PacketReceiver()
+		}     
+        ~PacketReceiver()
 		{
-			Dbg.DEBUG_MSG("PacketReceiver::~PacketReceiver(), destroyed!");
+            Util.Log("PacketReceiver::~PacketReceiver(), destroyed!");
 		}
 
 		void _init(NetworkInterface networkInterface)
@@ -59,14 +58,14 @@
 
 			if(_rpos < t_wpos)
 			{
-                KBELuaUtil.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)_rpos, (UInt32)(t_wpos - _rpos) });
+                Util.Client.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)_rpos, (UInt32)(t_wpos - _rpos) });
 				//messageReader.process(_buffer, (UInt32)_rpos, (UInt32)(t_wpos - _rpos));
 				Interlocked.Exchange(ref _rpos, t_wpos);
 			} 
 			else if(t_wpos < _rpos)
 			{
-                KBELuaUtil.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)_rpos, (UInt32)(_buffer.Length - _rpos) });
-                KBELuaUtil.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)0, (UInt32)t_wpos });
+                Util.Client.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)_rpos, (UInt32)(_buffer.Length - _rpos) });
+                Util.Client.CallMethod("KBEngineLua.MessageReader", "process", new object[] { _buffer, (UInt32)0, (UInt32)t_wpos });
 				//messageReader.process(_buffer, (UInt32)_rpos, (UInt32)(_buffer.Length - _rpos));
 				//messageReader.process(_buffer, (UInt32)0, (UInt32)t_wpos);
 				Interlocked.Exchange(ref _rpos, t_wpos);
@@ -110,7 +109,7 @@
 		{
 			if (_networkInterface == null || !_networkInterface.valid())
 			{
-				Dbg.WARNING_MSG("PacketReceiver::_asyncReceive(): network interface invalid!");
+                Util.LogWarning("PacketReceiver::_asyncReceive(): network interface invalid!");
 				return;
 			}
 
@@ -128,12 +127,12 @@
 					{
 						if (first > 1000)
 						{
-							Dbg.ERROR_MSG("PacketReceiver::_asyncReceive(): no space!");
+                            Util.LogError("PacketReceiver::_asyncReceive(): no space!");
 							Event.fireIn("_closeNetwork", new object[] { _networkInterface });
 							return;
 						}
 
-						Dbg.WARNING_MSG("PacketReceiver::_asyncReceive(): waiting for space, Please adjust 'RECV_BUFFER_MAX'! retries=" + first);
+                        Util.LogWarning("PacketReceiver::_asyncReceive(): waiting for space, Please adjust 'RECV_BUFFER_MAX'! retries=" + first);
 						System.Threading.Thread.Sleep(5);
 					}
 
@@ -148,7 +147,7 @@
 				}
 				catch (SocketException se)
 				{
-					Dbg.ERROR_MSG(string.Format("PacketReceiver::_asyncReceive(): receive error, disconnect from '{0}'! error = '{1}'", socket.RemoteEndPoint, se));
+                    Util.LogError(string.Format("PacketReceiver::_asyncReceive(): receive error, disconnect from '{0}'! error = '{1}'", socket.RemoteEndPoint, se));
 					Event.fireIn("_closeNetwork", new object[] { _networkInterface });
 					return;
 				}
@@ -160,7 +159,7 @@
 				}
 				else
 				{
-					Dbg.WARNING_MSG(string.Format("PacketReceiver::_asyncReceive(): receive 0 bytes, disconnect from '{0}'!", socket.RemoteEndPoint));
+					Util.LogWarning(string.Format("PacketReceiver::_asyncReceive(): receive 0 bytes, disconnect from '{0}'!", socket.RemoteEndPoint));
 					Event.fireIn("_closeNetwork", new object[] { _networkInterface });
 					return;
 				}

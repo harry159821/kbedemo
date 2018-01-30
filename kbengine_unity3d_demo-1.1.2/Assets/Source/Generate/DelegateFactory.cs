@@ -57,6 +57,7 @@ public class DelegateFactory
 		dict.Add(typeof(UnityEngine.Application.LogCallback), factory.UnityEngine_Application_LogCallback);
 		dict.Add(typeof(UnityEngine.AudioClip.PCMReaderCallback), factory.UnityEngine_AudioClip_PCMReaderCallback);
 		dict.Add(typeof(UnityEngine.AudioClip.PCMSetPositionCallback), factory.UnityEngine_AudioClip_PCMSetPositionCallback);
+		dict.Add(typeof(System.Action<UnityEngine.AsyncOperation>), factory.System_Action_UnityEngine_AsyncOperation);
 		dict.Add(typeof(FairyGUI.EventCallback1), factory.FairyGUI_EventCallback1);
 		dict.Add(typeof(FairyGUI.EventCallback0), factory.FairyGUI_EventCallback0);
 		dict.Add(typeof(FairyGUI.ListItemRenderer), factory.FairyGUI_ListItemRenderer);
@@ -67,7 +68,6 @@ public class DelegateFactory
 		dict.Add(typeof(FairyGUI.UIPackage.CreateObjectCallback), factory.FairyGUI_UIPackage_CreateObjectCallback);
 		dict.Add(typeof(FairyGUI.GObjectPool.InitCallbackDelegate), factory.FairyGUI_GObjectPool_InitCallbackDelegate);
 		dict.Add(typeof(FairyGUI.TimerCallback), factory.FairyGUI_TimerCallback);
-		dict.Add(typeof(KBEngine.KBELuaUtil.CallLuaFunction), factory.KBEngine_KBELuaUtil_CallLuaFunction);
 		dict.Add(typeof(KBEngine.NetworkInterface.ConnectCallback), factory.KBEngine_NetworkInterface_ConnectCallback);
 		dict.Add(typeof(ResourcesManager.LoadCompleteCallback), factory.ResourcesManager_LoadCompleteCallback);
 
@@ -111,6 +111,7 @@ public class DelegateFactory
 		DelegateTraits<UnityEngine.Application.LogCallback>.Init(factory.UnityEngine_Application_LogCallback);
 		DelegateTraits<UnityEngine.AudioClip.PCMReaderCallback>.Init(factory.UnityEngine_AudioClip_PCMReaderCallback);
 		DelegateTraits<UnityEngine.AudioClip.PCMSetPositionCallback>.Init(factory.UnityEngine_AudioClip_PCMSetPositionCallback);
+		DelegateTraits<System.Action<UnityEngine.AsyncOperation>>.Init(factory.System_Action_UnityEngine_AsyncOperation);
 		DelegateTraits<FairyGUI.EventCallback1>.Init(factory.FairyGUI_EventCallback1);
 		DelegateTraits<FairyGUI.EventCallback0>.Init(factory.FairyGUI_EventCallback0);
 		DelegateTraits<FairyGUI.ListItemRenderer>.Init(factory.FairyGUI_ListItemRenderer);
@@ -121,7 +122,6 @@ public class DelegateFactory
 		DelegateTraits<FairyGUI.UIPackage.CreateObjectCallback>.Init(factory.FairyGUI_UIPackage_CreateObjectCallback);
 		DelegateTraits<FairyGUI.GObjectPool.InitCallbackDelegate>.Init(factory.FairyGUI_GObjectPool_InitCallbackDelegate);
 		DelegateTraits<FairyGUI.TimerCallback>.Init(factory.FairyGUI_TimerCallback);
-		DelegateTraits<KBEngine.KBELuaUtil.CallLuaFunction>.Init(factory.KBEngine_KBELuaUtil_CallLuaFunction);
 		DelegateTraits<KBEngine.NetworkInterface.ConnectCallback>.Init(factory.KBEngine_NetworkInterface_ConnectCallback);
 		DelegateTraits<ResourcesManager.LoadCompleteCallback>.Init(factory.ResourcesManager_LoadCompleteCallback);
 
@@ -165,6 +165,7 @@ public class DelegateFactory
 		TypeTraits<UnityEngine.Application.LogCallback>.Init(factory.Check_UnityEngine_Application_LogCallback);
 		TypeTraits<UnityEngine.AudioClip.PCMReaderCallback>.Init(factory.Check_UnityEngine_AudioClip_PCMReaderCallback);
 		TypeTraits<UnityEngine.AudioClip.PCMSetPositionCallback>.Init(factory.Check_UnityEngine_AudioClip_PCMSetPositionCallback);
+		TypeTraits<System.Action<UnityEngine.AsyncOperation>>.Init(factory.Check_System_Action_UnityEngine_AsyncOperation);
 		TypeTraits<FairyGUI.EventCallback1>.Init(factory.Check_FairyGUI_EventCallback1);
 		TypeTraits<FairyGUI.EventCallback0>.Init(factory.Check_FairyGUI_EventCallback0);
 		TypeTraits<FairyGUI.ListItemRenderer>.Init(factory.Check_FairyGUI_ListItemRenderer);
@@ -175,7 +176,6 @@ public class DelegateFactory
 		TypeTraits<FairyGUI.UIPackage.CreateObjectCallback>.Init(factory.Check_FairyGUI_UIPackage_CreateObjectCallback);
 		TypeTraits<FairyGUI.GObjectPool.InitCallbackDelegate>.Init(factory.Check_FairyGUI_GObjectPool_InitCallbackDelegate);
 		TypeTraits<FairyGUI.TimerCallback>.Init(factory.Check_FairyGUI_TimerCallback);
-		TypeTraits<KBEngine.KBELuaUtil.CallLuaFunction>.Init(factory.Check_KBEngine_KBELuaUtil_CallLuaFunction);
 		TypeTraits<KBEngine.NetworkInterface.ConnectCallback>.Init(factory.Check_KBEngine_NetworkInterface_ConnectCallback);
 		TypeTraits<ResourcesManager.LoadCompleteCallback>.Init(factory.Check_ResourcesManager_LoadCompleteCallback);
 
@@ -219,6 +219,7 @@ public class DelegateFactory
 		StackTraits<UnityEngine.Application.LogCallback>.Push = factory.Push_UnityEngine_Application_LogCallback;
 		StackTraits<UnityEngine.AudioClip.PCMReaderCallback>.Push = factory.Push_UnityEngine_AudioClip_PCMReaderCallback;
 		StackTraits<UnityEngine.AudioClip.PCMSetPositionCallback>.Push = factory.Push_UnityEngine_AudioClip_PCMSetPositionCallback;
+		StackTraits<System.Action<UnityEngine.AsyncOperation>>.Push = factory.Push_System_Action_UnityEngine_AsyncOperation;
 		StackTraits<FairyGUI.EventCallback1>.Push = factory.Push_FairyGUI_EventCallback1;
 		StackTraits<FairyGUI.EventCallback0>.Push = factory.Push_FairyGUI_EventCallback0;
 		StackTraits<FairyGUI.ListItemRenderer>.Push = factory.Push_FairyGUI_ListItemRenderer;
@@ -229,7 +230,6 @@ public class DelegateFactory
 		StackTraits<FairyGUI.UIPackage.CreateObjectCallback>.Push = factory.Push_FairyGUI_UIPackage_CreateObjectCallback;
 		StackTraits<FairyGUI.GObjectPool.InitCallbackDelegate>.Push = factory.Push_FairyGUI_GObjectPool_InitCallbackDelegate;
 		StackTraits<FairyGUI.TimerCallback>.Push = factory.Push_FairyGUI_TimerCallback;
-		StackTraits<KBEngine.KBELuaUtil.CallLuaFunction>.Push = factory.Push_KBEngine_KBELuaUtil_CallLuaFunction;
 		StackTraits<KBEngine.NetworkInterface.ConnectCallback>.Push = factory.Push_KBEngine_NetworkInterface_ConnectCallback;
 		StackTraits<ResourcesManager.LoadCompleteCallback>.Push = factory.Push_ResourcesManager_LoadCompleteCallback;
 	}
@@ -2661,6 +2661,63 @@ public class DelegateFactory
 		ToLua.Push(L, o);
 	}
 
+	class System_Action_UnityEngine_AsyncOperation_Event : LuaDelegate
+	{
+		public System_Action_UnityEngine_AsyncOperation_Event(LuaFunction func) : base(func) { }
+		public System_Action_UnityEngine_AsyncOperation_Event(LuaFunction func, LuaTable self) : base(func, self) { }
+
+		public void Call(UnityEngine.AsyncOperation param0)
+		{
+			func.BeginPCall();
+			func.PushObject(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+
+		public void CallWithSelf(UnityEngine.AsyncOperation param0)
+		{
+			func.BeginPCall();
+			func.Push(self);
+			func.PushObject(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+	}
+
+	public System.Action<UnityEngine.AsyncOperation> System_Action_UnityEngine_AsyncOperation(LuaFunction func, LuaTable self, bool flag)
+	{
+		if (func == null)
+		{
+			System.Action<UnityEngine.AsyncOperation> fn = delegate(UnityEngine.AsyncOperation param0) { };
+			return fn;
+		}
+
+		if(!flag)
+		{
+			System_Action_UnityEngine_AsyncOperation_Event target = new System_Action_UnityEngine_AsyncOperation_Event(func);
+			System.Action<UnityEngine.AsyncOperation> d = target.Call;
+			target.method = d.Method;
+			return d;
+		}
+		else
+		{
+			System_Action_UnityEngine_AsyncOperation_Event target = new System_Action_UnityEngine_AsyncOperation_Event(func, self);
+			System.Action<UnityEngine.AsyncOperation> d = target.CallWithSelf;
+			target.method = d.Method;
+			return d;
+		}
+	}
+
+	bool Check_System_Action_UnityEngine_AsyncOperation(IntPtr L, int pos)
+	{
+		return TypeChecker.CheckDelegateType(typeof(System.Action<UnityEngine.AsyncOperation>), L, pos);
+	}
+
+	void Push_System_Action_UnityEngine_AsyncOperation(IntPtr L, System.Action<UnityEngine.AsyncOperation> o)
+	{
+		ToLua.Push(L, o);
+	}
+
 	class FairyGUI_EventCallback1_Event : LuaDelegate
 	{
 		public FairyGUI_EventCallback1_Event(LuaFunction func) : base(func) { }
@@ -3229,79 +3286,6 @@ public class DelegateFactory
 	}
 
 	void Push_FairyGUI_TimerCallback(IntPtr L, FairyGUI.TimerCallback o)
-	{
-		ToLua.Push(L, o);
-	}
-
-	class KBEngine_KBELuaUtil_CallLuaFunction_Event : LuaDelegate
-	{
-		public KBEngine_KBELuaUtil_CallLuaFunction_Event(LuaFunction func) : base(func) { }
-		public KBEngine_KBELuaUtil_CallLuaFunction_Event(LuaFunction func, LuaTable self) : base(func, self) { }
-
-		public object[] Call(string param0, object[] param1)
-		{
-			func.BeginPCall();
-			func.Push(param0);
-
-			for (int i = 0; i < param1.Length; i++)
-			{
-				func.Push(param1[i]);
-			}
-
-			func.PCall();
-			object[] ret = (object[])func.CheckObject(typeof(object[]));
-			func.EndPCall();
-			return ret;
-		}
-
-		public object[] CallWithSelf(string param0, object[] param1)
-		{
-			func.BeginPCall();
-			func.Push(self);
-			func.Push(param0);
-
-			for (int i = 0; i < param1.Length; i++)
-			{
-				func.Push(param1[i]);
-			}
-
-			func.PCall();
-			object[] ret = (object[])func.CheckObject(typeof(object[]));
-			func.EndPCall();
-			return ret;
-		}
-	}
-
-	public KBEngine.KBELuaUtil.CallLuaFunction KBEngine_KBELuaUtil_CallLuaFunction(LuaFunction func, LuaTable self, bool flag)
-	{
-		if (func == null)
-		{
-			KBEngine.KBELuaUtil.CallLuaFunction fn = delegate(string param0, object[] param1) { return null; };
-			return fn;
-		}
-
-		if(!flag)
-		{
-			KBEngine_KBELuaUtil_CallLuaFunction_Event target = new KBEngine_KBELuaUtil_CallLuaFunction_Event(func);
-			KBEngine.KBELuaUtil.CallLuaFunction d = target.Call;
-			target.method = d.Method;
-			return d;
-		}
-		else
-		{
-			KBEngine_KBELuaUtil_CallLuaFunction_Event target = new KBEngine_KBELuaUtil_CallLuaFunction_Event(func, self);
-			KBEngine.KBELuaUtil.CallLuaFunction d = target.CallWithSelf;
-			target.method = d.Method;
-			return d;
-		}
-	}
-
-	bool Check_KBEngine_KBELuaUtil_CallLuaFunction(IntPtr L, int pos)
-	{
-		return TypeChecker.CheckDelegateType(typeof(KBEngine.KBELuaUtil.CallLuaFunction), L, pos);
-	}
-
-	void Push_KBEngine_KBELuaUtil_CallLuaFunction(IntPtr L, KBEngine.KBELuaUtil.CallLuaFunction o)
 	{
 		ToLua.Push(L, o);
 	}

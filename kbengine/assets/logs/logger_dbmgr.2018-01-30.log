@@ -1,0 +1,308 @@
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 023] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 034] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 034] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 034] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 047] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64358 )
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 047] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64358, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 048] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 048] - 	internalAddr : 192.168.1.5:64358
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 048] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 090] - Components::findLogger: found logger, addr:192.168.1.5:64357
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 090] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 091] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 112] - ---- dbmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: AB95206911EE3C8CC43AA8D92FA1AB86. Config: Debug X64. Built: 12:00:01 Jan 30 2018. AppID: 4000. UID: 10103. PID: 3840 ----
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 117] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 120] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 120] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 298] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 301] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 302] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 316] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 317] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 318] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 319] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 367] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 421] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 11:59:50) [MSC v.1912 64 bit (AMD64)])!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 421] - Script::install(): KBExtra is successfully!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:43:44 450] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:43:44 451] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:43:44 451] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:43:44 451] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 453] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:43:44 469] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:44 469] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 14:43:44 769] - ThreadPool::destroy(): waiting for thread(2)[0x23b6317a430,0x23b631793f0,], try=1
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 178] - TPThread::~TPThread(): 0x23b6317a430
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 178] - TPThread::~TPThread(): 0x23b631793f0
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 179] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 179] - Bundle::destroyObjPool(): size 4.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 179] - Channel::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 179] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 179] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 180] - EndPoint::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 180] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 180] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:43:45 180] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 431] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 432] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 432] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 432] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 437] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64432 )
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 437] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64432, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 438] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 438] - 	internalAddr : 192.168.1.5:64432
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 438] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 535] - Components::findLogger: found logger, addr:192.168.1.5:64431
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 535] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 535] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 542] - ---- dbmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: AB95206911EE3C8CC43AA8D92FA1AB86. Config: Debug X64. Built: 12:00:01 Jan 30 2018. AppID: 4000. UID: 10103. PID: 12316 ----
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 542] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 542] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 543] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 674] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 674] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 675] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 678] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 678] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 679] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 679] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 735] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 785] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 11:59:50) [MSC v.1912 64 bit (AMD64)])!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 786] - Script::install(): KBExtra is successfully!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:48:56 826] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:48:56 830] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:48:56 831] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:48:56 831] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 832] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 832] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 832] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 832] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 832] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 833] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 833] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 833] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:48:56 854] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:56 854] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 14:48:57 155] - ThreadPool::destroy(): waiting for thread(2)[0x1ff285ec320,0x1ff285ec000,], try=1
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 557] - TPThread::~TPThread(): 0x1ff285ec320
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 557] - TPThread::~TPThread(): 0x1ff285ec000
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 557] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 557] - Bundle::destroyObjPool(): size 4.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 558] - Channel::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 558] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 559] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 559] - EndPoint::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 560] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 560] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:48:57 560] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 124] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 127] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 128] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 128] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 131] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64514 )
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 131] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64514, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 131] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 131] - 	internalAddr : 192.168.1.5:64514
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 132] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 184] - Components::findLogger: found logger, addr:192.168.1.5:64513
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 184] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 184] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 191] - ---- dbmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: AB95206911EE3C8CC43AA8D92FA1AB86. Config: Debug X64. Built: 12:00:01 Jan 30 2018. AppID: 4000. UID: 10103. PID: 1580 ----
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 203] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 204] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 204] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 340] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 340] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 344] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 348] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 348] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 348] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 349] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 382] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 419] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 11:59:50) [MSC v.1912 64 bit (AMD64)])!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 419] - Script::install(): KBExtra is successfully!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:58:02 429] - DataTypes::getDataType:not found type ENTITY.
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:58:02 430] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:58:02 431] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 14:58:02 431] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 431] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 431] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 432] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 14:58:02 468] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:02 468] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 14:58:02 769] - ThreadPool::destroy(): waiting for thread(2)[0x2150a20fa90,0x2150a20ef50,], try=1
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - TPThread::~TPThread(): 0x2150a20fa90
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - TPThread::~TPThread(): 0x2150a20ef50
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - Bundle::destroyObjPool(): size 4.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - Channel::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 172] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 173] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 173] - EndPoint::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 173] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 173] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 14:58:03 173] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 439] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 440] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 440] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 442] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 446] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64710 )
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 446] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64710, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 447] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 447] - 	internalAddr : 192.168.1.5:64710
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 447] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 528] - Components::findLogger: found logger, addr:192.168.1.5:64709
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 528] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 528] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 534] - ---- dbmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: AB95206911EE3C8CC43AA8D92FA1AB86. Config: Debug X64. Built: 12:00:01 Jan 30 2018. AppID: 4000. UID: 10103. PID: 15500 ----
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 534] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 534] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 535] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 673] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 674] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 677] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 685] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 686] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 686] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 686] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 754] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 803] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 11:59:50) [MSC v.1912 64 bit (AMD64)])!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 803] - Script::install(): KBExtra is successfully!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 15:02:00 814] - DataTypes::getDataType:not found type Entity.
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 15:02:00 815] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 15:02:00 815] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR      dbmgr-1 10103 4000  [2018-01-30 15:02:00 815] - app::initialize(): initialization failed!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 815] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 816] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:02:00 832] - Script::uninstall(): is successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:00 832] - ThreadPool::destroy(): starting size 2.
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 15:02:01 134] - ThreadPool::destroy(): waiting for thread(2)[0x19eaac5fce0,0x19eaac5fb00,], try=1
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - TPThread::~TPThread(): 0x19eaac5fce0
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - TPThread::~TPThread(): 0x19eaac5fb00
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - ThreadPool::destroy(): successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - Bundle::destroyObjPool(): size 4.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - Channel::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 537] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 538] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 538] - EndPoint::destroyObjPool(): size 15.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 538] - Address::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 538] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:02:01 538] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 664] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 666] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 666] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 667] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 669] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64724 )
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 670] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64724, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 670] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 670] - 	internalAddr : 192.168.1.5:64724
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 670] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 740] - Components::findLogger: found logger, addr:192.168.1.5:64723
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 740] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 740] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 751] - ---- dbmgr Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: AB95206911EE3C8CC43AA8D92FA1AB86. Config: Debug X64. Built: 12:00:01 Jan 30 2018. AppID: 4000. UID: 10103. PID: 15656 ----
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 752] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 752] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 752] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 882] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 883] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 883] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 886] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 887] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 887] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 888] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:10 927] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 990] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 11:59:50) [MSC v.1912 64 bit (AMD64)])!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:10 990] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 014] - Dbmgr::initializeEnd: digest(A71810F4A4E7C9C4BCB0C2BAF3A71D0D)
+  S_INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 015] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 016] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 016] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 15:03:11 360] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+BDBDDC03C5E9792F64D87D8E72B0ED0752B3ACE55B78D6ADD0773C39C257B0230AE81A51F50CD8A0473E8766AC74EC07A9E715204BA85D359EF8B858928B03E4E500993BD5420B780D8BF235DB914E45BAEC0CC719C492714D73C8A06DFD6A216BBC2DEC09C50BB50F06916BC952B060996DB1270C6F26DAB29A571E5A8FC17A
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 373] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 410] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 410] - DBUtil::createInterface[0x4e8199e608]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 414] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 414] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 536] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 539] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 15:03:11 961] - dbmgr.cpp:293: Profile scriptCall took 0.95 seconds
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:12 497] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:12 498] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 414] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 414] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 415] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 416] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 417] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 418] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 419] - DBThread::onStart(): 0x20b2f3d0480!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 420] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 421] - DBThread::onStart(): 0x20b2f3d0fe0!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 422] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 422] - DBThread::onStart(): 0x20b2f3d19a0!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 423] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 423] - DBThread::onStart(): 0x20b2f3d0070!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 424] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 424] - DBThread::onStart(): 0x20b2f3d1f50!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 546] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 551] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 552] - syncToDB(): Avatar->sm_character_server(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 554] - syncToDB(): Account_characters_values->sm_server(int not null DEFAULT 0).
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 555] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 555] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 561] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 563] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 564] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:11 569] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 774] - syncToDB(): Avatar->sm_character_serverid(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:11 819] - syncToDB(): Account_characters_values->sm_serverid(int not null DEFAULT 0).
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 15:03:11 941] - DBTask::process(): took 0.39 seconds
+sql:(show index from tbl_Avatar)
+ WARNING      dbmgr-1 10103 4000  [2018-01-30 15:03:11 947] - DBTask::process(): took 0.39 seconds
+sql:(show index from tbl_Account_characters_values)
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:19 667] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:23 136] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64727, extaddr:nonsupport, extport:0,  from 192.168.1.5:64743/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:23 136] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:23 136] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:23 554] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64735, extaddr:nonsupport, extport:0,  from 192.168.1.5:64745/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:23 554] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:25 833] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64741, extaddr:192.168.1.5, extport:20013,  from 192.168.1.5:64747/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:25 833] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:26 814] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64737, extaddr:192.168.1.5, extport:20015,  from 192.168.1.5:64749/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:26 814] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:27 054] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64739, extaddr:nonsupport, extport:0,  from 192.168.1.5:64752/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:27 054] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:30 067] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2018-01-30 15:03:30 067] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2018-01-30 15:03:30 067] - SyncAppDatasHandler::~SyncAppDatasHandler()

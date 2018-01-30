@@ -1,0 +1,247 @@
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 152] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 153] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 153] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 154] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 156] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64366 )
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 156] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64366, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 156] - server-configs:
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 158] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 162] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 163] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 163] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 163] - 	internalAddr : 192.168.1.5:64366
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 163] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 254] - Components::findLogger: found logger, addr:192.168.1.5:64357
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 254] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 254] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 265] - ---- cellapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 3E219F952F5452BC3A7FCB8AD415BB85. Config: Debug X64. Built: 12:01:28 Jan 30 2018. AppID: 8001. UID: 10103. PID: 6268 ----
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 265] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 266] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 266] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 402] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 403] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 407] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 411] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 411] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 411] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 412] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 451] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 491] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:39) [MSC v.1912 64 bit (AMD64)])!
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 492] - Script::install(): KBExtra is successfully!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:43:46 509] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:43:46 510] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:43:46 510] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:43:46 510] - app::initialize(): initialization failed!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 511] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 511] - Witness::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 511] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 511] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 512] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:43:46 525] - Script::uninstall(): is successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:46 525] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp-1 10103 8001  [2018-01-30 14:43:46 828] - ThreadPool::destroy(): waiting for thread(2)[0x1c1ab77c2d0,0x1c1ab77bdd0,], try=1
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 231] - TPThread::~TPThread(): 0x1c1ab77c2d0
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 231] - TPThread::~TPThread(): 0x1c1ab77bdd0
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 231] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 232] - Bundle::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 233] - Channel::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 233] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 233] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 234] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 234] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 234] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:43:47 234] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 437] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 437] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 438] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 438] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 441] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64440 )
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 441] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64440, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 441] - server-configs:
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 441] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 442] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 442] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 442] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 442] - 	internalAddr : 192.168.1.5:64440
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 442] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 455] - Components::findLogger: found logger, addr:192.168.1.5:64431
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 455] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 455] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 463] - ---- cellapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 3E219F952F5452BC3A7FCB8AD415BB85. Config: Debug X64. Built: 12:01:28 Jan 30 2018. AppID: 8001. UID: 10103. PID: 7520 ----
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 463] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 464] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 464] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 594] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 594] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 594] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 598] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 598] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 599] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 599] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 637] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 673] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:39) [MSC v.1912 64 bit (AMD64)])!
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 673] - Script::install(): KBExtra is successfully!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:48:58 692] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:48:58 692] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:48:58 693] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 14:48:58 693] - app::initialize(): initialization failed!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 693] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 693] - Witness::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 694] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 694] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 694] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 694] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 695] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 695] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 695] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 695] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 14:48:58 709] - Script::uninstall(): is successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:58 710] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp-1 10103 8001  [2018-01-30 14:48:59 011] - ThreadPool::destroy(): waiting for thread(2)[0x24b4f1a6170,0x24b4f1a5590,], try=1
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 412] - TPThread::~TPThread(): 0x24b4f1a6170
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 413] - TPThread::~TPThread(): 0x24b4f1a5590
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 413] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 413] - Bundle::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 413] - Channel::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 413] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 414] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 414] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 414] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 414] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 14:48:59 414] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 473] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 474] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 474] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 474] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 478] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64718 )
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 478] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64718, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - server-configs:
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	internalAddr : 192.168.1.5:64718
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 479] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 508] - Components::findLogger: found logger, addr:192.168.1.5:64709
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 508] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 508] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 516] - ---- cellapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 3E219F952F5452BC3A7FCB8AD415BB85. Config: Debug X64. Built: 12:01:28 Jan 30 2018. AppID: 8001. UID: 10103. PID: 5292 ----
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 516] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 517] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 517] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 674] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 675] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 675] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 678] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 678] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 678] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 679] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 714] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 750] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:39) [MSC v.1912 64 bit (AMD64)])!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 750] - Script::install(): KBExtra is successfully!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 15:02:02 766] - DataTypes::getDataType:not found type Entity.
+   ERROR    cellapp-1 10103 8001  [2018-01-30 15:02:02 766] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    cellapp-1 10103 8001  [2018-01-30 15:02:02 767] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    cellapp-1 10103 8001  [2018-01-30 15:02:02 767] - app::initialize(): initialization failed!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 768] - EntityRef::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 768] - Witness::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 769] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:02:02 781] - Script::uninstall(): is successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:02 781] - ThreadPool::destroy(): starting size 2.
+ WARNING    cellapp-1 10103 8001  [2018-01-30 15:02:03 083] - ThreadPool::destroy(): waiting for thread(2)[0x1a1e94b5df0,0x1a1e94b5a30,], try=1
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 485] - TPThread::~TPThread(): 0x1a1e94b5df0
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 485] - TPThread::~TPThread(): 0x1a1e94b5a30
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 485] - ThreadPool::destroy(): successfully!
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 486] - Bundle::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 486] - Channel::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 487] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 487] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 487] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 487] - Address::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 488] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:02:03 488] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 839] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 839] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 840] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 840] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 842] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64739 )
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 843] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64739, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 843] - server-configs:
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 844] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 844] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 844] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 844] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 845] - 	internalAddr : 192.168.1.5:64739
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 845] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 908] - Components::findLogger: found logger, addr:192.168.1.5:64723
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 908] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 908] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 914] - ---- cellapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 3E219F952F5452BC3A7FCB8AD415BB85. Config: Debug X64. Built: 12:01:28 Jan 30 2018. AppID: 8001. UID: 10103. PID: 17992 ----
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 914] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 915] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:12 915] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 046] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 047] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 047] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 050] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 050] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 050] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 051] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 087] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:13 126] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:39) [MSC v.1912 64 bit (AMD64)])!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:13 127] - Script::install(): KBExtra is successfully!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:13 148] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:13 597] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2018-01-30 15:03:13 597] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2018-01-30 15:03:19 692] - EntityApp::checkTickPeriod: tick took 6094% (6.09 seconds)!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:20 740] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:20 800] - Components::findComponents: found dbmgr, addr:192.168.1.5:64724
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:20 800] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:20 800] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:20 801] - Components::findComponents: found dbmgr, addr:192.168.1.5:64724
+ WARNING    cellapp-1 10103 8001  [2018-01-30 15:03:21 801] - EntityApp::checkTickPeriod: tick took 1103% (1.10 seconds)!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:22 841] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:22 855] - Components::findComponents: found cellappmgr, addr:192.168.1.5:64735
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:22 855] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:22 855] - Components::findComponents: found cellappmgr, addr:192.168.1.5:64735
+ WARNING    cellapp-1 10103 8001  [2018-01-30 15:03:23 855] - EntityApp::checkTickPeriod: tick took 1058% (1.06 seconds)!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:24 897] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:24 991] - Components::findComponents: found baseappmgr, addr:192.168.1.5:64727
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:24 991] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:24 992] - Components::findComponents: found baseappmgr, addr:192.168.1.5:64727
+ WARNING    cellapp-1 10103 8001  [2018-01-30 15:03:25 993] - EntityApp::checkTickPeriod: tick took 1196% (1.20 seconds)!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 041] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 097] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 108] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 109] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 197] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64737, extaddr:192.168.1.5, extport:20015,  from 192.168.1.5:64754/0/0/0.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 197] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:27 197] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.1.5, intport:64737, extaddr:192.168.1.5, extport:20015,  from 192.168.1.5:64754/0/0/0.
+    INFO    cellapp-1 10103 8001  [2018-01-30 15:03:30 097] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A71810F4A4E7C9C4BCB0C2BAF3A71D0D.
+    INFO    cellapp01 10103 8001  [2018-01-30 15:03:30 097] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 10103 8001  [2018-01-30 15:03:31 306] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2018-01-30 15:03:31 306] - D:\kbedemo\kbengine\kbe\src\lib\server/entity_app.h:764: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 10103 8001  [2018-01-30 15:03:31 307] - cellapp.cpp:260: Profile gameTick took 1.21 seconds
+ WARNING    cellapp01 10103 8001  [2018-01-30 15:03:31 307] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.21 seconds
+ WARNING    cellapp01 10103 8001  [2018-01-30 15:03:31 307] - EntityApp::checkTickPeriod: tick took 1210% (1.21 seconds)!
+   DEBUG    cellapp01 10103 8001  [2018-01-30 15:03:31 340] - InitProgressHandler::~InitProgressHandler()

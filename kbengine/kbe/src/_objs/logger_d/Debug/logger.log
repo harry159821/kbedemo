@@ -1,0 +1,21 @@
+﻿  applink.c
+..\..\..\lib\dependencies\openssl\include\openssl\applink.c(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+..\..\..\lib\dependencies\openssl\include\openssl\applink.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+  getbuildinfo.c
+..\..\..\lib\python\Modules\getbuildinfo.c(36): warning C4273: “Py_GetBuildInfo”: dll 链接不一致
+  d:\kbedemo\kbengine\kbe\src\lib\python\include\pythonrun.h(225): note: 参见“Py_GetBuildInfo”的前一个定义
+..\..\..\lib\python\Modules\getbuildinfo.c(53): warning C4273: “_Py_hgversion”: dll 链接不一致
+  d:\kbedemo\kbengine\kbe\src\lib\python\include\pythonrun.h(228): note: 参见“_Py_hgversion”的前一个定义
+..\..\..\lib\python\Modules\getbuildinfo.c(59): warning C4273: “_Py_hgidentifier”: dll 链接不一致
+  d:\kbedemo\kbengine\kbe\src\lib\python\include\pythonrun.h(227): note: 参见“_Py_hgidentifier”的前一个定义
+  正在生成代码...
+  logwatcher.cpp
+  main.cpp
+  logger.cpp
+  logger_interface.cpp
+  profile.cpp
+  正在生成代码...
+    正在创建库 ../../../../bin/server/logger.lib 和对象 ../../../../bin/server/logger.exp
+  logger.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\tools\logger\../../../../bin/server/logger.exe

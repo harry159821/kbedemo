@@ -6,7 +6,7 @@
 			<Persistent> true </Persistent>
 		</characters>
         <activeAvatar>
-            <Type>          MAILBOX             </Type>
+            <Type>          AVATAR_INFO         </Type>
             <Flags>         BASE                </Flags>
         </activeAvatar>
 	</Properties>

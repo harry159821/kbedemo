@@ -1,7 +1,8 @@
 --主入口函数。从这里开始lua逻辑
 require "kbe/KBEngine"
+
 function Main(gameobject)					
-	print("logic start")
+	print("logic start")		
 	KBEngineLua.InitEngine()
 	
 	local ui_manager=	UIManager.GetInstance()	

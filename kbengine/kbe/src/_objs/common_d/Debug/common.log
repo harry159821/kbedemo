@@ -1,0 +1,43 @@
+﻿  base64.cpp
+base64.cpp(69): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+base64.cpp(86): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  blowfish.cpp
+blowfish.cpp(33): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+blowfish.cpp(49): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+blowfish.cpp(72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  common.cpp
+  format.cpp
+format.cpp(1090): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  kbekey.cpp
+  kbeversion.cpp
+  md5.cpp
+  memorystream.cpp
+  rsa.cpp
+rsa.cpp(218): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+rsa.cpp(230): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  sha1.cpp
+  strutil.cpp
+strutil.cpp(202): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\utf8cpp\utf8\core.h(284): warning C4244: “参数”: 从“octet_difference_type”转换到“int”，可能丢失数据
+  d:\kbedemo\kbengine\kbe\src\lib\dependencies\utf8cpp\utf8/checked.h(136): note: 参见对正在编译的函数 模板 实例化“utf8::internal::utf_error utf8::internal::validate_next<octet_iterator>(octet_iterator &,octet_iterator,utf8::uint32_t *)”的引用
+          with
+          [
+              octet_iterator=const char *
+          ]
+  d:\kbedemo\kbengine\kbe\src\lib\dependencies\utf8cpp\utf8/checked.h(194): note: 参见对正在编译的函数 模板 实例化“utf8::uint32_t utf8::next<octet_iterator>(octet_iterator &,octet_iterator)”的引用
+          with
+          [
+              octet_iterator=const char *
+          ]
+  strutil.cpp(310): note: 参见对正在编译的函数 模板 实例化“std::_Iterator_traits_pointer_base<_Ty,true>::difference_type utf8::distance<const _Elem*>(octet_iterator,octet_iterator)”的引用
+          with
+          [
+              _Ty=char,
+              _Elem=char,
+              octet_iterator=const char *
+          ]
+  tasks.cpp
+  timer.cpp
+  timestamp.cpp
+  正在生成代码...
+  common.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\common\../../libs\common_d.lib

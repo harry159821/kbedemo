@@ -1,0 +1,231 @@
+﻿  _bisectmodule.c
+  _codecsmodule.c
+  _collectionsmodule.c
+  _csv.c
+  _functoolsmodule.c
+  _heapqmodule.c
+  _json.c
+  _localemodule.c
+  _lsprof.c
+  _math.c
+  _pickle.c
+  _randommodule.c
+  _sre.c
+  _stat.c
+  _struct.c
+  _weakref.c
+  arraymodule.c
+  atexitmodule.c
+  audioop.c
+  binascii.c
+  正在生成代码...
+  正在编译...
+  cmathmodule.c
+  _datetimemodule.c
+  errnomodule.c
+  faulthandler.c
+  gcmodule.c
+  hashtable.c
+  itertoolsmodule.c
+  main.c
+  mathmodule.c
+  md5module.c
+  mmapmodule.c
+  _opcode.c
+  _operator.c
+  parsermodule.c
+  posixmodule.c
+  rotatingtree.c
+  sha1module.c
+  sha256module.c
+  sha512module.c
+  signalmodule.c
+  正在生成代码...
+  正在编译...
+  symtablemodule.c
+  _threadmodule.c
+  _tracemalloc.c
+..\Modules\_tracemalloc.c(70): warning C4359: “<unnamed-tag>”: 对齐说明符小于实际对齐方式(8)，将被忽略。
+  timemodule.c
+..\Modules\timemodule.c(1516): warning C4996: 'GetVersionExA': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(436): note: 参见“GetVersionExA”的声明
+  xxsubtype.c
+  zipimport.c
+..\Modules\zipimport.c(912): warning C4244: “函数”: 从“Py_ssize_t”转换到“long”，可能丢失数据
+  zlibmodule.c
+  fileio.c
+  bytesio.c
+  stringio.c
+  bufferedio.c
+  iobase.c
+  textio.c
+  _iomodule.c
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  正在生成代码...
+  正在编译...
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  _codecs_cn.c
+  _codecs_hk.c
+  _codecs_iso2022.c
+  _codecs_jp.c
+  _codecs_kr.c
+  _codecs_tw.c
+  multibytecodec.c
+  _winapi.c
+..\Modules\_winapi.c(865): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(184): note: 参见“GetVersion”的声明
+  abstract.c
+  accu.c
+  boolobject.c
+  bytes_methods.c
+  bytearrayobject.c
+  bytesobject.c
+  capsule.c
+  正在生成代码...
+  正在编译...
+  cellobject.c
+  classobject.c
+  codeobject.c
+..\Objects\codeobject.c(111): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+  complexobject.c
+  descrobject.c
+  dictobject.c
+  enumobject.c
+  exceptions.c
+  fileobject.c
+  floatobject.c
+  frameobject.c
+  funcobject.c
+..\Objects\funcobject.c(635): warning C4244: “函数”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Objects\funcobject.c(636): warning C4244: “函数”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  genobject.c
+  iterobject.c
+  listobject.c
+  longobject.c
+  memoryobject.c
+  methodobject.c
+  moduleobject.c
+  namespaceobject.c
+  正在生成代码...
+  正在编译...
+  object.c
+  obmalloc.c
+..\Objects\obmalloc.c(1284): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  rangeobject.c
+  setobject.c
+  sliceobject.c
+  structseq.c
+  tupleobject.c
+  typeobject.c
+  unicodectype.c
+  unicodeobject.c
+..\Objects\unicodeobject.c(14962): warning C4996: 'GetVersionExA': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(436): note: 参见“GetVersionExA”的声明
+  weakrefobject.c
+  acceler.c
+  bitset.c
+  firstsets.c
+  grammar.c
+  grammar1.c
+  listnode.c
+  metagrammar.c
+  myreadline.c
+  node.c
+  正在生成代码...
+  正在编译...
+  parser.c
+  parsetok.c
+  tokenizer.c
+  winreg.c
+..\PC\winreg.c(1058): warning C4311: “类型转换”: 从“void *”到“DWORD”的指针截断
+  config.c
+  dl_nt.c
+  getpathp.c
+  msvcrtmodule.c
+..\PC\msvcrtmodule.c(381): warning C4312: “类型转换”: 从“int”转换到更大的“_HFILE”
+..\PC\msvcrtmodule.c(382): warning C4311: “类型转换”: 从“_HFILE”到“long”的指针截断
+..\PC\msvcrtmodule.c(494): warning C4311: “类型转换”: 从“_HFILE”到“int”的指针截断
+..\PC\msvcrtmodule.c(495): warning C4311: “类型转换”: 从“_HFILE”到“int”的指针截断
+..\PC\msvcrtmodule.c(496): warning C4311: “类型转换”: 从“_HFILE”到“int”的指针截断
+  pyhash.c
+  random.c
+  _warnings.c
+  asdl.c
+  ast.c
+  bltinmodule.c
+  ceval.c
+..\Python\ceval.c(4339): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\ceval.c(4527): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  codecs.c
+  compile.c
+  dynamic_annotations.c
+  dynload_win.c
+  errors.c
+  正在生成代码...
+  正在编译...
+  fileutils.c
+  formatter_unicode.c
+  frozen.c
+  future.c
+  getargs.c
+  getcompiler.c
+  getcopyright.c
+  getopt.c
+  getplatform.c
+  getversion.c
+  graminit.c
+  import.c
+  importdl.c
+  marshal.c
+..\Python\marshal.c(1050): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  modsupport.c
+  mysnprintf.c
+  mystrtoul.c
+  peephole.c
+..\Python\peephole.c(134): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(234): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(286): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(373): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(432): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(447): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(476): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(529): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(547): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(575): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(586): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(618): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(632): warning C4244: “-=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(663): warning C4244: “=”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+..\Python\peephole.c(692): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+..\Python\peephole.c(702): warning C4244: “=”: 从“Py_ssize_t”转换到“unsigned char”，可能丢失数据
+  pyarena.c
+  pyctype.c
+  正在生成代码...
+  正在编译...
+  pyfpe.c
+  pymath.c
+  pytime.c
+  pystate.c
+  pystrcmp.c
+  pystrtod.c
+  dtoa.c
+  Python-ast.c
+  pythonrun.c
+  structmember.c
+  symtable.c
+  sysmodule.c
+..\Python\sysmodule.c(782): warning C4996: 'GetVersionExA': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(436): note: 参见“GetVersionExA”的声明
+  thread.c
+  traceback.c
+  正在生成代码...
+  pythoncore.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\python\PCbuild\../../../libs\python34_d.lib

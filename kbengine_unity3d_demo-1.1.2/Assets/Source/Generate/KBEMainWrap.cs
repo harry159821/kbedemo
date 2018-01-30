@@ -11,7 +11,6 @@ public class KBEMainWrap
 		L.RegFunction("_closeNetwork", _closeNetwork);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
-		L.RegVar("debugLevel", get_debugLevel, set_debugLevel);
 		L.RegVar("isStartEngine", get_isStartEngine, set_isStartEngine);
 		L.EndClass();
 	}
@@ -68,25 +67,6 @@ public class KBEMainWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int get_debugLevel(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			KBEMain obj = (KBEMain)o;
-			KBEngine.DEBUGLEVEL ret = obj.debugLevel;
-			ToLua.Push(L, ret);
-			return 1;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index debugLevel on a nil value");
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int get_isStartEngine(IntPtr L)
 	{
 		try
@@ -97,25 +77,6 @@ public class KBEMainWrap
 		catch (Exception e)
 		{
 			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int set_debugLevel(IntPtr L)
-	{
-		object o = null;
-
-		try
-		{
-			o = ToLua.ToObject(L, 1);
-			KBEMain obj = (KBEMain)o;
-			KBEngine.DEBUGLEVEL arg0 = (KBEngine.DEBUGLEVEL)ToLua.CheckObject(L, 2, typeof(KBEngine.DEBUGLEVEL));
-			obj.debugLevel = arg0;
-			return 0;
-		}
-		catch(Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e, o, "attempt to index debugLevel on a nil value");
 		}
 	}
 

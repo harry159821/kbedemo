@@ -199,22 +199,24 @@ public static class CustomSettings
         _GT(typeof(TweenUtils)),
 
         //KBE
-        _GT(typeof(Dbg)),
+    
         _GT(typeof(KBEngine.Event)),
-        _GT(typeof(KBELuaUtil)),
+
         _GT(typeof(KBEMain)),
         _GT(typeof(MemoryStream)),
         _GT(typeof(NetworkInterface)),
         _GT(typeof(PacketReceiver)),
         _GT(typeof(PacketSender)),
         _GT(typeof(Profile)),
-        _GT(typeof(DEBUGLEVEL)),
+    
 
         _GT(typeof(ResourcesManager)),
          _GT(typeof(ResourcesManager.LoadTask)),
         _GT(typeof(UIManager)),
         _GT(typeof(UIManager.WindowInfo)),
         _GT(typeof(UIManager.ShowType)),
+        _GT(typeof(Const)),
+        _GT(typeof(Util)),
     };
 
     public static List<Type> dynamicList = new List<Type>()

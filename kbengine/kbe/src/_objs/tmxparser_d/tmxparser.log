@@ -1,0 +1,59 @@
+﻿  TmxEllipse.cpp
+  TmxImage.cpp
+  TmxImageLayer.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  TmxLayer.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(123): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(132): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(141): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(156): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxLayer.cpp(224): warning C4267: “参数”: 从“size_t”转换到“uLong”，可能丢失数据
+..\TmxLayer.cpp(233): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  TmxMap.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(123): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(132): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(141): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxMap.h(156): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxObjectGroup.h(70): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxMap.cpp(152): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxMap.cpp(338): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxMap.cpp(352): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  TmxObject.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolygon.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolyline.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  TmxObjectGroup.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxObjectGroup.h(70): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  TmxPolygon.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolygon.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxPolygon.cpp(41): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(538): note: 参见“strdup”的声明
+..\TmxPolygon.cpp(43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: 参见“strtok”的声明
+..\TmxPolygon.cpp(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: 参见“sscanf”的声明
+..\TmxPolygon.cpp(51): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: 参见“strtok”的声明
+  TmxPolyline.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPolyline.h(54): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxPolyline.cpp(41): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(538): note: 参见“strdup”的声明
+..\TmxPolyline.cpp(43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: 参见“strtok”的声明
+..\TmxPolyline.cpp(47): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: 参见“sscanf”的声明
+..\TmxPolyline.cpp(51): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(439): note: 参见“strtok”的声明
+  TmxPropertySet.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  TmxTile.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  TmxTileset.cpp
+d:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\TmxPropertySet.h(60): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\TmxTileset.cpp(113): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  TmxUtil.cpp
+  正在生成代码...
+  tmxparser.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\dependencies\tmxparser\tmxparser\..\..\..\..\libs\tmxparser_d.lib

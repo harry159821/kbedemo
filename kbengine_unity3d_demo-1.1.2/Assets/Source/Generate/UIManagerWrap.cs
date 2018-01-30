@@ -8,10 +8,8 @@ public class UIManagerWrap
 	{
 		L.BeginClass(typeof(UIManager), typeof(System.Object));
 		L.RegFunction("GetInstance", GetInstance);
-		L.RegFunction("SetInfo", SetInfo);
 		L.RegFunction("OpenWindow", OpenWindow);
 		L.RegFunction("Close", Close);
-		L.RegFunction("SetLayerRecursively", SetLayerRecursively);
 		L.RegFunction("New", _CreateUIManager);
 		L.RegFunction("__tostring", ToLua.op_ToString);
 		L.EndClass();
@@ -58,37 +56,19 @@ public class UIManagerWrap
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int SetInfo(IntPtr L)
-	{
-		try
-		{
-			ToLua.CheckArgsCount(L, 4);
-			UIManager obj = (UIManager)ToLua.CheckObject<UIManager>(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
-			UnityEngine.Camera arg1 = (UnityEngine.Camera)ToLua.CheckObject(L, 3, typeof(UnityEngine.Camera));
-			LuaClient arg2 = (LuaClient)ToLua.CheckObject<LuaClient>(L, 4);
-			obj.SetInfo(arg0, arg1, arg2);
-			return 0;
-		}
-		catch (Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int OpenWindow(IntPtr L)
 	{
 		try
 		{
-			ToLua.CheckArgsCount(L, 6);
+			ToLua.CheckArgsCount(L, 7);
 			UIManager obj = (UIManager)ToLua.CheckObject<UIManager>(L, 1);
 			string arg0 = ToLua.CheckString(L, 2);
 			string arg1 = ToLua.CheckString(L, 3);
 			string arg2 = ToLua.CheckString(L, 4);
-			bool arg3 = LuaDLL.luaL_checkboolean(L, 5);
-			LuaTable arg4 = ToLua.CheckLuaTable(L, 6);
-			obj.OpenWindow(arg0, arg1, arg2, arg3, arg4);
+			UIManager.ShowType arg3 = (UIManager.ShowType)ToLua.CheckObject(L, 5, typeof(UIManager.ShowType));
+			bool arg4 = LuaDLL.luaL_checkboolean(L, 6);
+			LuaTable arg5 = ToLua.CheckLuaTable(L, 7);
+			obj.OpenWindow(arg0, arg1, arg2, arg3, arg4, arg5);
 			return 0;
 		}
 		catch (Exception e)
@@ -106,24 +86,6 @@ public class UIManagerWrap
 			UIManager obj = (UIManager)ToLua.CheckObject<UIManager>(L, 1);
 			UIManager.WindowInfo arg0 = (UIManager.WindowInfo)ToLua.CheckObject<UIManager.WindowInfo>(L, 2);
 			obj.Close(arg0);
-			return 0;
-		}
-		catch (Exception e)
-		{
-			return LuaDLL.toluaL_exception(L, e);
-		}
-	}
-
-	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	static int SetLayerRecursively(IntPtr L)
-	{
-		try
-		{
-			ToLua.CheckArgsCount(L, 3);
-			UIManager obj = (UIManager)ToLua.CheckObject<UIManager>(L, 1);
-			UnityEngine.GameObject arg0 = (UnityEngine.GameObject)ToLua.CheckObject(L, 2, typeof(UnityEngine.GameObject));
-			LAYER arg1 = (LAYER)ToLua.CheckObject(L, 3, typeof(LAYER));
-			obj.SetLayerRecursively(arg0, arg1);
 			return 0;
 		}
 		catch (Exception e)

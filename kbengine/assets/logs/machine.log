@@ -1,0 +1,1173 @@
+  INFO root [2018-01-30 14:43:42,331] - 
+  INFO root [2018-01-30 14:43:42,333] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:43:42,346] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:43:42,347] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:43:42,347] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:43:42,355] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20099 )
+  INFO root [2018-01-30 14:43:42,356] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20099, SOMAXCONN=5.
+  INFO root [2018-01-30 14:43:42,358] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64355 )
+  INFO root [2018-01-30 14:43:42,359] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64355, SOMAXCONN=5.
+  INFO root [2018-01-30 14:43:42,359] - server-configs:
+  INFO root [2018-01-30 14:43:42,359] - 	internalAddr : 192.168.1.5:64355
+  INFO root [2018-01-30 14:43:42,359] - 	componentID : 1000
+  INFO root [2018-01-30 14:43:42,386] - ---- machine Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 6DA3E465E1A7853E35882B00C22FEFF0. Config: Debug X64. Built: 12:00:14 Jan 30 2018. AppID: 1000. UID: 10103. PID: 2856 ----
+  INFO root [2018-01-30 14:43:42,386] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:43:42,387] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:43:42,387] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-30 14:43:42,496] - EndPoint::getInterfaces: found eth0 192.168.1.5
+  INFO root [2018-01-30 14:43:42,497] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.1.5.
+  INFO root [2018-01-30 14:43:42,497] - Machine::findBroadcastInterface: Confirmed 192.168.1.5 (eth0) as default broadcast route interface.
+  INFO root [2018-01-30 14:43:42,497] - Machine::initNetwork: bind broadcast successfully! addr:192.168.1.5:20086
+  INFO root [2018-01-30 14:43:42,989] - ---- machine is running ----
+  INFO root [2018-01-30 14:43:42,996] - Components::process(): Found all the components!
+  INFO root [2018-01-30 14:43:43,432] - Machine::onBroadcastInterface: added newUID 10103.
+  INFO root [2018-01-30 14:43:43,433] - Machine::onBroadcastInterface[192.168.1.5:53172/0/0/0]: uid:10103, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:7124, intaddr:192.168.1.5, intport:64357, extaddr:192.168.1.5, extport:64356.
+  INFO root [2018-01-30 14:43:43,433] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:43:43,433] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:43:43,550] - Machine::onBroadcastInterface: logger update, pid=7124, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:44,088] - Machine::onFindInterfaceAddr[192.168.1.5:53173/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20585.
+  INFO root [2018-01-30 14:43:44,089] - Machine::onFindInterfaceAddr[192.168.1.5:53173/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20585.
+  INFO root [2018-01-30 14:43:44,632] - Machine::onFindInterfaceAddr[192.168.1.5:53176/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20166.
+  INFO root [2018-01-30 14:43:44,633] - Machine::onFindInterfaceAddr[192.168.1.5:53176/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20166.
+  INFO root [2018-01-30 14:43:44,735] - Machine::onBroadcastInterface[192.168.1.5:53179/0/0/0]: uid:10103, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:19104, intaddr:192.168.1.5, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:43:44,735] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:43:44,735] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:43:44,745] - Machine::onBroadcastInterface: interfaces update, pid=19104, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:45,152] - Machine::onFindInterfaceAddr[192.168.1.5:53180/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20158.
+  INFO root [2018-01-30 14:43:45,154] - Machine::onFindInterfaceAddr[192.168.1.5:53180/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20158.
+  INFO root [2018-01-30 14:43:45,363] - Machine::onBroadcastInterface[192.168.1.5:53183/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:19084, intaddr:192.168.1.5, intport:64360, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:43:45,364] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:43:45,364] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:43:45,489] - Machine::onBroadcastInterface: baseappmgr update, pid=19084, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:45,937] - Machine::onFindInterfaceAddr[192.168.1.5:53184/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20555.
+  INFO root [2018-01-30 14:43:45,940] - Machine::onFindInterfaceAddr[192.168.1.5:53184/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20555.
+  INFO root [2018-01-30 14:43:45,941] - Machine::onBroadcastInterface[192.168.1.5:53185/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:14180, intaddr:192.168.1.5, intport:64362, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:43:45,943] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:43:45,947] - Machine::onBroadcastInterface: cellappmgr update, pid=14180, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:46,250] - Machine::onFindInterfaceAddr[192.168.1.5:53188/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20473.
+  INFO root [2018-01-30 14:43:46,254] - Machine::onFindInterfaceAddr[192.168.1.5:53188/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20473.
+ DEBUG root [2018-01-30 14:43:46,461] - Machine::onBroadcastInterface: logger update, pid=7124, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:46,461] - Machine::onBroadcastInterface: logger update, pid=7124, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:46,964] - Machine::onFindInterfaceAddr[192.168.1.5:53192/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20922.
+  INFO root [2018-01-30 14:43:46,964] - Machine::onFindInterfaceAddr[192.168.1.5:53192/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20922.
+ DEBUG root [2018-01-30 14:43:47,779] - Machine::onBroadcastInterface: interfaces update, pid=19104, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:47,779] - Machine::onBroadcastInterface: interfaces update, pid=19104, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:48,385] - Machine::onBroadcastInterface: baseappmgr update, pid=19084, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:48,385] - Machine::onBroadcastInterface: baseappmgr update, pid=19084, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:48,991] - Machine::onBroadcastInterface: cellappmgr update, pid=14180, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:48,991] - Machine::onBroadcastInterface: cellappmgr update, pid=14180, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:50,704] - Machine::onBroadcastInterface[192.168.1.5:61701/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:1068, intaddr:192.168.1.5, intport:64368, extaddr:192.168.1.5, extport:20013.
+  INFO root [2018-01-30 14:43:50,704] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:43:50,765] - Machine::onBroadcastInterface: loginapp update, pid=1068, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:52,381] - Machine::onFindInterfaceAddr[192.168.1.5:61702/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20628.
+  WARN root [2018-01-30 14:43:52,381] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:52,382] - Machine::onFindInterfaceAddr[192.168.1.5:61702/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20628.
+  WARN root [2018-01-30 14:43:52,382] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:53,087] - Machine::onFindInterfaceAddr[192.168.1.5:61705/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:43:53,087] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:53,087] - Machine::onFindInterfaceAddr[192.168.1.5:61705/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:43:53,087] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+ DEBUG root [2018-01-30 14:43:53,799] - Machine::onBroadcastInterface: loginapp update, pid=1068, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:43:53,800] - Machine::onBroadcastInterface: loginapp update, pid=1068, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:43:54,404] - Machine::onFindInterfaceAddr[192.168.1.5:61709/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20597.
+  WARN root [2018-01-30 14:43:54,405] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:54,406] - Machine::onFindInterfaceAddr[192.168.1.5:61709/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20597.
+  WARN root [2018-01-30 14:43:54,407] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:55,112] - Machine::onFindInterfaceAddr[192.168.1.5:61712/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20945.
+  WARN root [2018-01-30 14:43:55,112] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:55,113] - Machine::onFindInterfaceAddr[192.168.1.5:61712/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20945.
+  WARN root [2018-01-30 14:43:55,113] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:56,422] - Machine::onFindInterfaceAddr[192.168.1.5:61715/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20177.
+  WARN root [2018-01-30 14:43:56,424] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:56,426] - Machine::onFindInterfaceAddr[192.168.1.5:61715/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20177.
+  WARN root [2018-01-30 14:43:56,426] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:57,137] - Machine::onFindInterfaceAddr[192.168.1.5:61718/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20525.
+  WARN root [2018-01-30 14:43:57,138] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:57,142] - Machine::onFindInterfaceAddr[192.168.1.5:61718/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20525.
+  WARN root [2018-01-30 14:43:57,145] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:57,752] - Machine::onFindInterfaceAddr[192.168.1.5:61721/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20517.
+  WARN root [2018-01-30 14:43:57,753] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:43:57,754] - Machine::onFindInterfaceAddr[192.168.1.5:61721/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20517.
+  WARN root [2018-01-30 14:43:57,754] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:43:58,460] - Machine::onFindInterfaceAddr[192.168.1.5:61724/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20812.
+  WARN root [2018-01-30 14:43:58,461] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:58,463] - Machine::onFindInterfaceAddr[192.168.1.5:61724/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20812.
+  WARN root [2018-01-30 14:43:58,463] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:59,171] - Machine::onFindInterfaceAddr[192.168.1.5:61727/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20108.
+  WARN root [2018-01-30 14:43:59,172] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:59,173] - Machine::onFindInterfaceAddr[192.168.1.5:61727/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20108.
+  WARN root [2018-01-30 14:43:59,173] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:43:59,779] - Machine::onFindInterfaceAddr[192.168.1.5:61730/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20149.
+  WARN root [2018-01-30 14:43:59,780] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:43:59,780] - Machine::onFindInterfaceAddr[192.168.1.5:61730/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20149.
+  WARN root [2018-01-30 14:43:59,781] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:00,493] - Machine::onFindInterfaceAddr[192.168.1.5:61733/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20445.
+  WARN root [2018-01-30 14:44:00,494] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:00,496] - Machine::onFindInterfaceAddr[192.168.1.5:61733/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20445.
+  WARN root [2018-01-30 14:44:00,496] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:01,204] - Machine::onFindInterfaceAddr[192.168.1.5:61736/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20793.
+  WARN root [2018-01-30 14:44:01,205] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:01,207] - Machine::onFindInterfaceAddr[192.168.1.5:61736/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20793.
+  WARN root [2018-01-30 14:44:01,208] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:01,814] - Machine::onFindInterfaceAddr[192.168.1.5:61739/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20781.
+  WARN root [2018-01-30 14:44:01,815] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:01,816] - Machine::onFindInterfaceAddr[192.168.1.5:61739/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20781.
+  WARN root [2018-01-30 14:44:01,817] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:02,524] - Machine::onFindInterfaceAddr[192.168.1.5:61742/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20077.
+  WARN root [2018-01-30 14:44:02,524] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:02,526] - Machine::onFindInterfaceAddr[192.168.1.5:61742/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20077.
+  WARN root [2018-01-30 14:44:02,526] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:03,233] - Machine::onFindInterfaceAddr[192.168.1.5:61745/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20425.
+  WARN root [2018-01-30 14:44:03,233] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:03,234] - Machine::onFindInterfaceAddr[192.168.1.5:61745/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20425.
+  WARN root [2018-01-30 14:44:03,234] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:03,840] - Machine::onFindInterfaceAddr[192.168.1.5:61748/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20365.
+  WARN root [2018-01-30 14:44:03,842] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:03,844] - Machine::onFindInterfaceAddr[192.168.1.5:61748/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20365.
+  WARN root [2018-01-30 14:44:03,845] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:04,552] - Machine::onFindInterfaceAddr[192.168.1.5:61751/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20942.
+  WARN root [2018-01-30 14:44:04,553] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:04,555] - Machine::onFindInterfaceAddr[192.168.1.5:61751/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20942.
+  WARN root [2018-01-30 14:44:04,555] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:05,262] - Machine::onFindInterfaceAddr[192.168.1.5:61754/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20289.
+  WARN root [2018-01-30 14:44:05,263] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:05,264] - Machine::onFindInterfaceAddr[192.168.1.5:61754/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20289.
+  WARN root [2018-01-30 14:44:05,264] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:05,870] - Machine::onFindInterfaceAddr[192.168.1.5:61757/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20281.
+  WARN root [2018-01-30 14:44:05,871] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:05,872] - Machine::onFindInterfaceAddr[192.168.1.5:61757/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20281.
+  WARN root [2018-01-30 14:44:05,873] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:06,581] - Machine::onFindInterfaceAddr[192.168.1.5:61760/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20577.
+  WARN root [2018-01-30 14:44:06,582] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:06,584] - Machine::onFindInterfaceAddr[192.168.1.5:61760/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20577.
+  WARN root [2018-01-30 14:44:06,584] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:07,297] - Machine::onFindInterfaceAddr[192.168.1.5:61763/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20873.
+  WARN root [2018-01-30 14:44:07,298] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:07,300] - Machine::onFindInterfaceAddr[192.168.1.5:61763/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20873.
+  WARN root [2018-01-30 14:44:07,300] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:07,906] - Machine::onFindInterfaceAddr[192.168.1.5:61766/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20862.
+  WARN root [2018-01-30 14:44:07,907] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:07,908] - Machine::onFindInterfaceAddr[192.168.1.5:61766/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20862.
+  WARN root [2018-01-30 14:44:07,910] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:08,617] - Machine::onFindInterfaceAddr[192.168.1.5:61769/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20157.
+  WARN root [2018-01-30 14:44:08,618] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:08,620] - Machine::onFindInterfaceAddr[192.168.1.5:61769/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20157.
+  WARN root [2018-01-30 14:44:08,620] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:09,330] - Machine::onFindInterfaceAddr[192.168.1.5:61772/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20505.
+  WARN root [2018-01-30 14:44:09,331] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:09,332] - Machine::onFindInterfaceAddr[192.168.1.5:61772/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20505.
+  WARN root [2018-01-30 14:44:09,333] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:09,938] - Machine::onFindInterfaceAddr[192.168.1.5:61775/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20546.
+  WARN root [2018-01-30 14:44:09,939] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:09,940] - Machine::onFindInterfaceAddr[192.168.1.5:61775/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20546.
+  WARN root [2018-01-30 14:44:09,941] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:10,648] - Machine::onFindInterfaceAddr[192.168.1.5:61778/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20842.
+  WARN root [2018-01-30 14:44:10,649] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:10,650] - Machine::onFindInterfaceAddr[192.168.1.5:61778/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20842.
+  WARN root [2018-01-30 14:44:10,651] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:11,361] - Machine::onFindInterfaceAddr[192.168.1.5:61781/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20190.
+  WARN root [2018-01-30 14:44:11,362] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:11,363] - Machine::onFindInterfaceAddr[192.168.1.5:61781/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20190.
+  WARN root [2018-01-30 14:44:11,364] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:11,970] - Machine::onFindInterfaceAddr[192.168.1.5:61784/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20179.
+  WARN root [2018-01-30 14:44:11,971] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:11,972] - Machine::onFindInterfaceAddr[192.168.1.5:61784/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20179.
+  WARN root [2018-01-30 14:44:11,973] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:12,681] - Machine::onFindInterfaceAddr[192.168.1.5:61787/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20527.
+  WARN root [2018-01-30 14:44:12,682] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:12,683] - Machine::onFindInterfaceAddr[192.168.1.5:61787/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20527.
+  WARN root [2018-01-30 14:44:12,684] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:13,392] - Machine::onFindInterfaceAddr[192.168.1.5:61790/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:44:13,393] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:13,393] - Machine::onFindInterfaceAddr[192.168.1.5:61790/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:44:13,394] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:13,998] - Machine::onFindInterfaceAddr[192.168.1.5:61793/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20046.
+  WARN root [2018-01-30 14:44:13,998] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:14,000] - Machine::onFindInterfaceAddr[192.168.1.5:61793/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20046.
+  WARN root [2018-01-30 14:44:14,000] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:14,709] - Machine::onFindInterfaceAddr[192.168.1.5:61796/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20342.
+  WARN root [2018-01-30 14:44:14,710] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:14,710] - Machine::onFindInterfaceAddr[192.168.1.5:61796/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20342.
+  WARN root [2018-01-30 14:44:14,711] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:15,417] - Machine::onFindInterfaceAddr[192.168.1.5:61799/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20687.
+  WARN root [2018-01-30 14:44:15,417] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:15,419] - Machine::onFindInterfaceAddr[192.168.1.5:61799/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20687.
+  WARN root [2018-01-30 14:44:15,420] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:16,026] - Machine::onFindInterfaceAddr[192.168.1.5:61802/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20679.
+  WARN root [2018-01-30 14:44:16,027] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:16,029] - Machine::onFindInterfaceAddr[192.168.1.5:61802/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20679.
+  WARN root [2018-01-30 14:44:16,029] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:16,737] - Machine::onFindInterfaceAddr[192.168.1.5:61805/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20974.
+  WARN root [2018-01-30 14:44:16,738] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:16,739] - Machine::onFindInterfaceAddr[192.168.1.5:61805/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20974.
+  WARN root [2018-01-30 14:44:16,740] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:17,446] - Machine::onFindInterfaceAddr[192.168.1.5:61808/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20270.
+  WARN root [2018-01-30 14:44:17,447] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:17,448] - Machine::onFindInterfaceAddr[192.168.1.5:61808/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20270.
+  WARN root [2018-01-30 14:44:17,449] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:18,055] - Machine::onFindInterfaceAddr[192.168.1.5:61811/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20259.
+  WARN root [2018-01-30 14:44:18,056] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:18,057] - Machine::onFindInterfaceAddr[192.168.1.5:61811/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20259.
+  WARN root [2018-01-30 14:44:18,058] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:18,766] - Machine::onFindInterfaceAddr[192.168.1.5:61814/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20607.
+  WARN root [2018-01-30 14:44:18,767] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:18,769] - Machine::onFindInterfaceAddr[192.168.1.5:61814/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20607.
+  WARN root [2018-01-30 14:44:18,769] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:19,480] - Machine::onFindInterfaceAddr[192.168.1.5:61817/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20955.
+  WARN root [2018-01-30 14:44:19,481] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:19,482] - Machine::onFindInterfaceAddr[192.168.1.5:61817/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20955.
+  WARN root [2018-01-30 14:44:19,483] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:20,088] - Machine::onFindInterfaceAddr[192.168.1.5:61820/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20895.
+  WARN root [2018-01-30 14:44:20,088] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:20,089] - Machine::onFindInterfaceAddr[192.168.1.5:61820/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20895.
+  WARN root [2018-01-30 14:44:20,090] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:20,797] - Machine::onFindInterfaceAddr[192.168.1.5:61823/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20239.
+  WARN root [2018-01-30 14:44:20,797] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:20,798] - Machine::onFindInterfaceAddr[192.168.1.5:61823/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20239.
+  WARN root [2018-01-30 14:44:20,798] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:21,504] - Machine::onFindInterfaceAddr[192.168.1.5:61826/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20538.
+  WARN root [2018-01-30 14:44:21,505] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:21,506] - Machine::onFindInterfaceAddr[192.168.1.5:61826/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20538.
+  WARN root [2018-01-30 14:44:21,506] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:22,113] - Machine::onFindInterfaceAddr[192.168.1.5:61829/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20527.
+  WARN root [2018-01-30 14:44:22,114] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:22,115] - Machine::onFindInterfaceAddr[192.168.1.5:61829/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20527.
+  WARN root [2018-01-30 14:44:22,116] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:22,830] - Machine::onFindInterfaceAddr[192.168.1.5:61832/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20823.
+  WARN root [2018-01-30 14:44:22,831] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:22,833] - Machine::onFindInterfaceAddr[192.168.1.5:61832/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20823.
+  WARN root [2018-01-30 14:44:22,834] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:23,539] - Machine::onFindInterfaceAddr[192.168.1.5:61835/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20171.
+  WARN root [2018-01-30 14:44:23,540] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:23,541] - Machine::onFindInterfaceAddr[192.168.1.5:61835/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20171.
+  WARN root [2018-01-30 14:44:23,542] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:24,149] - Machine::onFindInterfaceAddr[192.168.1.5:61838/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20342.
+  WARN root [2018-01-30 14:44:24,149] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:24,150] - Machine::onFindInterfaceAddr[192.168.1.5:61838/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20342.
+  WARN root [2018-01-30 14:44:24,151] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:24,860] - Machine::onFindInterfaceAddr[192.168.1.5:61841/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20739.
+  WARN root [2018-01-30 14:44:24,862] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:24,863] - Machine::onFindInterfaceAddr[192.168.1.5:61841/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20739.
+  WARN root [2018-01-30 14:44:24,864] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:25,571] - Machine::onFindInterfaceAddr[192.168.1.5:61844/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20035.
+  WARN root [2018-01-30 14:44:25,572] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:25,573] - Machine::onFindInterfaceAddr[192.168.1.5:61844/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20035.
+  WARN root [2018-01-30 14:44:25,574] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:26,180] - Machine::onFindInterfaceAddr[192.168.1.5:61847/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20024.
+  WARN root [2018-01-30 14:44:26,181] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:26,182] - Machine::onFindInterfaceAddr[192.168.1.5:61847/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20024.
+  WARN root [2018-01-30 14:44:26,183] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:26,894] - Machine::onFindInterfaceAddr[192.168.1.5:61850/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:44:26,895] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:26,896] - Machine::onFindInterfaceAddr[192.168.1.5:61850/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:44:26,897] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:27,605] - Machine::onFindInterfaceAddr[192.168.1.5:61853/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20667.
+  WARN root [2018-01-30 14:44:27,606] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:27,607] - Machine::onFindInterfaceAddr[192.168.1.5:61853/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20667.
+  WARN root [2018-01-30 14:44:27,609] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:28,217] - Machine::onFindInterfaceAddr[192.168.1.5:61856/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20708.
+  WARN root [2018-01-30 14:44:28,219] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:28,220] - Machine::onFindInterfaceAddr[192.168.1.5:61856/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20708.
+  WARN root [2018-01-30 14:44:28,221] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:28,932] - Machine::onFindInterfaceAddr[192.168.1.5:61859/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20004.
+  WARN root [2018-01-30 14:44:28,933] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:28,934] - Machine::onFindInterfaceAddr[192.168.1.5:61859/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20004.
+  WARN root [2018-01-30 14:44:28,935] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:29,647] - Machine::onFindInterfaceAddr[192.168.1.5:61862/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20352.
+  WARN root [2018-01-30 14:44:29,647] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:29,648] - Machine::onFindInterfaceAddr[192.168.1.5:61862/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20352.
+  WARN root [2018-01-30 14:44:29,649] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:30,256] - Machine::onFindInterfaceAddr[192.168.1.5:61865/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20344.
+  WARN root [2018-01-30 14:44:30,257] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:30,259] - Machine::onFindInterfaceAddr[192.168.1.5:61865/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20344.
+  WARN root [2018-01-30 14:44:30,261] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:30,970] - Machine::onFindInterfaceAddr[192.168.1.5:61868/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20640.
+  WARN root [2018-01-30 14:44:30,971] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:30,972] - Machine::onFindInterfaceAddr[192.168.1.5:61868/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20640.
+  WARN root [2018-01-30 14:44:30,972] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:31,680] - Machine::onFindInterfaceAddr[192.168.1.5:61871/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20984.
+  WARN root [2018-01-30 14:44:31,680] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:31,681] - Machine::onFindInterfaceAddr[192.168.1.5:61871/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20984.
+  WARN root [2018-01-30 14:44:31,681] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:32,287] - Machine::onFindInterfaceAddr[192.168.1.5:61874/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20025.
+  WARN root [2018-01-30 14:44:32,287] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:32,289] - Machine::onFindInterfaceAddr[192.168.1.5:61874/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20025.
+  WARN root [2018-01-30 14:44:32,289] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:32,998] - Machine::onFindInterfaceAddr[192.168.1.5:61877/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20324.
+  WARN root [2018-01-30 14:44:32,999] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:33,000] - Machine::onFindInterfaceAddr[192.168.1.5:61877/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20324.
+  WARN root [2018-01-30 14:44:33,000] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:33,706] - Machine::onFindInterfaceAddr[192.168.1.5:61880/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20620.
+  WARN root [2018-01-30 14:44:33,707] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:33,709] - Machine::onFindInterfaceAddr[192.168.1.5:61880/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20620.
+  WARN root [2018-01-30 14:44:33,709] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:34,317] - Machine::onFindInterfaceAddr[192.168.1.5:61883/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20841.
+  WARN root [2018-01-30 14:44:34,318] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:34,319] - Machine::onFindInterfaceAddr[192.168.1.5:61883/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20841.
+  WARN root [2018-01-30 14:44:34,320] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:35,032] - Machine::onFindInterfaceAddr[192.168.1.5:61886/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20136.
+  WARN root [2018-01-30 14:44:35,032] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:35,033] - Machine::onFindInterfaceAddr[192.168.1.5:61886/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20136.
+  WARN root [2018-01-30 14:44:35,034] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:35,744] - Machine::onFindInterfaceAddr[192.168.1.5:61889/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20484.
+  WARN root [2018-01-30 14:44:35,745] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:35,746] - Machine::onFindInterfaceAddr[192.168.1.5:61889/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20484.
+  WARN root [2018-01-30 14:44:35,746] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:36,354] - Machine::onFindInterfaceAddr[192.168.1.5:61892/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20525.
+  WARN root [2018-01-30 14:44:36,354] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:36,355] - Machine::onFindInterfaceAddr[192.168.1.5:61892/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20525.
+  WARN root [2018-01-30 14:44:36,356] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:37,065] - Machine::onFindInterfaceAddr[192.168.1.5:61895/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20821.
+  WARN root [2018-01-30 14:44:37,065] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:37,066] - Machine::onFindInterfaceAddr[192.168.1.5:61895/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20821.
+  WARN root [2018-01-30 14:44:37,067] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:37,776] - Machine::onFindInterfaceAddr[192.168.1.5:61898/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20169.
+  WARN root [2018-01-30 14:44:37,778] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:37,780] - Machine::onFindInterfaceAddr[192.168.1.5:61898/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20169.
+  WARN root [2018-01-30 14:44:37,780] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:38,386] - Machine::onFindInterfaceAddr[192.168.1.5:61901/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20109.
+  WARN root [2018-01-30 14:44:38,386] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:38,387] - Machine::onFindInterfaceAddr[192.168.1.5:61901/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20109.
+  WARN root [2018-01-30 14:44:38,388] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:39,096] - Machine::onFindInterfaceAddr[192.168.1.5:61904/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20453.
+  WARN root [2018-01-30 14:44:39,096] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:39,097] - Machine::onFindInterfaceAddr[192.168.1.5:61904/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20453.
+  WARN root [2018-01-30 14:44:39,097] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:39,804] - Machine::onFindInterfaceAddr[192.168.1.5:61907/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20749.
+  WARN root [2018-01-30 14:44:39,805] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:39,806] - Machine::onFindInterfaceAddr[192.168.1.5:61907/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20749.
+  WARN root [2018-01-30 14:44:39,806] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:40,414] - Machine::onFindInterfaceAddr[192.168.1.5:61910/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20741.
+  WARN root [2018-01-30 14:44:40,415] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:40,417] - Machine::onFindInterfaceAddr[192.168.1.5:61910/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20741.
+  WARN root [2018-01-30 14:44:40,417] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:41,130] - Machine::onFindInterfaceAddr[192.168.1.5:61913/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20089.
+  WARN root [2018-01-30 14:44:41,131] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:41,133] - Machine::onFindInterfaceAddr[192.168.1.5:61913/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20089.
+  WARN root [2018-01-30 14:44:41,133] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:41,840] - Machine::onFindInterfaceAddr[192.168.1.5:61916/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20434.
+  WARN root [2018-01-30 14:44:41,840] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:41,841] - Machine::onFindInterfaceAddr[192.168.1.5:61916/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20434.
+  WARN root [2018-01-30 14:44:41,845] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:42,450] - Machine::onFindInterfaceAddr[192.168.1.5:57391/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20374.
+  WARN root [2018-01-30 14:44:42,451] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:42,452] - Machine::onFindInterfaceAddr[192.168.1.5:57391/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20374.
+  WARN root [2018-01-30 14:44:42,452] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:43,161] - Machine::onFindInterfaceAddr[192.168.1.5:57394/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20722.
+  WARN root [2018-01-30 14:44:43,161] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:43,162] - Machine::onFindInterfaceAddr[192.168.1.5:57394/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20722.
+  WARN root [2018-01-30 14:44:43,163] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:43,467] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53172/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:43,871] - Machine::onFindInterfaceAddr[192.168.1.5:57397/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:44:43,871] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:43,873] - Machine::onFindInterfaceAddr[192.168.1.5:57397/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:44:43,875] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:44,181] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53173/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:44,484] - Machine::onFindInterfaceAddr[192.168.1.5:57400/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20238.
+  WARN root [2018-01-30 14:44:44,484] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:44,485] - Machine::onFindInterfaceAddr[192.168.1.5:57400/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20238.
+  WARN root [2018-01-30 14:44:44,485] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:44,688] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53176/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:44,789] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53179/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:45,196] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53180/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:45,197] - Machine::onFindInterfaceAddr[192.168.1.5:57403/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20534.
+  WARN root [2018-01-30 14:44:45,197] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:45,198] - Machine::onFindInterfaceAddr[192.168.1.5:57403/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20534.
+  WARN root [2018-01-30 14:44:45,199] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:45,401] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53183/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:45,912] - Machine::onFindInterfaceAddr[192.168.1.5:57406/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20934.
+  WARN root [2018-01-30 14:44:45,912] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:45,915] - Machine::onFindInterfaceAddr[192.168.1.5:57406/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20934.
+  WARN root [2018-01-30 14:44:45,915] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:46,017] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53184/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:46,017] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53185/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:46,321] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53188/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:46,523] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53191/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:46,524] - Machine::onFindInterfaceAddr[192.168.1.5:57409/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20923.
+  WARN root [2018-01-30 14:44:46,525] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:46,526] - Machine::onFindInterfaceAddr[192.168.1.5:57409/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20923.
+  WARN root [2018-01-30 14:44:46,527] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:47,032] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53192/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:47,234] - Machine::onFindInterfaceAddr[192.168.1.5:57412/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20218.
+  WARN root [2018-01-30 14:44:47,235] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:47,236] - Machine::onFindInterfaceAddr[192.168.1.5:57412/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20218.
+  WARN root [2018-01-30 14:44:47,236] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:47,843] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53195/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:47,945] - Machine::onFindInterfaceAddr[192.168.1.5:57415/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20566.
+  WARN root [2018-01-30 14:44:47,945] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:47,945] - Machine::onFindInterfaceAddr[192.168.1.5:57415/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20566.
+  WARN root [2018-01-30 14:44:47,945] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:48,450] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53196/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:48,552] - Machine::onFindInterfaceAddr[192.168.1.5:57418/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20555.
+  WARN root [2018-01-30 14:44:48,553] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:48,554] - Machine::onFindInterfaceAddr[192.168.1.5:57418/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20555.
+  WARN root [2018-01-30 14:44:48,554] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:49,058] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:53197/0/0/0 timed out.
+  INFO root [2018-01-30 14:44:49,261] - Machine::onFindInterfaceAddr[192.168.1.5:57421/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20903.
+  WARN root [2018-01-30 14:44:49,261] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:49,262] - Machine::onFindInterfaceAddr[192.168.1.5:57421/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20903.
+  WARN root [2018-01-30 14:44:49,262] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:50,070] - Machine::onFindInterfaceAddr[192.168.1.5:57424/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20251.
+  WARN root [2018-01-30 14:44:50,071] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:50,072] - Machine::onFindInterfaceAddr[192.168.1.5:57424/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20251.
+  WARN root [2018-01-30 14:44:50,073] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:44:50,581] - Machine::onFindInterfaceAddr[192.168.1.5:57427/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20138.
+  WARN root [2018-01-30 14:44:50,582] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:50,585] - Machine::onFindInterfaceAddr[192.168.1.5:57427/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20138.
+  WARN root [2018-01-30 14:44:50,586] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:44:50,789] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61701/0/0/0 timed out.
+  INFO root [2018-01-30 14:48:55,033] - 
+  INFO root [2018-01-30 14:48:55,033] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:48:55,040] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:48:55,040] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:48:55,041] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:48:55,045] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20099 )
+  INFO root [2018-01-30 14:48:55,045] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20099, SOMAXCONN=5.
+  INFO root [2018-01-30 14:48:55,046] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64429 )
+  INFO root [2018-01-30 14:48:55,046] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64429, SOMAXCONN=5.
+  INFO root [2018-01-30 14:48:55,046] - server-configs:
+  INFO root [2018-01-30 14:48:55,046] - 	internalAddr : 192.168.1.5:64429
+  INFO root [2018-01-30 14:48:55,046] - 	componentID : 1000
+  INFO root [2018-01-30 14:48:55,067] - ---- machine Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 6DA3E465E1A7853E35882B00C22FEFF0. Config: Debug X64. Built: 12:00:14 Jan 30 2018. AppID: 1000. UID: 10103. PID: 17824 ----
+  INFO root [2018-01-30 14:48:55,067] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:48:55,068] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:48:55,068] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-30 14:48:55,170] - EndPoint::getInterfaces: found eth0 192.168.1.5
+  INFO root [2018-01-30 14:48:55,170] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.1.5.
+  INFO root [2018-01-30 14:48:55,170] - Machine::findBroadcastInterface: Confirmed 192.168.1.5 (eth0) as default broadcast route interface.
+  INFO root [2018-01-30 14:48:55,171] - Machine::initNetwork: bind broadcast successfully! addr:192.168.1.5:20086
+  INFO root [2018-01-30 14:48:55,611] - ---- machine is running ----
+  INFO root [2018-01-30 14:48:55,611] - Components::process(): Found all the components!
+  INFO root [2018-01-30 14:48:56,222] - Machine::onBroadcastInterface: added newUID 10103.
+  INFO root [2018-01-30 14:48:56,223] - Machine::onBroadcastInterface[192.168.1.5:61176/0/0/0]: uid:10103, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:12228, intaddr:192.168.1.5, intport:64431, extaddr:192.168.1.5, extport:64430.
+  INFO root [2018-01-30 14:48:56,223] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:48:56,224] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:48:56,329] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:48:56,533] - Machine::onFindInterfaceAddr[192.168.1.5:61177/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20915.
+  INFO root [2018-01-30 14:48:56,534] - Machine::onFindInterfaceAddr[192.168.1.5:61177/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20915.
+  INFO root [2018-01-30 14:48:56,967] - Machine::onBroadcastInterface[192.168.1.5:61180/0/0/0]: uid:10103, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:16684, intaddr:192.168.1.5, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:48:56,967] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:48:56,967] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:48:56,985] - Machine::onBroadcastInterface: interfaces update, pid=16684, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:48:56,985] - Machine::onFindInterfaceAddr[192.168.1.5:61181/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20597.
+  INFO root [2018-01-30 14:48:56,988] - Machine::onFindInterfaceAddr[192.168.1.5:61181/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20597.
+  INFO root [2018-01-30 14:48:57,497] - Machine::onFindInterfaceAddr[192.168.1.5:61184/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20128.
+  INFO root [2018-01-30 14:48:57,498] - Machine::onFindInterfaceAddr[192.168.1.5:61184/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20128.
+  INFO root [2018-01-30 14:48:57,700] - Machine::onBroadcastInterface[192.168.1.5:61187/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:7860, intaddr:192.168.1.5, intport:64434, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:48:57,701] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:48:57,701] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:48:57,703] - Machine::onBroadcastInterface: baseappmgr update, pid=7860, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:48:58,206] - Machine::onFindInterfaceAddr[192.168.1.5:61188/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20424.
+  INFO root [2018-01-30 14:48:58,210] - Machine::onFindInterfaceAddr[192.168.1.5:61188/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20424.
+  INFO root [2018-01-30 14:48:58,211] - Machine::onBroadcastInterface[192.168.1.5:61189/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:4512, intaddr:192.168.1.5, intport:64436, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:48:58,211] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:48:58,345] - Machine::onBroadcastInterface: cellappmgr update, pid=4512, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:48:58,448] - Machine::onFindInterfaceAddr[192.168.1.5:61192/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20446.
+  INFO root [2018-01-30 14:48:58,454] - Machine::onFindInterfaceAddr[192.168.1.5:61192/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20446.
+  INFO root [2018-01-30 14:48:59,161] - Machine::onFindInterfaceAddr[192.168.1.5:61195/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20588.
+  INFO root [2018-01-30 14:48:59,162] - Machine::onFindInterfaceAddr[192.168.1.5:61195/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20588.
+ DEBUG root [2018-01-30 14:48:59,162] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:48:59,162] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:48:59,969] - Machine::onBroadcastInterface: interfaces update, pid=16684, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:48:59,969] - Machine::onBroadcastInterface: interfaces update, pid=16684, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:49:00,677] - Machine::onBroadcastInterface: baseappmgr update, pid=7860, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:49:00,677] - Machine::onBroadcastInterface: baseappmgr update, pid=7860, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:49:01,185] - Machine::onBroadcastInterface: cellappmgr update, pid=4512, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:49:01,186] - Machine::onBroadcastInterface: cellappmgr update, pid=4512, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:49:03,402] - Machine::onBroadcastInterface[192.168.1.5:61202/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:1884, intaddr:192.168.1.5, intport:64442, extaddr:192.168.1.5, extport:20013.
+  INFO root [2018-01-30 14:49:03,402] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:49:03,404] - Machine::onBroadcastInterface: loginapp update, pid=1884, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:49:04,733] - Machine::onFindInterfaceAddr[192.168.1.5:61203/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20703.
+  WARN root [2018-01-30 14:49:04,733] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:04,734] - Machine::onFindInterfaceAddr[192.168.1.5:61203/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20703.
+  WARN root [2018-01-30 14:49:04,734] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:05,237] - Machine::onFindInterfaceAddr[192.168.1.5:61206/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20721.
+  WARN root [2018-01-30 14:49:05,237] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:05,238] - Machine::onFindInterfaceAddr[192.168.1.5:61206/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20721.
+  WARN root [2018-01-30 14:49:05,238] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+ DEBUG root [2018-01-30 14:49:06,452] - Machine::onBroadcastInterface: loginapp update, pid=1884, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:49:06,453] - Machine::onBroadcastInterface: loginapp update, pid=1884, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:49:06,756] - Machine::onFindInterfaceAddr[192.168.1.5:61210/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:49:06,756] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:06,757] - Machine::onFindInterfaceAddr[192.168.1.5:61210/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20773.
+  WARN root [2018-01-30 14:49:06,758] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:07,261] - Machine::onFindInterfaceAddr[192.168.1.5:61213/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20454.
+  WARN root [2018-01-30 14:49:07,261] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:07,262] - Machine::onFindInterfaceAddr[192.168.1.5:61213/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20454.
+  WARN root [2018-01-30 14:49:07,262] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:08,871] - Machine::onFindInterfaceAddr[192.168.1.5:61216/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20454.
+  WARN root [2018-01-30 14:49:08,871] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:08,872] - Machine::onFindInterfaceAddr[192.168.1.5:61216/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20454.
+  WARN root [2018-01-30 14:49:08,872] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:09,277] - Machine::onFindInterfaceAddr[192.168.1.5:61219/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20038.
+  WARN root [2018-01-30 14:49:09,277] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:09,278] - Machine::onFindInterfaceAddr[192.168.1.5:61219/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20038.
+  WARN root [2018-01-30 14:49:09,279] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:10,485] - Machine::onFindInterfaceAddr[192.168.1.5:53888/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20659.
+  WARN root [2018-01-30 14:49:10,485] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:10,486] - Machine::onFindInterfaceAddr[192.168.1.5:53888/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20659.
+  WARN root [2018-01-30 14:49:10,486] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:10,888] - Machine::onFindInterfaceAddr[192.168.1.5:53891/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20292.
+  WARN root [2018-01-30 14:49:10,888] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:10,889] - Machine::onFindInterfaceAddr[192.168.1.5:53891/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20292.
+  WARN root [2018-01-30 14:49:10,889] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:11,293] - Machine::onFindInterfaceAddr[192.168.1.5:53894/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20618.
+  WARN root [2018-01-30 14:49:11,293] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:11,295] - Machine::onFindInterfaceAddr[192.168.1.5:53894/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20618.
+  WARN root [2018-01-30 14:49:11,295] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:12,602] - Machine::onFindInterfaceAddr[192.168.1.5:53897/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20599.
+  WARN root [2018-01-30 14:49:12,602] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:12,603] - Machine::onFindInterfaceAddr[192.168.1.5:53897/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20599.
+  WARN root [2018-01-30 14:49:12,603] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:12,906] - Machine::onFindInterfaceAddr[192.168.1.5:53900/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20876.
+  WARN root [2018-01-30 14:49:12,906] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:12,907] - Machine::onFindInterfaceAddr[192.168.1.5:53900/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20876.
+  WARN root [2018-01-30 14:49:12,908] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:13,310] - Machine::onFindInterfaceAddr[192.168.1.5:53903/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20201.
+  WARN root [2018-01-30 14:49:13,310] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:13,311] - Machine::onFindInterfaceAddr[192.168.1.5:53903/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20201.
+  WARN root [2018-01-30 14:49:13,311] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:14,620] - Machine::onFindInterfaceAddr[192.168.1.5:53906/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20489.
+  WARN root [2018-01-30 14:49:14,620] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:14,621] - Machine::onFindInterfaceAddr[192.168.1.5:53906/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20489.
+  WARN root [2018-01-30 14:49:14,621] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:14,922] - Machine::onFindInterfaceAddr[192.168.1.5:53909/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20508.
+  WARN root [2018-01-30 14:49:14,923] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:14,925] - Machine::onFindInterfaceAddr[192.168.1.5:53909/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20508.
+  WARN root [2018-01-30 14:49:14,926] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:15,329] - Machine::onFindInterfaceAddr[192.168.1.5:53912/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20017.
+  WARN root [2018-01-30 14:49:15,329] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:15,330] - Machine::onFindInterfaceAddr[192.168.1.5:53912/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20017.
+  WARN root [2018-01-30 14:49:15,330] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:16,639] - Machine::onFindInterfaceAddr[192.168.1.5:53915/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20301.
+  WARN root [2018-01-30 14:49:16,640] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:16,640] - Machine::onFindInterfaceAddr[192.168.1.5:53915/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20301.
+  WARN root [2018-01-30 14:49:16,641] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:16,944] - Machine::onFindInterfaceAddr[192.168.1.5:53918/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:49:16,944] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:16,945] - Machine::onFindInterfaceAddr[192.168.1.5:53918/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:49:16,945] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:17,348] - Machine::onFindInterfaceAddr[192.168.1.5:53921/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20649.
+  WARN root [2018-01-30 14:49:17,348] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:17,349] - Machine::onFindInterfaceAddr[192.168.1.5:53921/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20649.
+  WARN root [2018-01-30 14:49:17,349] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:18,656] - Machine::onFindInterfaceAddr[192.168.1.5:53924/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20885.
+  WARN root [2018-01-30 14:49:18,656] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:18,657] - Machine::onFindInterfaceAddr[192.168.1.5:53924/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20885.
+  WARN root [2018-01-30 14:49:18,657] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:18,966] - Machine::onFindInterfaceAddr[192.168.1.5:53927/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20903.
+  WARN root [2018-01-30 14:49:18,966] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:18,971] - Machine::onFindInterfaceAddr[192.168.1.5:53927/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20903.
+  WARN root [2018-01-30 14:49:18,971] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:19,380] - Machine::onFindInterfaceAddr[192.168.1.5:53930/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20233.
+  WARN root [2018-01-30 14:49:19,381] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:19,381] - Machine::onFindInterfaceAddr[192.168.1.5:53930/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20233.
+  WARN root [2018-01-30 14:49:19,381] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:20,692] - Machine::onFindInterfaceAddr[192.168.1.5:53933/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20465.
+  WARN root [2018-01-30 14:49:20,692] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:20,693] - Machine::onFindInterfaceAddr[192.168.1.5:53933/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20465.
+  WARN root [2018-01-30 14:49:20,693] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:20,997] - Machine::onFindInterfaceAddr[192.168.1.5:53936/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20487.
+  WARN root [2018-01-30 14:49:20,997] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:20,998] - Machine::onFindInterfaceAddr[192.168.1.5:53936/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20487.
+  WARN root [2018-01-30 14:49:20,998] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:21,402] - Machine::onFindInterfaceAddr[192.168.1.5:53939/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20813.
+  WARN root [2018-01-30 14:49:21,402] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:21,403] - Machine::onFindInterfaceAddr[192.168.1.5:53939/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20813.
+  WARN root [2018-01-30 14:49:21,403] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:22,712] - Machine::onFindInterfaceAddr[192.168.1.5:53942/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20149.
+  WARN root [2018-01-30 14:49:22,712] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:22,713] - Machine::onFindInterfaceAddr[192.168.1.5:53942/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20149.
+  WARN root [2018-01-30 14:49:22,713] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:23,014] - Machine::onFindInterfaceAddr[192.168.1.5:53945/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20119.
+  WARN root [2018-01-30 14:49:23,014] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:23,015] - Machine::onFindInterfaceAddr[192.168.1.5:53945/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20119.
+  WARN root [2018-01-30 14:49:23,015] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:23,417] - Machine::onFindInterfaceAddr[192.168.1.5:53948/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20445.
+  WARN root [2018-01-30 14:49:23,417] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:23,418] - Machine::onFindInterfaceAddr[192.168.1.5:53948/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20445.
+  WARN root [2018-01-30 14:49:23,418] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:24,728] - Machine::onFindInterfaceAddr[192.168.1.5:53951/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20733.
+  WARN root [2018-01-30 14:49:24,728] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:24,729] - Machine::onFindInterfaceAddr[192.168.1.5:53951/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20733.
+  WARN root [2018-01-30 14:49:24,730] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:25,035] - Machine::onFindInterfaceAddr[192.168.1.5:53954/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20703.
+  WARN root [2018-01-30 14:49:25,035] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:25,036] - Machine::onFindInterfaceAddr[192.168.1.5:53954/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20703.
+  WARN root [2018-01-30 14:49:25,036] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:25,439] - Machine::onFindInterfaceAddr[192.168.1.5:53957/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20261.
+  WARN root [2018-01-30 14:49:25,439] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:25,440] - Machine::onFindInterfaceAddr[192.168.1.5:53957/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20261.
+  WARN root [2018-01-30 14:49:25,440] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:26,748] - Machine::onFindInterfaceAddr[192.168.1.5:53960/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20548.
+  WARN root [2018-01-30 14:49:26,748] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:26,749] - Machine::onFindInterfaceAddr[192.168.1.5:53960/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20548.
+  WARN root [2018-01-30 14:49:26,749] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:27,051] - Machine::onFindInterfaceAddr[192.168.1.5:53963/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20515.
+  WARN root [2018-01-30 14:49:27,051] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:27,052] - Machine::onFindInterfaceAddr[192.168.1.5:53963/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20515.
+  WARN root [2018-01-30 14:49:27,053] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:27,455] - Machine::onFindInterfaceAddr[192.168.1.5:53966/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20844.
+  WARN root [2018-01-30 14:49:27,456] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:27,456] - Machine::onFindInterfaceAddr[192.168.1.5:53966/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20844.
+  WARN root [2018-01-30 14:49:27,456] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:28,763] - Machine::onFindInterfaceAddr[192.168.1.5:53969/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20128.
+  WARN root [2018-01-30 14:49:28,763] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:28,764] - Machine::onFindInterfaceAddr[192.168.1.5:53969/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20128.
+  WARN root [2018-01-30 14:49:28,764] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:29,065] - Machine::onFindInterfaceAddr[192.168.1.5:53972/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20150.
+  WARN root [2018-01-30 14:49:29,065] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:29,066] - Machine::onFindInterfaceAddr[192.168.1.5:53972/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20150.
+  WARN root [2018-01-30 14:49:29,066] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:29,470] - Machine::onFindInterfaceAddr[192.168.1.5:53975/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20476.
+  WARN root [2018-01-30 14:49:29,470] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:29,471] - Machine::onFindInterfaceAddr[192.168.1.5:53975/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20476.
+  WARN root [2018-01-30 14:49:29,471] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:30,779] - Machine::onFindInterfaceAddr[192.168.1.5:53978/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20712.
+  WARN root [2018-01-30 14:49:30,779] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:30,780] - Machine::onFindInterfaceAddr[192.168.1.5:53978/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20712.
+  WARN root [2018-01-30 14:49:30,780] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:31,082] - Machine::onFindInterfaceAddr[192.168.1.5:53981/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20731.
+  WARN root [2018-01-30 14:49:31,082] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:31,083] - Machine::onFindInterfaceAddr[192.168.1.5:53981/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20731.
+  WARN root [2018-01-30 14:49:31,083] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:31,488] - Machine::onFindInterfaceAddr[192.168.1.5:53984/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20060.
+  WARN root [2018-01-30 14:49:31,488] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:31,489] - Machine::onFindInterfaceAddr[192.168.1.5:53984/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20060.
+  WARN root [2018-01-30 14:49:31,489] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:32,796] - Machine::onFindInterfaceAddr[192.168.1.5:53987/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20292.
+  WARN root [2018-01-30 14:49:32,796] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:32,797] - Machine::onFindInterfaceAddr[192.168.1.5:53987/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20292.
+  WARN root [2018-01-30 14:49:32,797] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:33,100] - Machine::onFindInterfaceAddr[192.168.1.5:53990/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20314.
+  WARN root [2018-01-30 14:49:33,100] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:33,101] - Machine::onFindInterfaceAddr[192.168.1.5:53990/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20314.
+  WARN root [2018-01-30 14:49:33,101] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:33,604] - Machine::onFindInterfaceAddr[192.168.1.5:53993/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20640.
+  WARN root [2018-01-30 14:49:33,604] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:33,605] - Machine::onFindInterfaceAddr[192.168.1.5:53993/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20640.
+  WARN root [2018-01-30 14:49:33,605] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:34,815] - Machine::onFindInterfaceAddr[192.168.1.5:53996/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20875.
+  WARN root [2018-01-30 14:49:34,816] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:34,817] - Machine::onFindInterfaceAddr[192.168.1.5:53996/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20875.
+  WARN root [2018-01-30 14:49:34,817] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:35,220] - Machine::onFindInterfaceAddr[192.168.1.5:53999/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20129.
+  WARN root [2018-01-30 14:49:35,220] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:35,221] - Machine::onFindInterfaceAddr[192.168.1.5:53999/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20129.
+  WARN root [2018-01-30 14:49:35,221] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:35,625] - Machine::onFindInterfaceAddr[192.168.1.5:54002/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20762.
+  WARN root [2018-01-30 14:49:35,625] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:35,626] - Machine::onFindInterfaceAddr[192.168.1.5:54002/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20762.
+  WARN root [2018-01-30 14:49:35,626] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:36,835] - Machine::onFindInterfaceAddr[192.168.1.5:54005/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20740.
+  WARN root [2018-01-30 14:49:36,835] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:36,836] - Machine::onFindInterfaceAddr[192.168.1.5:54005/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20740.
+  WARN root [2018-01-30 14:49:36,836] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:37,339] - Machine::onFindInterfaceAddr[192.168.1.5:54008/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:49:37,339] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:37,340] - Machine::onFindInterfaceAddr[192.168.1.5:54008/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:49:37,341] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:37,745] - Machine::onFindInterfaceAddr[192.168.1.5:54011/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20395.
+  WARN root [2018-01-30 14:49:37,745] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:37,746] - Machine::onFindInterfaceAddr[192.168.1.5:54011/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20395.
+  WARN root [2018-01-30 14:49:37,746] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:38,853] - Machine::onFindInterfaceAddr[192.168.1.5:54014/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:49:38,853] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:38,854] - Machine::onFindInterfaceAddr[192.168.1.5:54014/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20323.
+  WARN root [2018-01-30 14:49:38,854] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:39,362] - Machine::onFindInterfaceAddr[192.168.1.5:54017/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20956.
+  WARN root [2018-01-30 14:49:39,363] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:39,364] - Machine::onFindInterfaceAddr[192.168.1.5:54017/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20956.
+  WARN root [2018-01-30 14:49:39,364] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:39,780] - Machine::onFindInterfaceAddr[192.168.1.5:54020/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20334.
+  WARN root [2018-01-30 14:49:39,780] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:39,781] - Machine::onFindInterfaceAddr[192.168.1.5:54020/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20334.
+  WARN root [2018-01-30 14:49:39,781] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:40,890] - Machine::onFindInterfaceAddr[192.168.1.5:54023/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20854.
+  WARN root [2018-01-30 14:49:40,890] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:40,892] - Machine::onFindInterfaceAddr[192.168.1.5:54023/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20854.
+  WARN root [2018-01-30 14:49:40,892] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:41,397] - Machine::onFindInterfaceAddr[192.168.1.5:54026/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20588.
+  WARN root [2018-01-30 14:49:41,398] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:41,399] - Machine::onFindInterfaceAddr[192.168.1.5:54026/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20588.
+  WARN root [2018-01-30 14:49:41,399] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:41,803] - Machine::onFindInterfaceAddr[192.168.1.5:54029/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20914.
+  WARN root [2018-01-30 14:49:41,803] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:41,804] - Machine::onFindInterfaceAddr[192.168.1.5:54029/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20914.
+  WARN root [2018-01-30 14:49:41,804] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:42,914] - Machine::onFindInterfaceAddr[192.168.1.5:54032/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20588.
+  WARN root [2018-01-30 14:49:42,914] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:42,915] - Machine::onFindInterfaceAddr[192.168.1.5:54032/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20588.
+  WARN root [2018-01-30 14:49:42,915] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:43,521] - Machine::onFindInterfaceAddr[192.168.1.5:54035/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20273.
+  WARN root [2018-01-30 14:49:43,522] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:43,523] - Machine::onFindInterfaceAddr[192.168.1.5:54035/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20273.
+  WARN root [2018-01-30 14:49:43,523] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:43,828] - Machine::onFindInterfaceAddr[192.168.1.5:54038/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20550.
+  WARN root [2018-01-30 14:49:43,829] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:43,830] - Machine::onFindInterfaceAddr[192.168.1.5:54038/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20550.
+  WARN root [2018-01-30 14:49:43,831] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:44,944] - Machine::onFindInterfaceAddr[192.168.1.5:54041/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20171.
+  WARN root [2018-01-30 14:49:44,945] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:44,946] - Machine::onFindInterfaceAddr[192.168.1.5:54041/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20171.
+  WARN root [2018-01-30 14:49:44,947] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:45,554] - Machine::onFindInterfaceAddr[192.168.1.5:54044/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20392.
+  WARN root [2018-01-30 14:49:45,555] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:45,556] - Machine::onFindInterfaceAddr[192.168.1.5:54044/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20392.
+  WARN root [2018-01-30 14:49:45,557] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:45,862] - Machine::onFindInterfaceAddr[192.168.1.5:54047/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20414.
+  WARN root [2018-01-30 14:49:45,863] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:45,863] - Machine::onFindInterfaceAddr[192.168.1.5:54047/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20414.
+  WARN root [2018-01-30 14:49:45,863] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:46,981] - Machine::onFindInterfaceAddr[192.168.1.5:54050/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20036.
+  WARN root [2018-01-30 14:49:46,982] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:46,983] - Machine::onFindInterfaceAddr[192.168.1.5:54050/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20036.
+  WARN root [2018-01-30 14:49:46,984] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:47,591] - Machine::onFindInterfaceAddr[192.168.1.5:54053/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20077.
+  WARN root [2018-01-30 14:49:47,592] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:47,593] - Machine::onFindInterfaceAddr[192.168.1.5:54053/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20077.
+  WARN root [2018-01-30 14:49:47,593] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:47,896] - Machine::onFindInterfaceAddr[192.168.1.5:54056/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20998.
+  WARN root [2018-01-30 14:49:47,897] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:47,898] - Machine::onFindInterfaceAddr[192.168.1.5:54056/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20998.
+  WARN root [2018-01-30 14:49:47,898] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:49,007] - Machine::onFindInterfaceAddr[192.168.1.5:54059/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20720.
+  WARN root [2018-01-30 14:49:49,007] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:49,009] - Machine::onFindInterfaceAddr[192.168.1.5:54059/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20720.
+  WARN root [2018-01-30 14:49:49,009] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:49,616] - Machine::onFindInterfaceAddr[192.168.1.5:54062/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20660.
+  WARN root [2018-01-30 14:49:49,616] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:49,617] - Machine::onFindInterfaceAddr[192.168.1.5:54062/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20660.
+  WARN root [2018-01-30 14:49:49,618] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:49,924] - Machine::onFindInterfaceAddr[192.168.1.5:54065/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20679.
+  WARN root [2018-01-30 14:49:49,925] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:49,928] - Machine::onFindInterfaceAddr[192.168.1.5:54065/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20679.
+  WARN root [2018-01-30 14:49:49,928] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:51,043] - Machine::onFindInterfaceAddr[192.168.1.5:54068/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20304.
+  WARN root [2018-01-30 14:49:51,044] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:51,046] - Machine::onFindInterfaceAddr[192.168.1.5:54068/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20304.
+  WARN root [2018-01-30 14:49:51,046] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:51,652] - Machine::onFindInterfaceAddr[192.168.1.5:54071/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20345.
+  WARN root [2018-01-30 14:49:51,653] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:51,653] - Machine::onFindInterfaceAddr[192.168.1.5:54071/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20345.
+  WARN root [2018-01-30 14:49:51,654] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:51,965] - Machine::onFindInterfaceAddr[192.168.1.5:54074/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20315.
+  WARN root [2018-01-30 14:49:51,965] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:51,967] - Machine::onFindInterfaceAddr[192.168.1.5:54074/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20315.
+  WARN root [2018-01-30 14:49:51,967] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:53,079] - Machine::onFindInterfaceAddr[192.168.1.5:54077/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20936.
+  WARN root [2018-01-30 14:49:53,080] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:53,081] - Machine::onFindInterfaceAddr[192.168.1.5:54077/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20936.
+  WARN root [2018-01-30 14:49:53,082] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:53,688] - Machine::onFindInterfaceAddr[192.168.1.5:54080/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20925.
+  WARN root [2018-01-30 14:49:53,689] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:53,690] - Machine::onFindInterfaceAddr[192.168.1.5:54080/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20925.
+  WARN root [2018-01-30 14:49:53,691] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:53,995] - Machine::onFindInterfaceAddr[192.168.1.5:54083/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20999.
+  WARN root [2018-01-30 14:49:53,995] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:53,995] - Machine::onFindInterfaceAddr[192.168.1.5:54083/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20999.
+  WARN root [2018-01-30 14:49:53,996] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:55,106] - Machine::onFindInterfaceAddr[192.168.1.5:54086/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20569.
+  WARN root [2018-01-30 14:49:55,106] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:55,109] - Machine::onFindInterfaceAddr[192.168.1.5:54086/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20569.
+  WARN root [2018-01-30 14:49:55,111] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:55,716] - Machine::onFindInterfaceAddr[192.168.1.5:54089/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20842.
+  WARN root [2018-01-30 14:49:55,717] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:55,718] - Machine::onFindInterfaceAddr[192.168.1.5:54089/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20842.
+  WARN root [2018-01-30 14:49:55,718] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:56,021] - Machine::onFindInterfaceAddr[192.168.1.5:54092/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20811.
+  WARN root [2018-01-30 14:49:56,022] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:56,024] - Machine::onFindInterfaceAddr[192.168.1.5:54092/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20811.
+  WARN root [2018-01-30 14:49:56,024] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:56,229] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61176/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:56,632] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61177/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:57,035] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61180/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:57,035] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61181/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:57,137] - Machine::onFindInterfaceAddr[192.168.1.5:54095/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20485.
+  WARN root [2018-01-30 14:49:57,138] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:57,139] - Machine::onFindInterfaceAddr[192.168.1.5:54095/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20485.
+  WARN root [2018-01-30 14:49:57,140] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:57,544] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61184/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:57,747] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61187/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:57,748] - Machine::onFindInterfaceAddr[192.168.1.5:54098/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20477.
+  WARN root [2018-01-30 14:49:57,749] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:57,750] - Machine::onFindInterfaceAddr[192.168.1.5:54098/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20477.
+  WARN root [2018-01-30 14:49:57,750] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:58,054] - Machine::onFindInterfaceAddr[192.168.1.5:54101/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20496.
+  WARN root [2018-01-30 14:49:58,055] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:58,056] - Machine::onFindInterfaceAddr[192.168.1.5:54101/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20496.
+  WARN root [2018-01-30 14:49:58,056] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:58,259] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61188/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:58,260] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61189/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:58,462] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61192/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:59,169] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61195/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:59,169] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61196/0/0/0 timed out.
+  INFO root [2018-01-30 14:49:59,170] - Machine::onFindInterfaceAddr[192.168.1.5:54104/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:49:59,170] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:59,171] - Machine::onFindInterfaceAddr[192.168.1.5:54104/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20069.
+  WARN root [2018-01-30 14:49:59,171] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:49:59,781] - Machine::onFindInterfaceAddr[192.168.1.5:54107/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20057.
+  WARN root [2018-01-30 14:49:59,782] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:59,782] - Machine::onFindInterfaceAddr[192.168.1.5:54107/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20057.
+  WARN root [2018-01-30 14:49:59,783] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:49:59,985] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61199/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:00,085] - Machine::onFindInterfaceAddr[192.168.1.5:54110/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20079.
+  WARN root [2018-01-30 14:50:00,086] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:00,087] - Machine::onFindInterfaceAddr[192.168.1.5:54110/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20079.
+  WARN root [2018-01-30 14:50:00,088] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:00,701] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61200/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:01,206] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61201/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:01,208] - Machine::onFindInterfaceAddr[192.168.1.5:54113/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20753.
+  WARN root [2018-01-30 14:50:01,209] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:01,211] - Machine::onFindInterfaceAddr[192.168.1.5:54113/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20753.
+  WARN root [2018-01-30 14:50:01,211] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:01,819] - Machine::onFindInterfaceAddr[192.168.1.5:54116/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20742.
+  WARN root [2018-01-30 14:50:01,820] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:01,821] - Machine::onFindInterfaceAddr[192.168.1.5:54116/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20742.
+  WARN root [2018-01-30 14:50:01,822] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:02,130] - Machine::onFindInterfaceAddr[192.168.1.5:54119/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20764.
+  WARN root [2018-01-30 14:50:02,131] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:02,132] - Machine::onFindInterfaceAddr[192.168.1.5:54119/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20764.
+  WARN root [2018-01-30 14:50:02,133] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:03,246] - Machine::onFindInterfaceAddr[192.168.1.5:54122/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20386.
+  WARN root [2018-01-30 14:50:03,247] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:03,248] - Machine::onFindInterfaceAddr[192.168.1.5:54122/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20386.
+  WARN root [2018-01-30 14:50:03,249] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:03,450] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61202/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:03,857] - Machine::onFindInterfaceAddr[192.168.1.5:54125/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20374.
+  WARN root [2018-01-30 14:50:03,857] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:03,863] - Machine::onFindInterfaceAddr[192.168.1.5:54125/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20374.
+  WARN root [2018-01-30 14:50:03,863] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:04,167] - Machine::onFindInterfaceAddr[192.168.1.5:54128/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20396.
+  WARN root [2018-01-30 14:50:04,167] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:04,168] - Machine::onFindInterfaceAddr[192.168.1.5:54128/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20396.
+  WARN root [2018-01-30 14:50:04,168] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:04,775] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61203/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:05,280] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61206/0/0/0 timed out.
+  INFO root [2018-01-30 14:50:05,281] - Machine::onFindInterfaceAddr[192.168.1.5:54131/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20250.
+  WARN root [2018-01-30 14:50:05,281] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:05,282] - Machine::onFindInterfaceAddr[192.168.1.5:54131/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20250.
+  WARN root [2018-01-30 14:50:05,282] - Machine::onFindInterfaceAddr: loginapp not found dbmgr.
+  INFO root [2018-01-30 14:50:05,888] - Machine::onFindInterfaceAddr[192.168.1.5:54134/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20291.
+  WARN root [2018-01-30 14:50:05,889] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:05,890] - Machine::onFindInterfaceAddr[192.168.1.5:54134/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20291.
+  WARN root [2018-01-30 14:50:05,890] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:06,200] - Machine::onFindInterfaceAddr[192.168.1.5:54137/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20313.
+  WARN root [2018-01-30 14:50:06,201] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:06,202] - Machine::onFindInterfaceAddr[192.168.1.5:54137/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20313.
+  WARN root [2018-01-30 14:50:06,203] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:50:06,511] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:61209/0/0/0 timed out.
+  INFO root [2018-01-30 14:58:00,671] - 
+  INFO root [2018-01-30 14:58:00,671] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 14:58:00,672] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 14:58:00,672] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 14:58:00,673] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 14:58:00,675] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20099 )
+  INFO root [2018-01-30 14:58:00,676] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20099, SOMAXCONN=5.
+  INFO root [2018-01-30 14:58:00,678] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64511 )
+  INFO root [2018-01-30 14:58:00,679] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64511, SOMAXCONN=5.
+  INFO root [2018-01-30 14:58:00,679] - server-configs:
+  INFO root [2018-01-30 14:58:00,679] - 	internalAddr : 192.168.1.5:64511
+  INFO root [2018-01-30 14:58:00,679] - 	componentID : 1000
+  INFO root [2018-01-30 14:58:00,703] - ---- machine Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 6DA3E465E1A7853E35882B00C22FEFF0. Config: Debug X64. Built: 12:00:14 Jan 30 2018. AppID: 1000. UID: 10103. PID: 5080 ----
+  INFO root [2018-01-30 14:58:00,703] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 14:58:00,704] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 14:58:00,704] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-30 14:58:00,806] - EndPoint::getInterfaces: found eth0 192.168.1.5
+  INFO root [2018-01-30 14:58:00,806] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.1.5.
+  INFO root [2018-01-30 14:58:00,806] - Machine::findBroadcastInterface: Confirmed 192.168.1.5 (eth0) as default broadcast route interface.
+  INFO root [2018-01-30 14:58:00,807] - Machine::initNetwork: bind broadcast successfully! addr:192.168.1.5:20086
+  INFO root [2018-01-30 14:58:01,247] - ---- machine is running ----
+  INFO root [2018-01-30 14:58:01,247] - Components::process(): Found all the components!
+  INFO root [2018-01-30 14:58:01,549] - Machine::onBroadcastInterface: added newUID 10103.
+  INFO root [2018-01-30 14:58:01,549] - Machine::onBroadcastInterface[192.168.1.5:55319/0/0/0]: uid:10103, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:12228, intaddr:192.168.1.5, intport:64513, extaddr:192.168.1.5, extport:64512.
+  INFO root [2018-01-30 14:58:01,549] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:58:01,550] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:58:01,671] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:02,182] - Machine::onFindInterfaceAddr[192.168.1.5:55320/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20427.
+  INFO root [2018-01-30 14:58:02,183] - Machine::onFindInterfaceAddr[192.168.1.5:55320/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20427.
+  INFO root [2018-01-30 14:58:02,589] - Machine::onBroadcastInterface[192.168.1.5:55323/0/0/0]: uid:10103, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:996, intaddr:192.168.1.5, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:58:02,589] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:58:02,590] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:58:02,602] - Machine::onBroadcastInterface: interfaces update, pid=996, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:02,703] - Machine::onFindInterfaceAddr[192.168.1.5:55324/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20060.
+  INFO root [2018-01-30 14:58:02,706] - Machine::onFindInterfaceAddr[192.168.1.5:55324/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20060.
+  INFO root [2018-01-30 14:58:03,216] - Machine::onFindInterfaceAddr[192.168.1.5:55327/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20898.
+  INFO root [2018-01-30 14:58:03,217] - Machine::onFindInterfaceAddr[192.168.1.5:55327/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20898.
+  INFO root [2018-01-30 14:58:03,420] - Machine::onBroadcastInterface[192.168.1.5:55330/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:16540, intaddr:192.168.1.5, intport:64516, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:58:03,420] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 14:58:03,420] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:58:03,541] - Machine::onBroadcastInterface: baseappmgr update, pid=16540, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:03,851] - Machine::onFindInterfaceAddr[192.168.1.5:55331/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20988.
+  INFO root [2018-01-30 14:58:03,855] - Machine::onFindInterfaceAddr[192.168.1.5:55331/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20988.
+  INFO root [2018-01-30 14:58:03,957] - Machine::onBroadcastInterface[192.168.1.5:55334/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:2764, intaddr:192.168.1.5, intport:64519, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 14:58:03,957] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:58:03,960] - Machine::onBroadcastInterface: cellappmgr update, pid=2764, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:04,571] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:04,571] - Machine::onBroadcastInterface: logger update, pid=12228, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:04,880] - Machine::onFindInterfaceAddr[192.168.1.5:55336/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20358.
+  INFO root [2018-01-30 14:58:04,880] - Machine::onFindInterfaceAddr[192.168.1.5:55336/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20358.
+ DEBUG root [2018-01-30 14:58:05,688] - Machine::onBroadcastInterface: interfaces update, pid=996, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:05,688] - Machine::onBroadcastInterface: interfaces update, pid=996, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:05,688] - Machine::onBroadcastInterface[192.168.1.5:55340/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:8436, intaddr:192.168.1.5, intport:64523, extaddr:192.168.1.5, extport:20013.
+  INFO root [2018-01-30 14:58:05,688] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 14:58:05,762] - Machine::onBroadcastInterface: loginapp update, pid=8436, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:06,369] - Machine::onBroadcastInterface: baseappmgr update, pid=16540, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:06,369] - Machine::onBroadcastInterface: baseappmgr update, pid=16540, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:06,980] - Machine::onBroadcastInterface: cellappmgr update, pid=2764, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:06,980] - Machine::onBroadcastInterface: cellappmgr update, pid=2764, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:08,697] - Machine::onBroadcastInterface: loginapp update, pid=8436, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 14:58:08,698] - Machine::onBroadcastInterface: loginapp update, pid=8436, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 14:58:10,421] - Machine::onFindInterfaceAddr[192.168.1.5:55344/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20652.
+  WARN root [2018-01-30 14:58:10,421] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:58:10,422] - Machine::onFindInterfaceAddr[192.168.1.5:55344/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20652.
+  WARN root [2018-01-30 14:58:10,422] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:58:10,927] - Machine::onFindInterfaceAddr[192.168.1.5:55347/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20386.
+  WARN root [2018-01-30 14:58:10,927] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:58:10,928] - Machine::onFindInterfaceAddr[192.168.1.5:55347/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20386.
+  WARN root [2018-01-30 14:58:10,928] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 14:58:12,441] - Machine::onFindInterfaceAddr[192.168.1.5:55350/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20285.
+  WARN root [2018-01-30 14:58:12,442] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 14:58:12,443] - Machine::onFindInterfaceAddr[192.168.1.5:55350/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20285.
+  WARN root [2018-01-30 14:58:12,443] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:01:59,033] - 
+  INFO root [2018-01-30 15:01:59,033] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 15:01:59,034] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 15:01:59,034] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 15:01:59,034] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 15:01:59,036] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20099 )
+  INFO root [2018-01-30 15:01:59,036] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20099, SOMAXCONN=5.
+  INFO root [2018-01-30 15:01:59,037] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64707 )
+  INFO root [2018-01-30 15:01:59,037] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64707, SOMAXCONN=5.
+  INFO root [2018-01-30 15:01:59,037] - server-configs:
+  INFO root [2018-01-30 15:01:59,037] - 	internalAddr : 192.168.1.5:64707
+  INFO root [2018-01-30 15:01:59,037] - 	componentID : 1000
+  INFO root [2018-01-30 15:01:59,055] - ---- machine Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 6DA3E465E1A7853E35882B00C22FEFF0. Config: Debug X64. Built: 12:00:14 Jan 30 2018. AppID: 1000. UID: 10103. PID: 17660 ----
+  INFO root [2018-01-30 15:01:59,056] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 15:01:59,056] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 15:01:59,056] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-30 15:01:59,159] - EndPoint::getInterfaces: found eth0 192.168.1.5
+  INFO root [2018-01-30 15:01:59,159] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.1.5.
+  INFO root [2018-01-30 15:01:59,159] - Machine::findBroadcastInterface: Confirmed 192.168.1.5 (eth0) as default broadcast route interface.
+  INFO root [2018-01-30 15:01:59,160] - Machine::initNetwork: bind broadcast successfully! addr:192.168.1.5:20086
+  INFO root [2018-01-30 15:01:59,604] - ---- machine is running ----
+  INFO root [2018-01-30 15:01:59,604] - Components::process(): Found all the components!
+  INFO root [2018-01-30 15:01:59,907] - Machine::onBroadcastInterface: added newUID 10103.
+  INFO root [2018-01-30 15:01:59,907] - Machine::onBroadcastInterface[192.168.1.5:60675/0/0/0]: uid:10103, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:3952, intaddr:192.168.1.5, intport:64709, extaddr:192.168.1.5, extport:64708.
+  INFO root [2018-01-30 15:01:59,908] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:01:59,908] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:02:00,018] - Machine::onBroadcastInterface: logger update, pid=3952, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:02:00,526] - Machine::onFindInterfaceAddr[192.168.1.5:60676/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20225.
+  INFO root [2018-01-30 15:02:00,527] - Machine::onFindInterfaceAddr[192.168.1.5:60676/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20225.
+  INFO root [2018-01-30 15:02:00,834] - Machine::onBroadcastInterface[192.168.1.5:60679/0/0/0]: uid:10103, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:13792, intaddr:192.168.1.5, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:02:00,835] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:02:00,835] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:02:00,854] - Machine::onBroadcastInterface: interfaces update, pid=13792, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:02:00,955] - Machine::onFindInterfaceAddr[192.168.1.5:60680/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20907.
+  INFO root [2018-01-30 15:02:00,960] - Machine::onFindInterfaceAddr[192.168.1.5:60680/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20907.
+  INFO root [2018-01-30 15:02:01,470] - Machine::onFindInterfaceAddr[192.168.1.5:60683/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20337.
+  INFO root [2018-01-30 15:02:01,471] - Machine::onFindInterfaceAddr[192.168.1.5:60683/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20337.
+  INFO root [2018-01-30 15:02:01,673] - Machine::onBroadcastInterface[192.168.1.5:60686/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:5096, intaddr:192.168.1.5, intport:64712, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:02:01,673] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:02:01,673] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:02:01,762] - Machine::onBroadcastInterface: baseappmgr update, pid=5096, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:02:02,087] - Machine::onFindInterfaceAddr[192.168.1.5:60687/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20581.
+  INFO root [2018-01-30 15:02:02,091] - Machine::onFindInterfaceAddr[192.168.1.5:60687/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20581.
+  INFO root [2018-01-30 15:02:02,193] - Machine::onBroadcastInterface[192.168.1.5:60690/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:2072, intaddr:192.168.1.5, intport:64714, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:02:02,193] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:02:02,195] - Machine::onBroadcastInterface: cellappmgr update, pid=2072, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:02:02,504] - Machine::onFindInterfaceAddr[192.168.1.5:60691/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20857.
+  INFO root [2018-01-30 15:02:02,507] - Machine::onFindInterfaceAddr[192.168.1.5:60691/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20857.
+ DEBUG root [2018-01-30 15:02:02,912] - Machine::onBroadcastInterface: logger update, pid=3952, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:02,912] - Machine::onBroadcastInterface: logger update, pid=3952, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:03,826] - Machine::onBroadcastInterface: interfaces update, pid=13792, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:03,827] - Machine::onBroadcastInterface: interfaces update, pid=13792, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:04,635] - Machine::onBroadcastInterface: baseappmgr update, pid=5096, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:04,636] - Machine::onBroadcastInterface: baseappmgr update, pid=5096, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:05,143] - Machine::onBroadcastInterface: cellappmgr update, pid=2072, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:02:05,144] - Machine::onBroadcastInterface: cellappmgr update, pid=2072, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:02:08,673] - Machine::onFindInterfaceAddr[192.168.1.5:50675/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20346.
+  WARN root [2018-01-30 15:02:08,673] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:08,674] - Machine::onFindInterfaceAddr[192.168.1.5:50675/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20346.
+  WARN root [2018-01-30 15:02:08,674] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:09,177] - Machine::onFindInterfaceAddr[192.168.1.5:50678/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20926.
+  WARN root [2018-01-30 15:02:09,177] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:09,178] - Machine::onFindInterfaceAddr[192.168.1.5:50678/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20926.
+  WARN root [2018-01-30 15:02:09,178] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:10,693] - Machine::onFindInterfaceAddr[192.168.1.5:50681/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20929.
+  WARN root [2018-01-30 15:02:10,694] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:10,695] - Machine::onFindInterfaceAddr[192.168.1.5:50681/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20929.
+  WARN root [2018-01-30 15:02:10,695] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:11,202] - Machine::onFindInterfaceAddr[192.168.1.5:50684/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20562.
+  WARN root [2018-01-30 15:02:11,203] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:11,203] - Machine::onFindInterfaceAddr[192.168.1.5:50684/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20562.
+  WARN root [2018-01-30 15:02:11,203] - Machine::onFindInterfaceAddr: cellappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:12,717] - Machine::onFindInterfaceAddr[192.168.1.5:50687/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20509.
+  WARN root [2018-01-30 15:02:12,717] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:02:12,719] - Machine::onFindInterfaceAddr[192.168.1.5:50687/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20509.
+  WARN root [2018-01-30 15:02:12,719] - Machine::onFindInterfaceAddr: baseappmgr not found dbmgr.
+  INFO root [2018-01-30 15:03:09,271] - 
+  INFO root [2018-01-30 15:03:09,271] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-01-30 15:03:09,272] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+  INFO root [2018-01-30 15:03:09,272] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+  INFO root [2018-01-30 15:03:09,272] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+  INFO root [2018-01-30 15:03:09,274] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20099 )
+  INFO root [2018-01-30 15:03:09,275] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20099, SOMAXCONN=5.
+  INFO root [2018-01-30 15:03:09,281] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64721 )
+  INFO root [2018-01-30 15:03:09,281] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64721, SOMAXCONN=5.
+  INFO root [2018-01-30 15:03:09,281] - server-configs:
+  INFO root [2018-01-30 15:03:09,281] - 	internalAddr : 192.168.1.5:64721
+  INFO root [2018-01-30 15:03:09,281] - 	componentID : 1000
+  INFO root [2018-01-30 15:03:09,295] - ---- machine Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 6DA3E465E1A7853E35882B00C22FEFF0. Config: Debug X64. Built: 12:00:14 Jan 30 2018. AppID: 1000. UID: 10103. PID: 9472 ----
+  INFO root [2018-01-30 15:03:09,296] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+  INFO root [2018-01-30 15:03:09,296] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-01-30 15:03:09,297] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-01-30 15:03:09,398] - EndPoint::getInterfaces: found eth0 192.168.1.5
+  INFO root [2018-01-30 15:03:09,399] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.1.5.
+  INFO root [2018-01-30 15:03:09,399] - Machine::findBroadcastInterface: Confirmed 192.168.1.5 (eth0) as default broadcast route interface.
+  INFO root [2018-01-30 15:03:09,399] - Machine::initNetwork: bind broadcast successfully! addr:192.168.1.5:20086
+  INFO root [2018-01-30 15:03:09,822] - ---- machine is running ----
+  INFO root [2018-01-30 15:03:09,822] - Components::process(): Found all the components!
+  INFO root [2018-01-30 15:03:10,124] - Machine::onBroadcastInterface: added newUID 10103.
+  INFO root [2018-01-30 15:03:10,124] - Machine::onBroadcastInterface[192.168.1.5:60019/0/0/0]: uid:10103, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:7160, intaddr:192.168.1.5, intport:64723, extaddr:192.168.1.5, extport:64722.
+  INFO root [2018-01-30 15:03:10,125] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:03:10,125] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:10,234] - Machine::onBroadcastInterface: logger update, pid=7160, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:10,739] - Machine::onFindInterfaceAddr[192.168.1.5:60020/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20204.
+  INFO root [2018-01-30 15:03:10,740] - Machine::onFindInterfaceAddr[192.168.1.5:60020/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20204.
+  INFO root [2018-01-30 15:03:11,268] - Machine::onBroadcastInterface[192.168.1.5:60023/0/0/0]: uid:10103, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:6272, intaddr:192.168.1.5, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:03:11,268] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:03:11,268] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:11,282] - Machine::onBroadcastInterface: interfaces update, pid=6272, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:11,282] - Machine::onFindInterfaceAddr[192.168.1.5:60024/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20990.
+  INFO root [2018-01-30 15:03:11,285] - Machine::onFindInterfaceAddr[192.168.1.5:60024/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20990.
+  INFO root [2018-01-30 15:03:11,687] - Machine::onFindInterfaceAddr[192.168.1.5:60027/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20469.
+  INFO root [2018-01-30 15:03:11,688] - Machine::onFindInterfaceAddr[192.168.1.5:60027/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20469.
+  INFO root [2018-01-30 15:03:11,995] - Machine::onBroadcastInterface[192.168.1.5:60030/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:3968, intaddr:192.168.1.5, intport:64727, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:03:11,995] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-01-30 15:03:11,995] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:12,069] - Machine::onBroadcastInterface: baseappmgr update, pid=3968, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:12,382] - Machine::onBroadcastInterface[192.168.1.5:60031/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:10400, intaddr:192.168.1.5, intport:64735, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:03:12,382] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:12,384] - Machine::onBroadcastInterface: cellappmgr update, pid=10400, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:12,485] - Machine::onFindInterfaceAddr[192.168.1.5:60032/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20866.
+  INFO root [2018-01-30 15:03:12,487] - Machine::onFindInterfaceAddr[192.168.1.5:60032/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20866.
+  INFO root [2018-01-30 15:03:12,697] - Machine::onBroadcastInterface[192.168.1.5:60035/0/0/0]: uid:10103, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:15656, intaddr:192.168.1.5, intport:64724, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:03:12,698] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:12,702] - Machine::onBroadcastInterface: dbmgr update, pid=15656, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:12,905] - Machine::onFindInterfaceAddr[192.168.1.5:60036/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20297.
+  INFO root [2018-01-30 15:03:12,908] - Machine::onFindInterfaceAddr[192.168.1.5:60036/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:192.168.1.5, finderRecvPort:20297.
+ DEBUG root [2018-01-30 15:03:13,110] - Machine::onBroadcastInterface: logger update, pid=7160, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:13,110] - Machine::onBroadcastInterface: logger update, pid=7160, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:13,413] - Machine::onBroadcastInterface[192.168.1.5:60040/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:10552, intaddr:192.168.1.5, intport:64737, extaddr:192.168.1.5, extport:20015.
+  INFO root [2018-01-30 15:03:13,413] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:13,415] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:13,717] - Machine::onBroadcastInterface[192.168.1.5:60041/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:17992, intaddr:192.168.1.5, intport:64739, extaddr:nonsupport, extport:0.
+  INFO root [2018-01-30 15:03:13,717] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:13,719] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:14,327] - Machine::onBroadcastInterface: interfaces update, pid=6272, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:14,327] - Machine::onBroadcastInterface: interfaces update, pid=6272, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:14,529] - Machine::onBroadcastInterface[192.168.1.5:60043/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:7532, intaddr:192.168.1.5, intport:64741, extaddr:192.168.1.5, extport:20013.
+  INFO root [2018-01-30 15:03:14,530] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2018-01-30 15:03:14,613] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,020] - Machine::onBroadcastInterface: baseappmgr update, pid=3968, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,021] - Machine::onBroadcastInterface: baseappmgr update, pid=3968, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,429] - Machine::onBroadcastInterface: cellappmgr update, pid=10400, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,429] - Machine::onBroadcastInterface: cellappmgr update, pid=10400, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,634] - Machine::onBroadcastInterface: dbmgr update, pid=15656, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:15,634] - Machine::onBroadcastInterface: dbmgr update, pid=15656, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:16,443] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:16,443] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:16,749] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:16,750] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:17,561] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2018-01-30 15:03:17,562] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=-1, grouporderid=-1!
+  INFO root [2018-01-30 15:03:19,076] - Machine::onFindInterfaceAddr[192.168.1.5:60050/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20684.
+  INFO root [2018-01-30 15:03:19,080] - Machine::onFindInterfaceAddr[192.168.1.5:60050/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20684.
+  INFO root [2018-01-30 15:03:19,483] - Machine::onFindInterfaceAddr[192.168.1.5:60053/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20856.
+  INFO root [2018-01-30 15:03:19,484] - Machine::onFindInterfaceAddr[192.168.1.5:60053/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20856.
+  INFO root [2018-01-30 15:03:20,595] - Machine::onFindInterfaceAddr[192.168.1.5:60056/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20530.
+  INFO root [2018-01-30 15:03:20,596] - Machine::onFindInterfaceAddr[192.168.1.5:60056/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20530.
+  INFO root [2018-01-30 15:03:20,798] - Machine::onFindInterfaceAddr[192.168.1.5:60059/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20297.
+  INFO root [2018-01-30 15:03:20,799] - Machine::onFindInterfaceAddr[192.168.1.5:60059/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20297.
+  INFO root [2018-01-30 15:03:21,104] - Machine::onFindInterfaceAddr[192.168.1.5:60062/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20470.
+  INFO root [2018-01-30 15:03:21,112] - Machine::onFindInterfaceAddr[192.168.1.5:60062/0/0/0]: uid:10103, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20470.
+  INFO root [2018-01-30 15:03:21,515] - Machine::onFindInterfaceAddr[192.168.1.5:60065/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20795.
+  INFO root [2018-01-30 15:03:21,519] - Machine::onFindInterfaceAddr[192.168.1.5:60065/0/0/0]: uid:10103, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20795.
+  INFO root [2018-01-30 15:03:21,620] - Machine::onFindInterfaceAddr[192.168.1.5:60068/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20848.
+  INFO root [2018-01-30 15:03:21,626] - Machine::onFindInterfaceAddr[192.168.1.5:60068/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:192.168.1.5, finderRecvPort:20848.
+  INFO root [2018-01-30 15:03:21,727] - Machine::onFindInterfaceAddr[192.168.1.5:60070/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20848.
+  INFO root [2018-01-30 15:03:21,730] - Machine::onFindInterfaceAddr[192.168.1.5:60070/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:192.168.1.5, finderRecvPort:20848.
+  INFO root [2018-01-30 15:03:22,638] - Machine::onFindInterfaceAddr[192.168.1.5:60074/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20368.
+  INFO root [2018-01-30 15:03:22,643] - Machine::onFindInterfaceAddr[192.168.1.5:60074/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20368.
+  INFO root [2018-01-30 15:03:22,852] - Machine::onFindInterfaceAddr[192.168.1.5:60077/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20184.
+  INFO root [2018-01-30 15:03:22,855] - Machine::onFindInterfaceAddr[192.168.1.5:60077/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20184.
+  INFO root [2018-01-30 15:03:23,761] - Machine::onFindInterfaceAddr[192.168.1.5:60080/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20094.
+  INFO root [2018-01-30 15:03:23,765] - Machine::onFindInterfaceAddr[192.168.1.5:60080/0/0/0]: uid:10103, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20094.
+  INFO root [2018-01-30 15:03:24,781] - Machine::onFindInterfaceAddr[192.168.1.5:60083/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20255.
+  INFO root [2018-01-30 15:03:24,785] - Machine::onFindInterfaceAddr[192.168.1.5:60083/0/0/0]: uid:10103, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:192.168.1.5, finderRecvPort:20255.
+  INFO root [2018-01-30 15:03:24,987] - Machine::onFindInterfaceAddr[192.168.1.5:60086/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20869.
+  INFO root [2018-01-30 15:03:24,991] - Machine::onFindInterfaceAddr[192.168.1.5:60086/0/0/0]: uid:10103, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:192.168.1.5, finderRecvPort:20869.
+ DEBUG root [2018-01-30 15:03:30,139] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=3, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,139] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=3, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,142] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=5, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,142] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=5, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,145] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=4, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,145] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=4, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,752] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=3, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,752] - Machine::onBroadcastInterface: loginapp update, pid=7532, uid=10103, globalorderid=3, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,754] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=5, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:30,754] - Machine::onBroadcastInterface: cellapp update, pid=17992, uid=10103, globalorderid=5, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:31,060] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=4, grouporderid=1!
+ DEBUG root [2018-01-30 15:03:31,060] - Machine::onBroadcastInterface: baseapp update, pid=10552, uid=10103, globalorderid=4, grouporderid=1!
+  INFO root [2018-01-30 15:04:10,205] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60019/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:10,812] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60020/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:11,317] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60023/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:11,317] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60024/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:11,720] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60027/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:12,024] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60030/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:12,428] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60031/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:12,529] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60032/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:12,731] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60035/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:12,934] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60036/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:13,136] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60039/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:13,439] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60040/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:13,743] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60041/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:14,349] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60042/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:14,550] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60043/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:15,055] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60044/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:15,459] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60045/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:15,661] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60046/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:16,468] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60047/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:16,771] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60048/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:17,578] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60049/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:19,091] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60050/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:19,497] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60053/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:20,606] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60056/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:20,809] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60059/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:21,113] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60062/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:21,516] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60065/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:21,718] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60068/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:21,820] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60070/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:22,729] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60074/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:22,930] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60077/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:23,837] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60080/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:24,845] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60083/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:25,047] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60086/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:30,184] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60089/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:30,184] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60090/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:30,184] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60091/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:30,789] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60092/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:30,789] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60093/0/0/0 timed out.
+  INFO root [2018-01-30 15:04:31,095] - ServerApp::onChannelTimeOut: Channel 192.168.1.5:60094/0/0/0 timed out.
+  WARN root [2018-01-30 15:43:33,459] - event_dispatcher.cpp:171: Profile callSystemTimers took 0.13 seconds

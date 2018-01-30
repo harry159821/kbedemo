@@ -1,0 +1,39 @@
+﻿  stdafx.cpp
+  ColorListBox.cpp
+  ConnectRemoteMachineWindow.cpp
+  DebugWindow.cpp
+  EditSendbuffer.cpp
+  GraphsWindow.cpp
+  guiconsole.cpp
+  guiconsoleDlg.cpp
+guiconsoleDlg.cpp(486): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+guiconsoleDlg.cpp(566): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+guiconsoleDlg.cpp(601): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+guiconsoleDlg.cpp(1077): warning C4311: “类型转换”: 从“KBEngine::COMPONENT_ID *”到“DWORD”的指针截断
+guiconsoleDlg.cpp(1077): warning C4302: “类型转换”: 从“KBEngine::COMPONENT_ID *”到“DWORD”截断
+  LineChartCtrl.cpp
+  LogWindow.cpp
+LogWindow.cpp(418): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+LogWindow.cpp(649): warning C4267: “=”: 从“size_t”转换到“KBEngine::int8”，可能丢失数据
+  MultiLineListBox.cpp
+MultiLineListBox.cpp(107): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ProfileWindow.cpp
+ProfileWindow.cpp(52): warning C4311: “类型转换”: 从“CProfileWindow *”到“DWORD”的指针截断
+ProfileWindow.cpp(52): warning C4302: “类型转换”: 从“CProfileWindow *”到“DWORD”截断
+  SetLayoutNameWindow.cpp
+  SpaceViewWindow.cpp
+  StartServerLayoutWindow.cpp
+  StartServerWindow.cpp
+StartServerWindow.cpp(168): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+StartServerWindow.cpp(302): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  StatusWindow.cpp
+StatusWindow.cpp(74): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+StatusWindow.cpp(96): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+StatusWindow.cpp(107): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  TimingLengthWindow.cpp
+  WatcherWindow.cpp
+  正在生成代码...
+  getbuildinfo.c
+../../../libs\openssl_uptable.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+    正在创建库 ../../../../tools/server/guiconsole/guiconsole.lib 和对象 ../../../../tools/server/guiconsole/guiconsole.exp
+  guiconsole.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\tools\guiconsole\../../../../tools/server/guiconsole/guiconsole.exe

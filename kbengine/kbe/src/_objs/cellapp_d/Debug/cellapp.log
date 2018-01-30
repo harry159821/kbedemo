@@ -1,0 +1,254 @@
+﻿  applink.c
+..\..\lib\dependencies\openssl\include\openssl\applink.c(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+..\..\lib\dependencies\openssl\include\openssl\applink.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+  getbuildinfo.c
+  正在生成代码...
+  all_clients.cpp
+  view_trigger.cpp
+  cell.cpp
+  cellapp.cpp
+cellapp.cpp(1898): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+cellapp.cpp(1898): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+cellapp.cpp(1898): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+cellapp.cpp(1898): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  cellapp_interface.cpp
+  cells.cpp
+  client_entity.cpp
+  client_entity_method.cpp
+client_entity_method.cpp(182): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+client_entity_method.cpp(182): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+client_entity_method.cpp(182): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+client_entity_method.cpp(182): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  clients_remote_entity_method.cpp
+clients_remote_entity_method.cpp(219): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+clients_remote_entity_method.cpp(219): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+clients_remote_entity_method.cpp(219): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+clients_remote_entity_method.cpp(219): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  controller.cpp
+  controllers.cpp
+  coordinate_node.cpp
+  coordinate_system.cpp
+  entity.cpp
+entity.cpp(62): warning C4244: “参数”: 从“KBEngine::intptr”转换到“int”，可能丢失数据
+entity.cpp(317): warning C4244: “初始化”: 从“Py_ssize_t”转换到“KBEngine::uint16”，可能丢失数据
+entity.cpp(779): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(779): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(779): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(779): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(872): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(872): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(872): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(872): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(1462): warning C4244: “初始化”: 从“Py_ssize_t”转换到“KBEngine::uint16”，可能丢失数据
+entity.cpp(1955): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(1955): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(1955): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(1955): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(2181): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(2181): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(2181): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(2181): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(2928): warning C4244: “初始化”: 从“Py_ssize_t”转换到“KBEngine::uint16”，可能丢失数据
+entity.cpp(3429): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(3429): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(3429): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(3429): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(3464): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(3464): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+entity.cpp(3464): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(3464): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+entity.cpp(3894): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity.cpp(4067): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  entity_coordinate_node.cpp
+  entity_remotemethod.cpp
+  entityref.cpp
+  forward_message_over_handler.cpp
+  ghost_manager.cpp
+  history_event.cpp
+  正在生成代码...
+  正在编译...
+  initprogress_handler.cpp
+  loadnavmesh_threadtasks.cpp
+  main.cpp
+  move_controller.cpp
+  moveto_entity_handler.cpp
+  moveto_point_handler.cpp
+  navigate_handler.cpp
+  profile.cpp
+  proximity_controller.cpp
+  range_trigger.cpp
+  range_trigger_node.cpp
+  real_entity_method.cpp
+real_entity_method.cpp(86): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  rotator_handler.cpp
+  space.cpp
+space.cpp(171): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+space.cpp(660): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+space.cpp(660): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+space.cpp(660): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+space.cpp(660): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+space.cpp(667): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+space.cpp(667): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+space.cpp(667): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+space.cpp(667): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+space.cpp(711): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+space.cpp(711): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+space.cpp(711): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+space.cpp(711): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  spaces.cpp
+  space_viewer.cpp
+  trap_trigger.cpp
+  turn_controller.cpp
+  updatable.cpp
+  updatables.cpp
+  正在生成代码...
+  正在编译...
+  watch_obj_pools.cpp
+  witness.cpp
+witness.cpp(168): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(168): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(168): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(168): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(177): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(177): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(177): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(177): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(201): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(201): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(201): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(201): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(419): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+witness.cpp(496): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(496): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(496): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(496): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(506): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(506): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(506): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(506): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(524): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(524): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(524): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(524): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(795): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(795): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(795): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(795): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(803): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(803): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(803): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(803): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(819): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(819): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(819): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(819): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(916): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(916): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(916): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(916): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(931): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(931): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(931): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(931): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(937): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(937): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(937): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(937): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(962): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(962): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(962): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(962): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(973): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(973): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(973): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(973): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(983): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(983): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(983): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(983): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(993): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(993): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(993): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(993): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1003): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1003): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1003): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1003): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1015): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1015): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1015): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1015): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1026): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1026): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1026): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1026): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1037): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1037): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1037): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1037): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1048): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1048): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1048): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1048): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1060): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1060): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1060): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1060): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1072): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1072): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1072): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1072): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1084): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1084): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1084): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1084): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1097): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1097): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1097): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1097): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1110): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1110): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1110): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1110): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1123): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1123): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1123): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1123): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1137): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1137): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1137): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1137): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1150): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1150): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1150): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1150): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1163): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1163): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1163): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1163): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1176): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1176): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1176): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1176): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1190): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1190): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1190): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1190): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1204): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1204): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1204): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1204): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1218): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1218): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1218): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1218): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1233): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+witness.cpp(1233): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::Network::MessageLength”，可能丢失数据
+witness.cpp(1233): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+witness.cpp(1233): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  witnessed_timeout_handler.cpp
+  正在生成代码...
+    正在创建库 ../../../bin/server/cellapp.lib 和对象 ../../../bin/server/cellapp.exp
+  cellapp.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\cellapp\../../../bin/server/cellapp.exe

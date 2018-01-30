@@ -18,7 +18,8 @@ public enum LAYER
 public class UIManager
 {
     static UIManager m_instance;
-    LuaClient client;
+    
+
     public static UIManager GetInstance()
     {
         if (m_instance == null)
@@ -31,12 +32,6 @@ public class UIManager
         }
         return m_instance;
     }
-    public void SetInfo(LuaClient client)
-    {  
-        this.client=client;
-    }
-
-
    public class WindowInfo
     {        
         public int depth;
@@ -72,7 +67,7 @@ public class UIManager
         }
         if (pak == null)
         {
-            BBKDebug.LogWarning(string.Format("UI load failed  res_address={0}   component={1}" , res_address,compname));
+            Util.LogWarning(string.Format("UI load failed  res_address={0}   component={1}" , res_address,compname));
             return;
         }
         LuaWindow win = new LuaWindow();
@@ -85,14 +80,14 @@ public class UIManager
         win.modal = stop_low_layer_event;
         m_wins.Add(info.pak_id, info);
 
-        if (client != null && !string.IsNullOrEmpty(luaname))
-        {            
-            client.CallMethod(luaname, "Start", info);           
+        if (Util.Client != null && !string.IsNullOrEmpty(luaname))
+        {           
+            Util.Client.CallMethod(luaname, "Start", info);           
         }
         win.BringToFront();
     }
      int layerstep = 100;
-     int CountWindowLayer(WindowInfo info)
+    int CountWindowLayer(WindowInfo info)
     {
         int sortingOrder = 0;
         var enume= m_wins.GetEnumerator();
@@ -117,20 +112,7 @@ public class UIManager
         m_wins.Remove(info.pak_id);
         info.win.Dispose();       
     }
-    public  void SetLayerRecursively(GameObject obj, LAYER layer)
-    {
-        if (obj != null)
-        {
-            obj.layer = (int)layer;
-
-            Transform tran = obj.transform;
-            for (int index = 0; index != tran.childCount; ++index)
-            {
-                Transform child = tran.GetChild(index);
-                SetLayerRecursively(child.gameObject, layer);
-            }
-        }
-    }
+  
 
 
 

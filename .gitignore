@@ -1,7 +1,9 @@
 
 
  
-
+/kbengine_unity3d_demo-1.1.2/Temp
+/kbengine_unity3d_demo-1.1.2/UnityPackageManager
+/kbengine_unity3d_demo-1.1.2/Library
 *.svd
 *.userprefs
 *.csproj
@@ -36,8 +38,9 @@ Thumbs.db
 *.exe
 *.pdb
 *.chw
-
-
+*.lib
+*.pdb
+.log
 .DS_Store
 .DS_Store?
 ehthumbs.db
@@ -52,3 +55,4 @@ Thumbs.db
 *.s
 *.lo
 
+.gitignore.bak

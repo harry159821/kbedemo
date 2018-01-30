@@ -1,0 +1,12 @@
+﻿  concurrency.cpp
+  threadpool.cpp
+threadpool.cpp(449): warning C4311: “类型转换”: 从“HANDLE”到“KBEngine::uint32”的指针截断
+threadpool.cpp(449): warning C4302: “类型转换”: 从“HANDLE”到“KBEngine::uint32”截断
+threadpool.cpp(477): warning C4311: “类型转换”: 从“HANDLE”到“KBEngine::uint32”的指针截断
+threadpool.cpp(477): warning C4302: “类型转换”: 从“HANDLE”到“KBEngine::uint32”截断
+threadpool.cpp(507): warning C4311: “类型转换”: 从“HANDLE”到“KBEngine::uint32”的指针截断
+threadpool.cpp(507): warning C4302: “类型转换”: 从“HANDLE”到“KBEngine::uint32”截断
+threadpool.cpp(516): warning C4311: “类型转换”: 从“HANDLE”到“KBEngine::uint32”的指针截断
+threadpool.cpp(516): warning C4302: “类型转换”: 从“HANDLE”到“KBEngine::uint32”截断
+  正在生成代码...
+  thread.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\thread\../../libs\thread_d.lib

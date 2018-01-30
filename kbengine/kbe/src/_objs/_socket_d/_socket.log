@@ -1,0 +1,32 @@
+﻿  socketmodule.c
+..\Modules\socketmodule.c(866): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+..\Modules\socketmodule.c(3748): warning C4996: 'WSADuplicateSocketA': Use WSADuplicateSocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2846): note: 参见“WSADuplicateSocketA”的声明
+..\Modules\socketmodule.c(3957): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(3415): note: 参见“WSASocketA”的声明
+..\Modules\socketmodule.c(3990): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(3415): note: 参见“WSASocketA”的声明
+..\Modules\socketmodule.c(4396): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+..\Modules\socketmodule.c(4494): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2196): note: 参见“gethostbyaddr”的声明
+..\Modules\socketmodule.c(4624): warning C4996: 'WSADuplicateSocketA': Use WSADuplicateSocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2846): note: 参见“WSADuplicateSocketA”的声明
+..\Modules\socketmodule.c(4627): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(3415): note: 参见“WSASocketA”的声明
+..\Modules\socketmodule.c(4918): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+..\Modules\socketmodule.c(4960): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+..\Modules\socketmodule.c(5034): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(3565): note: 参见“WSAStringToAddressA”的声明
+..\Modules\socketmodule.c(5171): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(3506): note: 参见“WSAAddressToStringA”的声明
+..\Modules\socketmodule.c(5781): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(184): note: 参见“GetVersion”的声明
+..\Modules\socketmodule.c(6920): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+..\Modules\socketmodule.c(6939): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+  _socket.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\python\PCbuild\../../../libs\_socket_d.pyd

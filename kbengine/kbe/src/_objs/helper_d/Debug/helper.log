@@ -1,0 +1,112 @@
+﻿  crashhandler.cpp
+  debug_helper.cpp
+debug_helper.cpp(474): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+debug_helper.cpp(740): warning C4267: “参数”: 从“size_t”转换到“KBEngine::Network::MessageLength1”，可能丢失数据
+  debug_option.cpp
+  eventhistory_stats.cpp
+  profile.cpp
+  profile_handler.cpp
+  profiler.cpp
+  script_loglevel.cpp
+  sys_info.cpp
+  watch_pools.cpp
+  watcher.cpp
+  wmi.cpp
+  正在生成代码...
+  peb.c
+..\dependencies\sigar\win32\peb.c(207): warning C4244: “=”: 从“SIZE_T”转换到“DWORD”，可能丢失数据
+  sigar.c
+..\dependencies\sigar\win32\sigar.c(1195): warning C4311: “类型转换”: 从“MEMORY_BASIC_INFORMATION *”到“DWORD”的指针截断
+..\dependencies\sigar\win32\sigar.c(1195): warning C4311: “类型转换”: 从“PVOID”到“DWORD”的指针截断
+..\dependencies\sigar\win32\sigar.c(1197): warning C4311: “类型转换”: 从“PVOID”到“DWORD”的指针截断
+..\dependencies\sigar\win32\sigar.c(1198): warning C4311: “类型转换”: 从“PVOID”到“DWORD”的指针截断
+  sigar_cache.c
+  sigar_fileinfo.c
+..\dependencies\sigar\win32\sigar_fileinfo.c(486): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sigar_format.c
+..\dependencies\sigar\win32\sigar_format.c(613): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(614): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(615): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(616): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(617): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(618): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(619): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+..\dependencies\sigar\win32\sigar_format.c(620): warning C4244: “=”: 从“sigar_uint64_t”转换到“double”，可能丢失数据
+  sigar_getline.c
+..\dependencies\sigar\win32\sigar_getline.c(691): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(709): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(895): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1059): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1116): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1228): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1230): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1231): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1247): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1326): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_getline.c(1510): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sigar_ptql.c
+..\dependencies\sigar\win32\sigar_ptql.c(378): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(384): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(390): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(396): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(402): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(408): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(554): note: 参见“stricmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(414): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(415): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(420): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(565): note: 参见“strnicmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(426): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(565): note: 参见“strnicmp”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(540): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(579): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1398): note: 参见“_vsnprintf”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(591): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(756): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(771): warning C4013: “getpid”未定义；假设外部返回 int
+..\dependencies\sigar\win32\sigar_ptql.c(788): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(806): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+..\dependencies\sigar\win32\sigar_ptql.c(852): warning C4133: “=”: 从“LPWSTR”到“char *”的类型不兼容
+..\dependencies\sigar\win32\sigar_ptql.c(860): warning C4133: “函数”: 从“LPWSTR”到“char *”的类型不兼容
+..\dependencies\sigar\win32\sigar_ptql.c(864): warning C4133: “=”: 从“LPWSTR”到“char *”的类型不兼容
+..\dependencies\sigar\win32\sigar_ptql.c(840): warning C4133: “初始化”: 从“LPWSTR”到“char *”的类型不兼容
+..\dependencies\sigar\win32\sigar_ptql.c(1064): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1066): warning C4244: “函数”: 从“sigar_pid_t”转换到“sigar_uint32_t”，可能丢失数据
+..\dependencies\sigar\win32\sigar_ptql.c(1121): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1137): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1575): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: 参见“getenv”的声明
+..\dependencies\sigar\win32\sigar_ptql.c(1755): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1823): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1879): warning C4018: “<”: 有符号/无符号不匹配
+..\dependencies\sigar\win32\sigar_ptql.c(1931): warning C4018: “<”: 有符号/无符号不匹配
+  sigar_signal.c
+  sigar_util.c
+..\dependencies\sigar\win32\sigar_util.c(472): warning C4244: “初始化”: 从“sigar_uint64_t”转换到“unsigned long”，可能丢失数据
+..\dependencies\sigar\win32\sigar_util.c(473): warning C4244: “初始化”: 从“sigar_uint64_t”转换到“unsigned long”，可能丢失数据
+..\dependencies\sigar\win32\sigar_util.c(667): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_util.c(673): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_util.c(695): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(132): note: 参见“strcpy”的声明
+..\dependencies\sigar\win32\sigar_util.c(835): warning C4013: “open”未定义；假设外部返回 int
+..\dependencies\sigar\win32\sigar_util.c(841): warning C4013: “read”未定义；假设外部返回 int
+..\dependencies\sigar\win32\sigar_util.c(848): warning C4013: “close”未定义；假设外部返回 int
+..\dependencies\sigar\win32\sigar_util.c(871): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\sigar_util.c(892): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: 参见“getenv”的声明
+..\dependencies\sigar\win32\sigar_util.c(996): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1398): note: 参见“_vsnprintf”的声明
+  win32_sigar.c
+..\dependencies\sigar\win32\win32_sigar.c(1527): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\win32_sigar.c(1580): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+..\dependencies\sigar\win32\win32_sigar.c(1666): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\win32_sigar.c(1728): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+..\dependencies\sigar\win32\win32_sigar.c(3808): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  helper.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\helper\../../libs\helper_d.lib

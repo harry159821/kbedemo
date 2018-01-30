@@ -55,7 +55,7 @@ public class ResourcesManager : MonoBehaviour
         if (File.Exists(path) == false)
         {
 
-            BBKDebug.LogError("ResourcesManager::LoadManiFest error! is not exist!!!path=" + path);
+            Util.LogError("ResourcesManager::LoadManiFest error! is not exist!!!path=" + path);
             yield break;
         }
 

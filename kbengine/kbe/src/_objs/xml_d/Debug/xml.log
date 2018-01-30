@@ -1,0 +1,7 @@
+﻿  xml.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  正在生成代码...
+  xml.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\xml\../../libs/xml_d.lib

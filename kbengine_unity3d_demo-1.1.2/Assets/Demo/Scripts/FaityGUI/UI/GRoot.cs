@@ -136,7 +136,7 @@ namespace FairyGUI
 		{
 			int cnt = this.numChildren;
 			int i;
-			if (this._modalLayer.parent != null && !win.modal)
+			if (modalLayer.parent != null && !win.modal)
 				i = this.GetChildIndex(this._modalLayer) - 1;
 			else
 				i = cnt - 1;

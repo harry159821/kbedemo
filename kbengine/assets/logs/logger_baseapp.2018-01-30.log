@@ -1,0 +1,312 @@
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 639] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 652] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 652] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 653] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 666] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20015 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 667] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 668] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64364 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64364, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - 	internalAddr : 192.168.1.5:64364
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - 	externalAddr : 192.168.1.5:20015
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 669] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 940] - Components::findLogger: found logger, addr:192.168.1.5:64357
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 942] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 942] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 954] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 2B258622BCA94E7EFB8A0D99B15EBE04. Config: Debug X64. Built: 12:00:40 Jan 30 2018. AppID: 7001. UID: 10103. PID: 7760 ----
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 959] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 963] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:45 964] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 151] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 153] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 155] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 170] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 172] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 174] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 177] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 232] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:46 287] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:10) [MSC v.1912 64 bit (AMD64)])!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:46 288] - Script::install(): KBExtra is successfully!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:43:46 447] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:43:46 448] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:43:46 448] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:43:46 449] - app::initialize(): initialization failed!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 451] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 451] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 452] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:43:46 467] - Script::uninstall(): is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:46 467] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp-1 10103 7001  [2018-01-30 14:43:46 768] - ThreadPool::destroy(): waiting for thread(2)[0x2174443a100,0x2174443c400,], try=1
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 169] - TPThread::~TPThread(): 0x2174443a100
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 170] - TPThread::~TPThread(): 0x2174443c400
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 170] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 171] - Bundle::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 171] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 172] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 172] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 172] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 172] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 172] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:43:47 173] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 931] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 933] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 933] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 933] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 936] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20015 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 937] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 938] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64438 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 938] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64438, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 938] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 939] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 939] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 939] - 	internalAddr : 192.168.1.5:64438
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 939] - 	externalAddr : 192.168.1.5:20015
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:57 939] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 210] - Components::findLogger: found logger, addr:192.168.1.5:64431
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 211] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 211] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 219] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 2B258622BCA94E7EFB8A0D99B15EBE04. Config: Debug X64. Built: 12:00:40 Jan 30 2018. AppID: 7001. UID: 10103. PID: 7812 ----
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 219] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 220] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 220] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 366] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 367] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 368] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 371] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 371] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 371] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 372] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 431] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 487] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:10) [MSC v.1912 64 bit (AMD64)])!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 487] - Script::install(): KBExtra is successfully!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:48:58 598] - DataTypes::getDataType:not found type MAILBOX.
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:48:58 599] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:48:58 599] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:48:58 599] - app::initialize(): initialization failed!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 600] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 601] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:48:58 618] - Script::uninstall(): is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:58 618] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp-1 10103 7001  [2018-01-30 14:48:58 919] - ThreadPool::destroy(): waiting for thread(2)[0x1da232c8200,0x1da232c6f40,], try=1
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 321] - TPThread::~TPThread(): 0x1da232c8200
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 321] - TPThread::~TPThread(): 0x1da232c6f40
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 321] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 321] - Bundle::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 322] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:48:59 323] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 632] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 633] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 633] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 634] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 635] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20015 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 635] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 636] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64521 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 636] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64521, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 636] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 636] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 636] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 637] - 	internalAddr : 192.168.1.5:64521
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 637] - 	externalAddr : 192.168.1.5:20015
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 637] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 856] - Components::findLogger: found logger, addr:192.168.1.5:64513
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 856] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 856] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 864] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 2B258622BCA94E7EFB8A0D99B15EBE04. Config: Debug X64. Built: 12:00:40 Jan 30 2018. AppID: 7001. UID: 10103. PID: 8004 ----
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 865] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 865] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:03 865] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 006] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 006] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 007] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 014] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 015] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 018] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 020] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 103] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:04 167] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:10) [MSC v.1912 64 bit (AMD64)])!
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:04 167] - Script::install(): KBExtra is successfully!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:58:04 205] - DataTypes::getDataType:not found type ENTITY.
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:58:04 206] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:58:04 206] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 14:58:04 207] - app::initialize(): initialization failed!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 209] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 210] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 220] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 220] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 221] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 221] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 221] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 221] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 14:58:04 256] - Script::uninstall(): is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 256] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp-1 10103 7001  [2018-01-30 14:58:04 557] - ThreadPool::destroy(): waiting for thread(2)[0x21ce8036850,0x21ce8035ef0,], try=1
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 959] - TPThread::~TPThread(): 0x21ce8036850
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 959] - TPThread::~TPThread(): 0x21ce8035ef0
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 959] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 960] - Bundle::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 960] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 960] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 960] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 960] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 961] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 961] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 14:58:04 961] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 897] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 898] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 898] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 898] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 900] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20015 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 900] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 900] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64716 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64716, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - 	internalAddr : 192.168.1.5:64716
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - 	externalAddr : 192.168.1.5:20015
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:01 901] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 091] - Components::findLogger: found logger, addr:192.168.1.5:64709
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 091] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 092] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 099] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 2B258622BCA94E7EFB8A0D99B15EBE04. Config: Debug X64. Built: 12:00:40 Jan 30 2018. AppID: 7001. UID: 10103. PID: 12316 ----
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 099] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 099] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 099] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 233] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 234] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 234] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 238] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 238] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 238] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 239] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 323] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 372] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:10) [MSC v.1912 64 bit (AMD64)])!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 372] - Script::install(): KBExtra is successfully!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 15:02:02 401] - DataTypes::getDataType:not found type Entity.
+   ERROR    baseapp-1 10103 7001  [2018-01-30 15:02:02 403] - EntityDef::loadDefInfo: failed to loadAllDefDescription(), entity:Account
+   ERROR    baseapp-1 10103 7001  [2018-01-30 15:02:02 403] - EntityDef::initialize: failed to load entity(Account) module!
+   ERROR    baseapp-1 10103 7001  [2018-01-30 15:02:02 403] - app::initialize(): initialization failed!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 404] - Script::uninstall_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:02:02 429] - Script::uninstall(): is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:02 429] - ThreadPool::destroy(): starting size 2.
+ WARNING    baseapp-1 10103 7001  [2018-01-30 15:02:02 731] - ThreadPool::destroy(): waiting for thread(2)[0x233afe6a400,0x233afe690a0,], try=1
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 133] - TPThread::~TPThread(): 0x233afe6a400
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 133] - TPThread::~TPThread(): 0x233afe690a0
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 134] - ThreadPool::destroy(): successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 134] - Bundle::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 135] - Channel::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 135] - TCPPacket::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 135] - UDPPacket::destroyObjPool(): size 14.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 135] - EndPoint::destroyObjPool(): size 15.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 136] - Address::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 136] - TCPPacketReceiver::destroyObjPool(): size 0.
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:02:03 136] - UDPPacketReceiver::destroyObjPool(): size 0.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 199] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 202] - Resmgr::initialize: KBE_ROOT=D:/kbedemo/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 202] - Resmgr::initialize: KBE_RES_PATH=D:/kbedemo/kbengine/kbe/res/;D:/kbedemo/kbengine/assets/;D:/kbedemo/kbengine/assets/scripts/;D:/kbedemo/kbengine/assets/res/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 203] - Resmgr::initialize: KBE_BIN_PATH=D:/kbedemo/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 204] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:20015 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 204] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.5:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 205] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.5 ( 192.168.1.5:64737 )
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 205] - NetworkInterface::initialize(INTERNAL): address 192.168.1.5:64737, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 205] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 205] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 206] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 206] - 	internalAddr : 192.168.1.5:64737
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 206] - 	externalAddr : 192.168.1.5:20015
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 206] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 488] - Components::findLogger: found logger, addr:192.168.1.5:64723
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 488] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 488] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 494] - ---- baseapp Version: 1.1.0. ScriptVersion: 0.1.0. Protocol: 2B258622BCA94E7EFB8A0D99B15EBE04. Config: Debug X64. Built: 12:00:40 Jan 30 2018. AppID: 7001. UID: 10103. PID: 10552 ----
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 494] - Server : Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz with 8266432kB RAM
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 494] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 495] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 639] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 639] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 640] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 649] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 650] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 651] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 652] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 705] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 757] - Script::install(): is successfully, Python=(3.4.2 (default, Jan 30 2018, 12:00:10) [MSC v.1912 64 bit (AMD64)])!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 757] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 825] - loaded script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:12 838] - loaded script:Avatar(2).
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 839] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:12 843] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:13 305] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:13 306] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2018-01-30 15:03:19 411] - EntityApp::checkTickPeriod: tick took 6105% (6.11 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:20 504] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:20 596] - Components::findComponents: found dbmgr, addr:192.168.1.5:64724
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:20 596] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:20 597] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:20 597] - Components::findComponents: found dbmgr, addr:192.168.1.5:64724
+ WARNING    baseapp-1 10103 7001  [2018-01-30 15:03:21 597] - EntityApp::checkTickPeriod: tick took 1192% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:22 604] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:22 643] - Components::findComponents: found baseappmgr, addr:192.168.1.5:64727
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:22 643] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:22 644] - Components::findComponents: found baseappmgr, addr:192.168.1.5:64727
+ WARNING    baseapp-1 10103 7001  [2018-01-30 15:03:23 644] - EntityApp::checkTickPeriod: tick took 1139% (1.14 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:24 704] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:24 785] - Components::findComponents: found cellappmgr, addr:192.168.1.5:64735
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:24 785] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:24 786] - Components::findComponents: found cellappmgr, addr:192.168.1.5:64735
+ WARNING    baseapp-1 10103 7001  [2018-01-30 15:03:25 786] - EntityApp::checkTickPeriod: tick took 1180% (1.18 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:26 806] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2018-01-30 15:03:26 807] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:26 839] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:26 903] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:26 905] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:27 107] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.1.5, intport:64739, extaddr:nonsupport, extport:0,  from 192.168.1.5:64724/0/0/0.
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:27 107] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-01-30 15:03:30 106] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A71810F4A4E7C9C4BCB0C2BAF3A71D0D.
+    INFO    baseapp01 10103 7001  [2018-01-30 15:03:30 106] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 10103 7001  [2018-01-30 15:03:31 043] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20081, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2018-01-30 15:03:31 660] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2018-01-30 15:03:31 661] - D:\kbedemo\kbengine\kbe\src\lib\server/entity_app.h:764: Profile processRecvMessages took 1.56 seconds
+ WARNING    baseapp01 10103 7001  [2018-01-30 15:03:31 681] - baseapp.cpp:512: Profile gameTick took 1.58 seconds
+ WARNING    baseapp01 10103 7001  [2018-01-30 15:03:31 682] - event_dispatcher.cpp:171: Profile callSystemTimers took 1.58 seconds
+ WARNING    baseapp01 10103 7001  [2018-01-30 15:03:31 683] - EntityApp::checkTickPeriod: tick took 1578% (1.58 seconds)!
+   DEBUG    baseapp01 10103 7001  [2018-01-30 15:03:32 004] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2018-01-30 15:03:32 080] - D:/kbedemo/kbengine/assets/scripts/base\kbemain.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='D:\\kbedemo\\kbengine\\assets/res/server/serverinfo.xml' mode='r' encoding='UTF-8'>
+  result = xml.parse(path2+'/res/server/serverinfo.xml')
+onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=4
+   DEBUG    baseapp01 10103 7001  [2018-01-30 15:03:32 103] - InitProgressHandler::~InitProgressHandler()

@@ -247,7 +247,7 @@ public class GameManager : MonoBehaviour
         kbemain.initKBEngine();
         StartCoroutine(resourcesManager.LoadManiFest());        
         var client=    this.gameObject.AddComponent<LuaClient>();
-        UIManager.GetInstance().SetInfo( client);
+        Util.Client=client;      
         client.StartMain();
     }
 

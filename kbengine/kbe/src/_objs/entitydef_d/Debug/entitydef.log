@@ -1,0 +1,20 @@
+﻿  common.cpp
+  datatype.cpp
+  datatypes.cpp
+  detaillevel.cpp
+  entity_call.cpp
+  entitydef.cpp
+  entitycallabstract.cpp
+  fixedarray.cpp
+  fixeddict.cpp
+fixeddict.cpp(230): warning C4244: “return”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  method.cpp
+method.cpp(164): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::uint8”，可能丢失数据
+  property.cpp
+  remote_entity_method.cpp
+remote_entity_method.cpp(86): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  scriptdef_module.cpp
+  volatileinfo.cpp
+  正在生成代码...
+detaillevel.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  entitydef.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\entitydef\../../libs\entitydef_d.lib

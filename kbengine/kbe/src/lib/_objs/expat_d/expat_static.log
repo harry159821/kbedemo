@@ -1,0 +1,8 @@
+﻿  xmlparse.c
+xmlparse.c(1844): warning C4244: “return”: 从“__int64”转换到“XML_Index”，可能丢失数据
+  xmlrole.c
+  xmltok.c
+  xmltok_impl.c
+  xmltok_ns.c
+  正在生成代码...
+  expat_static.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\dependencies\expat\lib\..\..\..\..\libs\expat_d.lib

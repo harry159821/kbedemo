@@ -1,0 +1,5 @@
+﻿  resmgr.cpp
+  resourceobject.cpp
+resourceobject.cpp(100): warning C4267: “return”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  正在生成代码...
+  resmgr.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\resmgr\../../libs\resmgr_d.lib

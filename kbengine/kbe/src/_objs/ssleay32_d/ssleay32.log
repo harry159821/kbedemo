@@ -1,0 +1,141 @@
+﻿  bio_ssl.c
+..\..\ssl\bio_ssl.c(501): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  d1_both.c
+..\..\ssl\d1_both.c(563): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+..\..\ssl\d1_both.c(564): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  d1_clnt.c
+  d1_lib.c
+  d1_meth.c
+  d1_pkt.c
+..\..\ssl\d1_pkt.c(600): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  d1_srtp.c
+..\..\ssl\d1_srtp.c(184): warning C4244: “函数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  d1_srvr.c
+..\..\ssl\d1_srvr.c(966): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+..\..\ssl\d1_srvr.c(974): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  kssl.c
+  s23_clnt.c
+..\..\ssl\s23_clnt.c(476): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\s23_clnt.c(557): warning C4244: “=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+..\..\ssl\s23_clnt.c(586): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  s23_lib.c
+  s23_meth.c
+  s23_pkt.c
+  s23_srvr.c
+..\..\ssl\s23_srvr.c(532): warning C4244: “=”: 从“__int64”转换到“unsigned int”，可能丢失数据
+  s2_clnt.c
+..\..\ssl\s2_clnt.c(590): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\s2_clnt.c(696): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\s2_clnt.c(868): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  s2_enc.c
+  s2_lib.c
+  s2_meth.c
+  s2_pkt.c
+  s2_srvr.c
+..\..\ssl\s2_srvr.c(816): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  s3_both.c
+..\..\ssl\s3_both.c(671): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_both.c(709): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  s3_cbc.c
+..\..\ssl\s3_cbc.c(559): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\ssl\s3_cbc.c(586): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  s3_clnt.c
+..\..\ssl\s3_clnt.c(881): warning C4244: “=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+..\..\ssl\s3_clnt.c(2905): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_clnt.c(2920): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_clnt.c(3045): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_clnt.c(3048): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_clnt.c(3178): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  s3_enc.c
+..\..\ssl\s3_enc.c(748): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_enc.c(776): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\ssl\s3_enc.c(790): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\ssl\s3_enc.c(822): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  s3_lib.c
+  s3_meth.c
+  s3_pkt.c
+..\..\ssl\s3_pkt.c(163): warning C4311: “类型转换”: 从“unsigned char *”到“long”的指针截断
+..\..\ssl\s3_pkt.c(242): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_pkt.c(339): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_pkt.c(949): warning C4311: “类型转换”: 从“unsigned char *”到“long”的指针截断
+..\..\ssl\s3_pkt.c(958): warning C4311: “类型转换”: 从“unsigned char *”到“long”的指针截断
+  s3_srvr.c
+..\..\ssl\s3_srvr.c(1566): warning C4244: “=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+..\..\ssl\s3_srvr.c(1791): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_srvr.c(1805): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_srvr.c(2059): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\s3_srvr.c(3481): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  ssl_algs.c
+  ssl_asn1.c
+..\..\ssl\ssl_asn1.c(242): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\ssl_asn1.c(398): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(406): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(417): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(446): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(461): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(487): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(497): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(497): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(507): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(507): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(520): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(520): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(524): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(524): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(542): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(542): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(554): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(554): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(567): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(567): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(578): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(578): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(590): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(590): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(602): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(602): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(614): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(614): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(625): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\ssl_asn1.c(625): warning C4244: “-=”: 从“__int64”转换到“long”，可能丢失数据
+  ssl_cert.c
+  ssl_ciph.c
+  ssl_err.c
+  ssl_err2.c
+  ssl_lib.c
+..\..\ssl\ssl_lib.c(1493): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  ssl_rsa.c
+  ssl_sess.c
+  ssl_stat.c
+  ssl_txt.c
+..\..\ssl\ssl_txt.c(219): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  t1_clnt.c
+  正在生成代码...
+  正在编译...
+  t1_enc.c
+..\..\ssl\t1_enc.c(219): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_enc.c(1132): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_enc.c(1274): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_enc.c(1280): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  t1_ext.c
+  t1_lib.c
+..\..\ssl\t1_lib.c(1278): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\t1_lib.c(1359): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\t1_lib.c(1382): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\t1_lib.c(1402): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(1596): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(1574): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(1670): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+..\..\ssl\t1_lib.c(1818): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(3638): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(3806): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(3827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+..\..\ssl\t1_lib.c(4151): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  t1_meth.c
+  t1_reneg.c
+  t1_srvr.c
+  tls_srp.c
+  正在生成代码...
+  ssleay32.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\dependencies\openssl\vcbuild\ssleay32\..\..\..\..\..\libs\ssleay32_d.lib

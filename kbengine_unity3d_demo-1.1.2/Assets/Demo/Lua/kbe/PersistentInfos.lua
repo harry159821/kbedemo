@@ -30,7 +30,7 @@ end
 
 function KBEngineLua.PersistentInfos:loadAll()
 	
-	local kbengine_digest = KBELuaUtil.loadFile (self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), false);
+	local kbengine_digest = Util.loadFile (self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), false);
 	if(kbengine_digest.Length <= 0) then
 		self:clearMessageFiles();
 		return false;
@@ -38,15 +38,15 @@ function KBEngineLua.PersistentInfos:loadAll()
 
 	
 
-	self._digest = KBELuaUtil.bytesToString(kbengine_digest);
+	self._digest = Util.bytesToString(kbengine_digest);
 	
-	local loginapp_onImportClientMessages = KBELuaUtil.loadFile(self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix(), false);
+	local loginapp_onImportClientMessages = Util.loadFile(self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix(), false);
 
-	local baseapp_onImportClientMessages = KBELuaUtil.loadFile(self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix(), false);
+	local baseapp_onImportClientMessages = Util.loadFile(self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix(), false);
 
-	local onImportServerErrorsDescr = KBELuaUtil.loadFile(self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix(), false);
+	local onImportServerErrorsDescr = Util.loadFile(self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix(), false);
 
-	local onImportClientEntityDef = KBELuaUtil.loadFile(self._persistentDataPath, "clientEntityDef." .. self:_getSuffix(), false);
+	local onImportClientEntityDef = Util.loadFile(self._persistentDataPath, "clientEntityDef." .. self:_getSuffix(), false);
 
 	if(loginapp_onImportClientMessages.Length > 0 and baseapp_onImportClientMessages.Length > 0) then
         local re = KBEngineLua.importMessagesFromMemoryStream(loginapp_onImportClientMessages, baseapp_onImportClientMessages, onImportClientEntityDef, onImportServerErrorsDescr);
@@ -63,18 +63,18 @@ end
 
 function KBEngineLua.PersistentInfos:onImportClientMessages(currserver, stream)
 	if(currserver == "loginapp") then
-		KBELuaUtil.createFile (self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix(), stream);
+		Util.createFile (self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix(), stream);
 	else
-		KBELuaUtil.createFile (self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix(), stream);
+		Util.createFile (self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix(), stream);
 	end
 end
 
 function KBEngineLua.PersistentInfos:onImportServerErrorsDescr(stream)
-	KBELuaUtil.createFile (self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix(), stream);
+	Util.createFile (self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix(), stream);
 end
 
 function KBEngineLua.PersistentInfos:onImportClientEntityDef(stream)
-	KBELuaUtil.createFile (self._persistentDataPath, "clientEntityDef." .. self:_getSuffix(), stream);
+	Util.createFile (self._persistentDataPath, "clientEntityDef." .. self:_getSuffix(), stream);
 end
 
 function KBEngineLua.PersistentInfos:onVersionNotMatch(verInfo, serVerInfo)
@@ -99,17 +99,17 @@ function KBEngineLua.PersistentInfos:onServerDigest(currserver, serverProtocolMD
 		return;
 	end
 	
-	if(KBELuaUtil.loadFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), false).Length) then
-		KBELuaUtil.createFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), KBELuaUtil.stringToBytes(serverProtocolMD5 .. serverEntitydefMD5));
+	if(Util.loadFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), false).Length) then
+		Util.createFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase(), Util.stringToBytes(serverProtocolMD5 .. serverEntitydefMD5));
 	end
 end
 	
 function KBEngineLua.PersistentInfos:clearMessageFiles()
-	KBELuaUtil.deleteFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase());
-	KBELuaUtil.deleteFile(self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix());
-	KBELuaUtil.deleteFile(self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix());
-	KBELuaUtil.deleteFile(self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix());
-	KBELuaUtil.deleteFile(self._persistentDataPath, "clientEntityDef." .. self:_getSuffix());
+	Util.deleteFile(self._persistentDataPath, "kbengine.digest." .. self:_getSuffixBase());
+	Util.deleteFile(self._persistentDataPath, "loginapp_clientMessages." .. self:_getSuffix());
+	Util.deleteFile(self._persistentDataPath, "baseapp_clientMessages." .. self:_getSuffix());
+	Util.deleteFile(self._persistentDataPath, "serverErrorsDescr." .. self:_getSuffix());
+	Util.deleteFile(self._persistentDataPath, "clientEntityDef." .. self:_getSuffix());
 
     KBEngineLua.resetMessages();
 end

@@ -1,0 +1,42 @@
+﻿  copy.cpp
+  install_py_dlls.cpp
+  map.cpp
+map.cpp(86): warning C4244: “return”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  math.cpp
+  pickler.cpp
+  py_gc.cpp
+  py_memorystream.cpp
+py_memorystream.cpp(149): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+py_memorystream.cpp(150): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+py_memorystream.cpp(209): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+py_memorystream.cpp(214): warning C4267: “初始化”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+py_memorystream.cpp(281): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+py_memorystream.cpp(367): warning C4244: “参数”: 从“Py_ssize_t”转换到“KBEngine::ArraySize”，可能丢失数据
+py_memorystream.cpp(396): warning C4244: “参数”: 从“Py_ssize_t”转换到“KBEngine::ArraySize”，可能丢失数据
+py_memorystream.cpp(426): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+py_memorystream.cpp(556): warning C4101: “e”: 未引用的局部变量
+py_memorystream.cpp(571): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+py_memorystream.cpp(591): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+py_memorystream.cpp(602): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+py_memorystream.cpp(630): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+py_memorystream.cpp(648): warning C4244: “初始化”: 从“Py_ssize_t”转换到“int”，可能丢失数据
+  pyprofile.cpp
+  pyprofile_handler.cpp
+  pystruct.cpp
+  pywatcher.cpp
+  script.cpp
+script.cpp(64): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  scriptobject.cpp
+  scriptstderr.cpp
+scriptstderr.cpp(113): warning C4244: “参数”: 从“Py_ssize_t”转换到“KBEngine::uint32”，可能丢失数据
+  scriptstdout.cpp
+  scriptstdouterr.cpp
+  scriptstdouterrhook.cpp
+  sequence.cpp
+  vector2.cpp
+  vector3.cpp
+  正在生成代码...
+  正在编译...
+  vector4.cpp
+  正在生成代码...
+  pyscript.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\pyscript\../../libs\pyscript_d.lib

@@ -1,0 +1,14 @@
+﻿  AABox.cpp
+  Box.cpp
+  Crypto.cpp
+  format.cpp
+  math.cpp
+  Matrix3.cpp
+  Plane.cpp
+  System.cpp
+  Triangle.cpp
+  Vector3.cpp
+  Vector4.cpp
+  正在生成代码...
+math.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  math.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\math\../../libs\math_d.lib

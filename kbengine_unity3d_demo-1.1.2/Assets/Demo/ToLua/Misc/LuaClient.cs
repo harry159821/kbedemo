@@ -141,14 +141,15 @@ public class LuaClient : MonoBehaviour
         luaState.DoFile("Main.lua");
         levelLoaded = luaState.GetFunction("OnLevelWasLoaded");
         CallMain();
-    }
-    public void DoFile(string luafile)
+    }  
+    public void CallMethod(string luafile, string func_name,  object args)
     {
-        luaState.DoFile(luafile);
-    }
-    public void CallMethod(string module, string func_name,  object args)
-    {
-        var lua_fuc = string.Format("{0}.{1}", module, func_name);
+        luaState.DoFile(string.Format("{0}.lua", luafile));
+        if (luafile.Contains("/"))
+        {
+            luafile = luafile.Substring(luafile.LastIndexOf('/')+1);
+        }
+        var lua_fuc = string.Format("{0}.{1}", luafile, func_name);
         LuaFunction func = luaState.GetFunction(lua_fuc);
         if (func != null)
         {

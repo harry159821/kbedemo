@@ -1,0 +1,15 @@
+﻿  applink.c
+..\..\lib\dependencies\openssl\include\openssl\applink.c(106): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+..\..\lib\dependencies\openssl\include\openssl\applink.c(114): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+  machine.cpp
+machine.cpp(564): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+machine.cpp(596): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+machine.cpp(619): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+machine.cpp(867): warning C4244: “参数”: 从“KBEngine::KBESOCKET”转换到“int”，可能丢失数据
+  machine_interface.cpp
+  main.cpp
+  正在生成代码...
+    正在创建库 ../../../bin/server/machine.lib 和对象 ../../../bin/server/machine.exp
+  machine.vcxproj -> D:\kbedemo\kbengine\kbe\src\server\machine\../../../bin/server/machine.exe

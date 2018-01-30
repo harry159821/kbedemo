@@ -1,0 +1,86 @@
+﻿  common.cpp
+  db_exception.cpp
+  db_interface_mysql.cpp
+db_interface_mysql.cpp(272): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(296): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(342): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(350): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(373): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(431): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(444): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+db_interface_mysql.cpp(527): warning C4267: “参数”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+  db_transaction.cpp
+  entity_sqlstatement_mapping.cpp
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\sqlstatement.h(63): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  entity_table_mysql.cpp
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\sqlstatement.h(63): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\read_entity_helper.h(96): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\read_entity_helper.h(215): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\write_entity_helper.h(155): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\write_entity_helper.h(194): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\write_entity_helper.h(275): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\remove_entity_helper.h(64): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\remove_entity_helper.h(113): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\remove_entity_helper.h(152): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+d:\kbedemo\kbengine\kbe\src\lib\db_mysql\remove_entity_helper.h(195): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(75): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(89): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(127): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(257): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(360): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(395): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+entity_table_mysql.cpp(1729): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+entity_table_mysql.cpp(1798): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+entity_table_mysql.cpp(1830): warning C4267: “参数”: 从“size_t”转换到“KBEngine::ArraySize”，可能丢失数据
+entity_table_mysql.cpp(1848): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+entity_table_mysql.cpp(1898): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  kbe_table_mysql.cpp
+kbe_table_mysql.cpp(48): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(78): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(105): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(126): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(161): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(206): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(233): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(260): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(292): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(324): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(378): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(410): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(427): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(435): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(449): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(458): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(494): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(503): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(545): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(548): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(572): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(579): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(586): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(593): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(622): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(652): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(662): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(698): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(708): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(715): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(728): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(747): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(757): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(851): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(884): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(894): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(948): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(955): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(990): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(1000): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(1054): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+kbe_table_mysql.cpp(1082): warning C4267: “参数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+kbe_table_mysql.cpp(1093): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(1117): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(1125): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(1132): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+kbe_table_mysql.cpp(1139): warning C4267: “参数”: 从“size_t”转换到“KBEngine::uint32”，可能丢失数据
+  正在生成代码...
+  db_mysql.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\db_mysql\../../libs\db_mysql_d.lib

@@ -1,0 +1,14 @@
+﻿  Performing Custom Build Tools
+   Assembling: D:\kbedemo\kbengine\kbe\src\lib\python\Modules\_ctypes\libffi_msvc\win64.asm
+  _ctypes.c
+..\Modules\_ctypes\_ctypes.c(309): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  callbacks.c
+  callproc.c
+  cfield.c
+  ffi.c
+  malloc_closure.c
+  prep_cif.c
+..\Modules\_ctypes\libffi_msvc\prep_cif.c(166): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  stgdict.c
+  正在生成代码...
+  _ctypes.vcxproj -> D:\kbedemo\kbengine\kbe\src\lib\python\PCbuild\../../../libs\_ctypes_d.pyd
